@@ -1,1 +1,2 @@
-Halomonas_bluephagenesis_TD01-GEM
+# Halomonas-TD01-GEM
+Genome-scale metabolic model for Halomonas TD01
