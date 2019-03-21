@@ -47,5 +47,5 @@ This repository is administered by Gang Li ([@SysBioChalmers](https://github.com
     + Make a Pull Request to the `devel` folder, including changed `txt`, `yml` and `xml` files
 
 ## Contributors
-* [Gang Li](https://www.chalmers.se/en/staff/Pages/gangl.aspx) ([@edkerk](https://github.com/Gangl2016)), Chalmers University of Technology, Göteborg, Sweden
+* [Gang Li](https://www.chalmers.se/en/staff/Pages/gangl.aspx) ([@Gangl2016](https://github.com/Gangl2016)), Chalmers University of Technology, Göteborg, Sweden
 * [Hao Wang](https://www.chalmers.se/en/staff/Pages/hao-wang.aspx) ([@Hao-Chalmers](https://github.com/Hao-Chalmers)), Chalmers University of Technology, Göteborg, Sweden
