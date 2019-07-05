@@ -1,3 +1,6 @@
 *.DS_Store*
 *.ipynb_checkpoints*
 *gurobi.log
+ComplementaryScripts/DraftModels/Results/gap_filled_reactions_v1_without_missing_genes.txt
+ComplementaryScripts/DraftModels/Results/halo_iML1515_template_with_missing_genes.json
+ComplementaryScripts/DraftModels/Results/halo_iML1515_template_without_missing_genes.json
