@@ -100,6 +100,14 @@ Script for this step: `gap_filling-core_eco_biomass_add_template_rxns_without_mi
 ```
 0.000223 10-FORMYL-THF_c + 0.000223 2-OCTAPRENYL-6-HYDROXYPHENOL_c + 2.6e-05 2fe2s_c + 75.37723 ATP_c + 2e-06 BIOTIN_c + 0.000576 CO-A_c + 0.00026 CPD-7_c + 5.5e-05 CPD-9649_c + 0.013894 CPD0-2278_c + 0.000223 FAD_c + 0.000223 METHYLENE-THF_c + 0.000447 NADP_c + 0.001831 NAD_c + 0.000223 PROTOHEME_c + 0.000223 PYRIDOXAL_PHOSPHATE_c + 0.000223 RIBOFLAVIN_c + 0.000223 S-ADENOSYLMETHIONINE_c + 0.000223 SIROHEME_c + 9.8e-05 SUC-COA_c + 0.000223 THF_c + 0.000223 THIAMINE-PYROPHOSPHATE_c + 70.028756 WATER_c + dna_c + ions_c + lipids_c + protein_c + rna_c --> 75.37723 ADP_c + 0.773903 PPI_c + 75.37723 PROTON_c + 75.37323 Pi_c
 ```
+```
+Number of reactions: 1930
+Number of metabolits: 2014
+Number of compartments: 2
+Number of genes: 1270
+Number of missing genes: 0
+Number of reactions with missing genes: 0
+```
 Save the resulted model in different formats, including `.mat`, `.xml` and `.json`
 ```
 Halo-GEM/ModelFiles/mat/combine_halo_meta100_iML1515_gap_fill_with_core_biomass_without_missing_genes.mat
