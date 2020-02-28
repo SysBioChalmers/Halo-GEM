@@ -1,4 +1,4 @@
-### Renconstruction of the first draft Halo-GEM: Halo_GEM_v1
+## Renconstruction of the first draft Halo-GEM: Halo_GEM_v1
 
 #### Based on MetaCyc and KEGG
 The RAVEN 2.0 toolbox were applied. For KEGG based reconstruction, an evalue cutoff of 1e-50 was used. For MetaCyc based reonstruction, an bit score cutoff of 100 was used. 
@@ -20,7 +20,6 @@ Number of compartments: 1
 Number of genes: 852
 Number of missing genes: 0
 Number of reactions with missing genes: 0
-
 ```
 
 Script for this step: `buildModelFromKEGG_Metacyc.m`
