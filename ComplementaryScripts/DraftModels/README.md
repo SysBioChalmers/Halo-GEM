@@ -71,7 +71,7 @@ Number of reactions with missing genes: 0
 4.6. Add protein, DNA, RNA, ions, lipid synthsis reactions by using the coefficients in the core biomass equation of iMM1515 model.
 
 
-### 5. Gap-filling with iMM1515 as a universal model
+### 5. Gap-filling with iML1515 as a universal model
 Since the H. TD01 can grow in the medium without amino acids, all uptake reactions for amino acids were blocked before gap-filling. Then step by step gap-filling were performed to make the model be able to produce the components in the biomass equation: DNA, RNA, Protein, lipids and others. As defined in `../Results/core_biomass_medium_summary_iML1515.xlsx`.
 
 35 reactions were added by gap-filling. The resulting model contains 
