@@ -1,5 +1,5 @@
 ## Renconstruction of the first draft Halo-GEM: Halo_GEM_v1
-![](Results/Halo_GEM_v1_reon.png)
+![](Results/Halo_GEM_v1_recon.png)
 
 ### 1. Based on MetaCyc and KEGG
 The RAVEN 2.0 toolbox were applied. For KEGG based reconstruction, an evalue cutoff of 1e-50 was used. For MetaCyc based reonstruction, an bit score cutoff of 100 was used. 
