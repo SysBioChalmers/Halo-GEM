@@ -5,7 +5,7 @@
 This repository contains a genome-scale metabolic model **Halo** for a salt-tolerant bacteria _Halomonas bluephagenesis_ TD01.
 
 - Abstract:
-The halophile _Halomonas bluephagenesis_ TD01 and its derivatives have been successfully developed as a low-cost platform for the unsterile and continuous production of chemicals. Here we present the de novo reconstruction of its GEM. Two draft models from E. coli GEM iMM1515 (by cobrapy) and MetaCyc (by RAVEN 2.0) were firstly generated and then combined. The core-biomass equation from iJO1366
+The halophile _Halomonas bluephagenesis_ TD01 and its derivatives have been successfully developed as a low-cost platform for the unsterile and continuous production of chemicals. Here we present the de novo reconstruction of its GEM. Two draft models from E. coli GEM iML1515 (by cobrapy) and MetaCyc (by RAVEN 2.0) were firstly generated and then combined. The core-biomass equation from iJO1366
 was used. Gap-filling was performed with iJO1366 as universal model.
 
 - Model KeyWords:
