@@ -124,4 +124,3 @@ Halo-GEM/ModelFiles/mat/Halo_GEM_v1.mat
 Halo-GEM/ModelFiles/xml/Halo_GEM_v1.xml
 Halo-GEM/ModelFiles/json/Halo_GEM_v1.json
 ```
-Script for this step: `Source/reconstruction_pipeline.ipynb`
