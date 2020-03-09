@@ -116,7 +116,7 @@ def convertToEnzymeModel(model,kcats):
             complx = complexes[0]
             prots = [item.strip() for item in complx.split('and')]
             kcat = kcats[(prots[0],rxn.id)]
-            e_rxn, prot_exchange_rxns = addEnzymesToRxn(rxn, kcat, complx)
+            e_rxn, prot_exchange_rxns = addEnzymesToRxn(rxn, kcat, complx,rxn_index=1)
             converted_reaction_list.append(e_rxn)
             for prot_exchange_rxn in prot_exchange_rxns: protein_exchange_rxns[prot_exchange_rxn.id] = prot_exchange_rxn
     
