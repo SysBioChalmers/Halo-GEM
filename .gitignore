@@ -6,4 +6,5 @@ ComplementaryScripts/DraftModels/Results/halo_iML1515_template_with_missing_gene
 ComplementaryScripts/DraftModels/Results/halo_iML1515_template_without_missing_genes.json
 ComplementaryScripts/EnzymeConstrainedModelRecon/Scripts/__pycache__/*
 ecpy/__pycache__/*
-modified:   ComplementaryScripts/EnzymeConstrainedModelRecon/Scripts/__pycache__/*
+ComplementaryScripts/EnzymeConstrainedModelRecon/Scripts/__pycache__/*
+
