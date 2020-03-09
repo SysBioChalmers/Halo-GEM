@@ -19,7 +19,13 @@ ecModel = utils.constrainPool(eModel,MWs, ['E1','E2','E4'],10)
 
 An small scale toy model was provided in `test_with_a_toy_model.ipynb`
 
+### Match kcat values
+
 ### TO DO
-* Check the units of kcat and MWs
+MW should be in the unit of g/mol
+kcat should be in 1/h
+
+* Matach kcat values.
+
 * Check free upper bound to +inf
 * Try to test it on convert Halo-GEM

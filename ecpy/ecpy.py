@@ -1,5 +1,11 @@
 from cobra import Model, Reaction, Metabolite
 
+'''
+
+Section 1: Operate the model
+
+'''
+
 def parse_gr_rule(gr):
     '''
     Parse gr rule into a list of components. 
@@ -21,6 +27,7 @@ def parse_gr_rule(gr):
     if len(complexes) < 2 and len(complexes[0]) < 1: complexes = []
     
     return complexes
+
 
 def constrainPool(model,MWs, non_measured,UB):
     '''
@@ -270,4 +277,182 @@ def getArmReaction(rxn):
     
     return rxn_new, arm_rxn
 
+
+
+
+
+
+'''
+
+Section 2: Collect kcat values
+
+'''
+
+def introduce_wildcards(ec,NumberOfWildcards):
+    '''
+    ec               : an ec number in the format of EC1.1.1.1
+    NumberOfWildcards: number of wildcards to be introduced
     
+    NumberOfWildcards  Output
+    0                  EC1.1.1.1
+    1                  EC1.1.1.X
+    2                  EC1.1.X.X
+    3                  EC1.X.X.X
+    4                  ECX.X.X.X
+    
+    Usage: ec_with_wildcards = introduce_wildcards(ec,NumberOfWildcards)
+    Gang Li, last updated 2020-03-09
+    '''
+    
+    codes = ec.replace('EC','').split('.')
+    if len(codes)<4: codes.extend(['X']*(4-len(codes)))
+    
+    if NumberOfWildcards != 0: 
+        for i in range(NumberOfWildcards): codes[-(i+1)] = 'X'
+    
+    return 'EC{0}.{1}.{2}.{3}'.format(*codes)
+
+    
+def get_eccodes(rxn,NumberOfWildcards=0):
+    '''
+    rxn: a cobra.Reaction object, with rxn.annotation.get('ec-code') is not None
+    NumberOfWildcards: number of wildcards to be introduced
+    
+    Usage: ec_code_lst_with_wildcards = get_eccodes(rxn,NumberOfWildcards)
+    
+    Gang Li, last updated 2020-03-09
+    '''
+    
+    ec_codes = rxn.annotation.get('ec-code')
+    ec_code_lst = ec_codes if type(ec_codes) == list else [ec_codes]
+    ec_code_lst = ['EC{0}'.format(item) for item in ec_code_lst]
+    
+    # introduce wildcards
+    ec_code_lst_with_wildcards = []
+    for ec in ec_code_lst: ec_code_lst_with_wildcards.append(introduce_wildcards(ec,NumberOfWildcards))
+    
+    return ec_code_lst_with_wildcards
+    
+    
+def produce_ec_substrate_pairs(rxn,NumberOfWildcards=0):
+    '''
+    rxn: a cobra.Reaction object, with rxn.annotation.get('ec-code') is not None
+    
+    return a list [(ec1,reactant1),...]
+    
+    Usage: ec_sub_pairs = produce_ec_substrate_pairs(rxn)
+    
+    Gang Li, last updated 2020-03-09
+    '''
+    
+    ec_code_lst = get_eccodes(rxn,NumberOfWildcards)
+    reactant_lst = [met.name.lower() if len(met.name)>1 else met.id.split('_')[0].lower() for met in rxn.reactants]
+    
+    ec_sub_pairs = []
+    for ec in ec_code_lst:
+        for met in reactant_lst: ec_sub_pairs.append((ec,met))
+    return ec_sub_pairs
+
+
+def search_kcats_with_ec_substrate_pairs(dfkcat,pairs):
+    '''
+    dfkcat : a pd.DataFrame with at least "ec","substrate" and "kcat" in columns,  From GECKO
+    pairs  : [(ec-code,substrate),...] produced by "produce_ec_substrate_pairs(rxn)"
+    
+    return a list kcats values found
+    
+    Usage: kcats = search_kcats_with_ec_substrate_pairs(dfkcat,pairs)
+    
+    Gang Li, last updated 2020-03-09
+    '''
+    
+    df = dfkcat.set_index(['ec','substrate'])
+    kcats = []
+    for p in pairs:
+        try:lst = df.loc[p,'kcat']
+        except: lst = []
+        kcats.extend(lst)
+    return kcats
+    
+def search_kcats_with_ec(dfkcat,ec_codes):
+    '''
+    dfkcat  : a pd.DataFrame with at least "ec" and "kcat" in columns,  From GECKO
+    ec_codes: a list of ec numbers
+    
+    return a list kcats values found
+    
+    Usage: kcats = search_kcats_with_ec(dfkcat,rxn)
+    
+    Gang Li, last updated 2020-03-09
+    '''
+    df = dfkcat.set_index('ec')
+    
+    kcats = []
+    for ec in ec_codes:
+        try:lst = df.loc[ec,'kcat']
+        except: lst = []
+        
+        try:kcats.extend(lst)
+        except: kcats.append(lst)
+    return kcats
+    
+    
+
+def match_kcats(irrModel,dfkcat):
+    '''
+    irrModel: cobra.Model object, with only irreversible reactions
+    dfkcat  :  a pd.DataFrame with at least "ec","substrate" and "kcat" in columns. From GECKO
+    
+    return two dictionaries:
+        1. rxn_kcats  = {rxn_id,[kcats]}
+        2. case_count = {
+           'n_0': num, # matched based on EC and substrate, there is/are n wildcards introduced to the ec number
+           'n_1': num, # matched based on EC and substrate, there is/are n wildcards introduced to the ec number
+           }
+    
+    Usage: rxn_kcats,case_count = match_kcats(irrModel,dfkcat)
+    
+    Gang Li, last updated 2020-03-09
+    '''
+    
+    rxn_with_ec = [rxn for rxn in irrModel.reactions if rxn.annotation.get('ec-code') is not None]
+    print(len(rxn_with_ec),'/',len(irrModel.reactions), 'have been assigned with at least one ec number')
+    
+    dfkcat = dfkcat.copy()
+    
+    rxn_kcats = {}
+    case_count = {}
+    for i in range(5):
+        
+        print('Searching with {} wildcard(s)'.format(i))
+        for rxn in rxn_with_ec:
+            if rxn_kcats.get(rxn.id) is not None: continue
+            
+            # Firstly match ec-substrate, if failed try match only ec
+            ec_codes = get_eccodes(rxn,NumberOfWildcards=i)
+            pairs    = produce_ec_substrate_pairs(rxn,NumberOfWildcards=i)
+            
+            #print(pairs)
+            kcats    = search_kcats_with_ec_substrate_pairs(dfkcat,pairs)
+            case_id = '{0}_{1}'.format(i,0)
+            
+            if len(kcats)<1: 
+                kcats = search_kcats_with_ec(dfkcat,ec_codes)
+                case_id = '{0}_{1}'.format(i,1)
+
+            if len(kcats)>0: 
+                rxn_kcats[rxn.id] = kcats
+                case_count[case_id] = case_count.get(case_id,0) + 1
+                
+        print('Number of kcats found so far:',len(rxn_kcats),'\n')
+        if len(rxn_kcats) < len(rxn_with_ec) and i+1<5:
+            # introduce one widecard in ec number
+            dfkcat['ec'] = [introduce_wildcards(ec,i+1) for ec in dfkcat['ec']]
+        else: break
+        
+
+    return rxn_kcats, case_count
+                
+
+
+
