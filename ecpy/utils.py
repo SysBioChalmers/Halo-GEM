@@ -81,4 +81,7 @@ def report_match_kcats(case_count):
         lst = key.split('_')
         print('With {0} wildcards, kcats were found for {1} reactions by {2}'.format(lst[0],case_count[key],operations[lst[1]]))
 
-    
+def test_biomass_production(model,biomass_id):
+    model.objective = biomass_id
+    model.objective_direction = 'max'
+    print(model.optimize())

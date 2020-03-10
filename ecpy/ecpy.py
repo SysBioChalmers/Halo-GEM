@@ -33,7 +33,7 @@ def constrainPool(model,MWs, non_measured,UB):
     '''
     Adapted from gekecomat, consstrainPool.m
     model       : eModel from convertToEnzymeModel()
-    MWs         : a dictionary with molecular weight of enzymes
+    MWs         : a dictionary with molecular weight of enzymes, in the unit of kDa
     non_measured: a list of enzymes without proteomics data
     UB          : upper bound for the combined pool of those non_measured enzymes
     
@@ -198,7 +198,7 @@ def convertToIrrev(model,rxns=None):
     
     converted_reaction_list = []
     for rxn in rxns:
-        
+        rxn = rxn.copy()
         # irreversible reactions
         if rxn.lower_bound>=0: converted_reaction_list.append(rxn) 
         
@@ -454,5 +454,38 @@ def match_kcats(irrModel,dfkcat):
     return rxn_kcats, case_count
                 
 
-
+def prepare_kcats_dict(irrModel, df_enz_kcat):
+    '''
+    irrModel   : cobra.Model object, with only irreversible reactions
+    df_enz_kcat: a pd.DataFrame with reaction id in irrModel as index, "log10_kcat_mean" and "log10_kcat_std" as columns.
+    In df_enz_kcat, both mean and std values are in the unit of 1/s and in the log10-transformed format.
+    
+    Return a dictionary with (enz_id,rxn_id) as keys and kcasts as values
+    
+    E.g.
+    kcat_dict = {
+                     ('E1','R3'): 10,
+                     ('E1','R4'): 100,
+                     ('E2','R4'): 0.10,
+                     ('E3','R5'): 5,
+                     ('E3','R5_REV'): 12,
+                     ('E4','R5'): 15,
+                     ('E4','R5_REV'): 90,
+                  }
+    
+    Usage: kcat_dict = prepare_kcats_dict(irrModel, df_enz_kcat)
+    In kcat_dict, all values have a unit of 1/h
+    
+    Gang Li, last updated 2020-03-10
+    '''
+    kcat_dict = {}
+    
+    for rxn_id in df_enz_kcat.index:
+        rxn = irrModel.reactions.get_by_id(rxn_id)
+        for gene in rxn.genes: kcat_dict[(gene.id,rxn_id)] = 10**df_enz_kcat.loc[rxn_id,'log10_kcat_mean']*3600 # kcat in 1/h
+    return kcat_dict
+            
+    
+    
+    
 
