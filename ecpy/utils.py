@@ -1,5 +1,7 @@
 from matplotlib import pyplot as plt
 import numpy as np
+import cobra
+import os
 
 def report_model_rxns(model):
     for rxn in model.reactions: 
@@ -37,3 +39,25 @@ def plot_kcat_dist(df,col='kcat',title=None,logform=False):
     if title is not None: plt.title(title)
     plt.tight_layout()
     plt.show()
+    
+    
+def save_model_into_formats(model,model_dir,model_name):
+    '''
+    # save the model into three formats: json, mat and sbml
+    
+    Usage: save_model_into_formats(model,model_dir,model_name)
+    
+    Gang Li, last updated 2020-03-10
+    '''
+    xml_model = os.path.join(model_dir,'xml',model_name+'.xml')
+    cobra.io.write_sbml_model(model, xml_model)
+    print('Saved',xml_model)
+    
+    mat_model = os.path.join(model_dir,'mat',model_name+'.mat')
+    cobra.io.save_matlab_model(model, mat_model)
+    print('Saved',mat_model)
+    
+    json_model = os.path.join(model_dir,'json',model_name+'.json')
+    cobra.io.save_json_model(model, json_model)
+    print('Saved',json_model)
+    print()
