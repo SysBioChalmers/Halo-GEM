@@ -423,7 +423,7 @@ def match_kcats(irrModel,dfkcat):
     rxn_kcats = {}
     case_count = {}
     for i in range(5):
-        
+        found_sofar = len(rxn_kcats)
         print('Searching with {} wildcard(s)'.format(i))
         for rxn in rxn_with_ec:
             if rxn_kcats.get(rxn.id) is not None: continue
@@ -444,7 +444,7 @@ def match_kcats(irrModel,dfkcat):
                 rxn_kcats[rxn.id] = kcats
                 case_count[case_id] = case_count.get(case_id,0) + 1
                 
-        print('Number of kcats found so far:',len(rxn_kcats),'\n')
+        print('{0} reactions are matched at this step. {1}/{2} are finished.\n'.format(len(rxn_kcats)-found_sofar,len(rxn_kcats),len(rxn_with_ec)))
         if len(rxn_kcats) < len(rxn_with_ec) and i+1<5:
             # introduce one widecard in ec number
             dfkcat['ec'] = [introduce_wildcards(ec,i+1) for ec in dfkcat['ec']]
