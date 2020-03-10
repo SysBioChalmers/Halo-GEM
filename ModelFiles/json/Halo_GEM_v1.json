@@ -28199,6 +28199,11 @@
 "annotation":{
 "bigg.metabolite":"dhptdd"
 }
+},
+{
+"id":"PHA_c",
+"name":"PHA",
+"compartment":"c"
 }
 ],
 "reactions":[
@@ -70856,6 +70861,32 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":""
+},
+{
+"id":"PHA_synthetase",
+"name":"Poly(3-hydroxyalkanoate) synthetase",
+"metabolites":{
+"CO-A_c":1,
+"CPD-650_c":-1,
+"PHA_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"TD01GL001170 or TD01GL001573",
+"annotation":{
+"ec-code":"2.3.1-"
+}
+},
+{
+"id":"PHA_secretion",
+"name":"PHA secretion",
+"metabolites":{
+"PHA_c":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"objective_coefficient":1.0
 }
 ],
 "genes":[
@@ -72393,7 +72424,7 @@
 },
 {
 "id":"TD01GL000367",
-"name":""
+"name":"phaA3"
 },
 {
 "id":"TD01GL001300",
@@ -73981,7 +74012,7 @@
 },
 {
 "id":"TD01GL000448",
-"name":""
+"name":"phaB1"
 },
 {
 "id":"TD01GL001753",
@@ -75938,6 +75969,14 @@
 {
 "id":"TD01GL001587",
 "name":""
+},
+{
+"id":"TD01GL001170",
+"name":"phaC1"
+},
+{
+"id":"TD01GL001573",
+"name":"phaC2"
 }
 ],
 "id":"model_v1",
