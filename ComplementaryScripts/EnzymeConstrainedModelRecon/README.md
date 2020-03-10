@@ -1,6 +1,16 @@
 ### Pipeline
 
-* Step 1: Match kcat values to enzymes and reactions: only those enzymes with EC number. Not transport reaction
+* Step 1: Match kcat values to enzymes and reactions: only those enzymes with EC number. This step is done by 
+```
+match_kcat_values_and_MWs.ipynb
+```
+This script outputs two csv files: 
+```
+Results/mapped_kcats.csv
+Results/enzyme_MWs.csv 
+```
+MW isin the unit of g/mmo(kDa).  
+kcats and associated uncertainties were given by log10-transfromed 1/s, when integrating into the model, it will be converted to 1/h.
 
 * Step 2: Convert the model  to irreversible model 
 ```
@@ -19,13 +29,8 @@ ecModel = utils.constrainPool(eModel,MWs, ['E1','E2','E4'],10)
 
 An small scale toy model was provided in `test_with_a_toy_model.ipynb`
 
-### Match kcat values
 
 ### TO DO
-MW should be in the unit of g/mol
-kcat should be in 1/h
-
-* Matach kcat values.
-
 * Check free upper bound to +inf
-* Try to test it on convert Halo-GEM
+* Specify protein pool.
+* Integration of proteomics data
