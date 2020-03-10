@@ -40,6 +40,14 @@ def plot_kcat_dist(df,col='kcat',title=None,logform=False):
     plt.tight_layout()
     plt.show()
     
+def plot_mw_dist(df):
+    plt.figure(figsize=(4,3))
+    plt.hist([df['mw']],20)
+    plt.xlabel('MW (kDa)')
+    plt.ylabel('Count')
+    plt.tight_layout()
+    plt.show()
+    
     
 def save_model_into_formats(model,model_dir,model_name):
     '''
@@ -61,3 +69,16 @@ def save_model_into_formats(model,model_dir,model_name):
     cobra.io.save_json_model(model, json_model)
     print('Saved',json_model)
     print()
+    
+def report_match_kcats(case_count):
+    keys = list(case_count.keys())
+    keys.sort()
+    
+    operations = {'0': 'matching EC number and substrate',
+                  '1': 'matching only EC number' }
+    
+    for key in keys:
+        lst = key.split('_')
+        print('With {0} wildcards, kcats were found for {1} reactions by {2}'.format(lst[0],case_count[key],operations[lst[1]]))
+
+    
