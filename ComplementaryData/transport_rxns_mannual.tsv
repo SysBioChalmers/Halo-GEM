@@ -24,7 +24,7 @@
 24	ABC-36-RXN	transport of L-valine	ATP + WATER --> ADP + PROTON + Pi	VAL	in	1
 25	TRANS-RXN0-447	transport of adenine	 <=> 	PROTON,ADENINE	in	1,1
 26	ABC-16-RXN	maltose ABC transporter	ATP + WATER --> ADP + PROTON + Pi	MALTOSE	in	1
-27	ATPSYN-RXN	"ATP synthase;H+-translocating V-ATPase;ATP hydrolase"	ATP + WATER <=> ADP + PROTON + Pi	PROTON	in	4
+27	ATPSYN-RXN	"ATP synthase;H+-translocating V-ATPase;ATP hydrolase"	ATP + WATER <=> ADP + PROTON + Pi	PROTON	out	4
 28	TRANS-RXN-347	norfloxacin:Na+ antiport	 <=> 	NA+,CPD-21015	in	1,1
 29	RXN0-3	L-cysteine exporter	ATP + WATER --> ADP + PROTON + Pi	CYS	out	1
 30	TRANS-RXN-312	"L-phenylalanine transport;transport of L-phenylalanine"	ATP + WATER --> ADP + PROTON + Pi	PHE	in	1
