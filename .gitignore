@@ -8,3 +8,5 @@ ComplementaryScripts/EnzymeConstrainedModelRecon/Scripts/__pycache__/*
 ecpy/__pycache__/*
 ComplementaryScripts/EnzymeConstrainedModelRecon/Scripts/__pycache__/*
 ComplementaryScripts/EnzymeConstrainedModelRecon/Scripts/__pycache__/*
+ComplementaryData/chem_xref.tsv
+ComplementaryData/reac_xref.tsv
