@@ -1,8 +1,20 @@
 ## Renconstruction of the first draft Halo-GEM: Halo_GEM_v1
 ![](Results/Halo_GEM_v1_recon.png)
 
+Run those script sequentially:
+* `1st_buildModelFromKEGG_Metacyc.m`
+* `2nd_buildModelFromTemplate.ipynb`
+* `3rd_curate_metacyc_ids.ipynb`
+* `4th_add_compartments_and_update_transport_rxns.ipynb`
+* `5th_combine_models_from_ecoli_metacyc_kegg.ipynb`
+* `6th_add_medium_biomass.ipynb`
+* `7th_gap_filling.ipynb`
+
 ### 1. Based on MetaCyc and KEGG
 The RAVEN 2.0 toolbox were applied. For KEGG based reconstruction, an evalue cutoff of 1e-50 was used. For MetaCyc based reonstruction, an bit score cutoff of 100 was used. 
+
+**Script:** `Source/buildModelFromKEGG_Metacyc.m`
+
 **Halo_meta**: `Results/halo_metacycmodel_100.mat`
 ```
 Number of reactions: 1271
@@ -22,10 +34,11 @@ Number of genes: 852
 Number of missing genes: 0
 Number of reactions with missing genes: 0
 ```
+**Halo_metkg**: combined model `Results/halo_halo_metacyc_kegg.m`
 
-Script for this step: `Source/buildModelFromKEGG_Metacyc.m`
 
 ### 2. Based on template iML1515
+**Script**: `Source/buildModelFromTemplate.ipynb`
 The orgholog pairs between H TD01 and E.coli were identified with a bi-directional best hit (BBH) apporach. The cutoff for evalue is 1e-20 and the length coverage is 45%. With this approach, 718 BBH pairs were identified. Those genes are involved in 1235 reactions in iMM1515. After refining gene-reaction rules, there are 136 reactions contain extra 144 required genes that are failed  in mapping to H. TD01 proteome with BBH approach. Then the best homolog of those genes in H TD01 were identified (evalue<1e-20 and length coverage >45%). After this step, there are 116 reactions with extra 96 missing ensential genes to catalyze those reactions. Those reactions were then removed from the model. 
 
 **Halo_eco:**`Results/halo_iML1515_template_without_missing_genes.json`
@@ -38,13 +51,21 @@ Number of missing genes: 0
 Number of reactions with missing genes: 0
 ```
 
-Script for this step: `Source/reconstruction_pipeline.ipynb`
+
 
 ### 3. Curate metabolite ids in the Metacyc based reconstruction
+**Script:** `Source/reconstruction_pipeline.ipynb`
 (1) We identified that some metabolites in Metacyc based reconstruction are in the form of -GLU-N(poly-glutamine). After carefully check the MetaCyc website and cross-referenced to KEGG database, N in those metabolites should be 0. Then we replaced those ones in -GLU-N format with non-GLU-N format. (2)  In the case that one metabolite has more than one metacyc id existing in the model, remove one of them. (3) Since there is no compartment information in the transport reactions, the metabolites transported are missing in the reaction because they exit in both side of the reaction. We manually checked the metacyc website for those transporters and then added them back (`../../../ComplementaryData/transport_rxns_mannual.tsv`). 
-Script for this step: `Source/reconstruction_pipeline.ipynb`
 
-### 4. Combination of different reconstructions
+
+
+### 4. Curations on Metacyc based reconstruction
+`Source/curate_metacyc_ids.ipynb`
+
+### 5. Add compartment and update transport reactions
+`Source/add_compartments_and_update_transport_rxns`
+
+### 6. Combination of different reconstructions
 Since Metacyc is a database containing reactions with experiemntal evidences, the reconstruction based on Metacyc is considered with higher quality than KEGG based. Thereby, only Metacyc based and iM1515 based reonstructions were used for combination.
 
 4.1. Compartments  
@@ -71,8 +92,10 @@ Number of reactions with missing genes: 0
 
 4.6. Add protein, DNA, RNA, ions, lipid synthsis reactions by using the coefficients in the core biomass equation of iMM1515 model.
 
+`Source/combine_models_from_ecoli_metacyc_kegg.ipynb`
 
-### 5. Gap-filling with iML1515 as a universal model
+
+### 7. Gap-filling with iML1515 as a universal model
 Since the H. TD01 can grow in the medium without amino acids, all uptake reactions for amino acids were blocked before gap-filling. Then step by step gap-filling were performed to make the model be able to produce the components in the biomass equation: DNA, RNA, Protein, lipids and others. As defined in `Results/core_biomass_medium_summary_iML1515.xlsx`.
 
 35 reactions were added by gap-filling. The resulting model contains 

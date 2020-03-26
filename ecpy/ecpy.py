@@ -1,4 +1,5 @@
 from cobra import Model, Reaction, Metabolite
+import numpy as np
 
 '''
 
@@ -67,6 +68,9 @@ def constrainPool(model,MWs, non_measured,UB):
     model.add_reactions(rxns_to_add)
     model.remove_reactions(rxns_to_drop)
     
+    # change the upper bound for all reactions as np.inf
+    for rxn in model.reactions: rxn.upper_bound = np.inf
+    
     # add prot_pool_exchange rxn
     rxn_prot_pool_exg = Reaction('prot_pool_exchange')
     rxn_prot_pool_exg.name = rxn_prot_pool_exg.id
@@ -130,7 +134,7 @@ def convertToEnzymeModel(model,kcats):
     eModel = Model()
     eModel.add_reactions(converted_reaction_list)
     eModel.add_reactions(protein_exchange_rxns.values())
-    
+        
     return eModel
 
 

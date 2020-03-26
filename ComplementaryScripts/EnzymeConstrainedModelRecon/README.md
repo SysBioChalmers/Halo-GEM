@@ -34,3 +34,12 @@ An small scale toy model was provided in `test_with_a_toy_model.ipynb`
 * Check free upper bound to +inf
 * Specify protein pool.
 * Integration of proteomics data
+* NGAM
+
+### Data I need:
+If no proteomics data: 
+* Biomass 
+* NGAM
+* sigma
+
+For proteomics: total protein content (g/gDW), absolute protein abundances (mmol/gDW).

@@ -1,0 +1,137 @@
+1	RXN-9615	ammonium transporter	 --> 
+2	TRANS-RXN-214	Na(+)-translocating NADH-quinone reductase	NADH + PROTON + Ubiquinones --> NAD + Ubiquinols
+3	RXN0-21	glutathione exporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+4	TRANS-RXN0-277	pyridine nucleotide transhydrogenase;NAD(P) transhydrogenase	NAD + NADPH <=> NADH + NADP
+5	ABC-4-RXN	L-arginine transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+6	ABC-19-RXN	molybdate ABC transporter;transport of molybdate	ATP + CPD-15815 --> ADP + PROTON + Pi
+7	TRANS-RXN-347	norfloxacin:Na+ antiport	 <=> 
+8	TRANS-RXN-237	transport of lipopolysaccharide	ATP + CPD-15815 --> ADP + PROTON + Pi
+9	TRANS-RXN-167A	D-glucosamine PTS permease	GLUCOSAMINE + Hpr-pi-phospho-L-histidines --> D-GLUCOSAMINE-6-P + Hpr-Histidine
+10	TRANS-RXN0-513	lanthionine ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+11	TRANS-RXN-42	K+:H+ antiporter;K+ : H+ antiporter KefC;Na+/K+:H+ antiporter ChaA;K+ : H+ antiporter KefB	 <=> 
+12	ABC-35-RXN	L-leucine transport;transport of L-leucine	ATP + CPD-15815 --> ADP + PROTON + Pi
+13	TRANS-RXN-359	ethidium efflux pump	 --> 
+14	ABC-15-RXN	transport of L-isoleucine	ATP + CPD-15815 --> ADP + PROTON + Pi
+15	TRANS-RXN-296	cobinamide ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+16	TRANS-RXN-162	L-glutamate:H+ symporter	 <=> 
+17	TRANS-RXN-132	uracil:H+ symporter;uracil:H+ symporter UraA	 <=> 
+18	RXN0-1802	long-chain fatty acid outer membrane porin bacteriophage T2 binding	 --> 
+19	TRANS-RXN0-510	N-acetyl-DL-methionine transport	ATP + CPD-15815 --> ADP + PROTON + Pi
+20	TRANS-RXN0-492	transport of beta-D-galactofuranose	ATP + CPD-15815 --> ADP + PROTON + Pi
+21	TRANS-RXN0-447	transport of adenine	 <=> 
+22	TRANS-RXN0-244	Cd2+:H+ antiporter;Cd2+ export	 --> 
+23	TRANS-RXN-356	decanoate efflux pump	 --> 
+24	ABC-12-RXN	transport of L-glutamine	ATP + CPD-15815 --> ADP + PROTON + Pi
+25	TRANS-RXN-340	bicozamycin:H+ antiporter	 <=> 
+26	TRANS-RXN-273	nitroimidazole export	 --> 
+27	TRANS-RXN0-592	chenodeoxycholate efflux pump	 --> 
+28	RXN0-1721	ferric dihyroxybenzoylserine outer membrane transporter	 --> 
+29	TRANS-RXN-312	transport of L-phenylalanine;L-phenylalanine transport	ATP + CPD-15815 --> ADP + PROTON + Pi
+30	RXN-18028	poly(glycerol phosphate) teichoic acid transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+31	RXN-19739	glutaconyl-CoA decarboxylase	GLUTACONYL-COA + PROTON --> CARBON-DIOXIDE + CROTONYL-COA
+32	ABC-70-RXN	sulfate  ABC transporter;sulfate ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+33	ABC-27-RXN	transport of phosphate	ATP + CPD-15815 --> ADP + PROTON + Pi
+34	TRANS-RXN-353	novobiocin efflux pump	 --> 
+35	TRANS-RXN-242A	L-homoserine lactone:H+ antiport	 <=> 
+36	TRANS-RXN0-503	maltotriose ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+37	3.6.3.16-RXN	arsenite-translocating ATPase;arsenite export	ATP + CPD-15815 --> ADP + PROTON + Pi
+38	TRANS-RXN0-269	L-valine exporter	 <=> 
+39	TRANS-RXN0-200	Zn2+ export;Zn2+:H+ antiporter	 --> 
+40	TRANS-RXN-366	cefoperazone ABC exporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+41	ABC-24-RXN	putrescine/spermidine ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+42	RXN0-1924	export of L-cysteine;cysteine exporter	 --> 
+43	TRANS-RXN0-222	transport of L-aspartate	ATP + CPD-15815 --> ADP + PROTON + Pi
+44	TRANS-RXN0-0244	L-threonine:H+ antiporter	 <=> 
+45	TRANS-RXN-363	nalidixate efflux pump	 --> 
+46	TRANS-RXN-348	tetraphenylphosphonium:Na+ antiport	 <=> 
+47	TRANS-RXN-325	canavanine exporter	 --> 
+48	TRANS-RXN0-553	fumarate transporter;transport of fumarate	 <=> 
+49	TRANS-RXN0-452	p-aminobenzoyl glutamate:H+ symporter	 <=> 
+50	ABC-36-RXN	transport of L-valine	ATP + CPD-15815 --> ADP + PROTON + Pi
+51	TRANS-RXN-360	gentamicin efflux pump	 --> 
+52	ABC-16-RXN	maltose ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+53	TRANS-RXN-321	poly(3-O-beta-D-glucopyranosyl-N-acetylgalactosamine 1-phosphate) teichoic acid transporter	 --> 
+54	TRANS-RXN-297	ferric coprogen ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+55	TRANS-RXN-194	calcium-transporting ATPase;plasma membrane Ca2+-ATPase;plasma membrane calcium-transporting ATPase;plastid envelope ATPase;calmodulin-stimulated calcium-ATPase	ATP + CPD-15815 --> ADP + PROTON + Pi
+56	TRANS-RXN-137	nitrite transporter NirC;transport of nitrite	 --> 
+57	TRANS-RXN0-569	L-amino acid exporter	 --> 
+58	TRANS-RXN-118	proline:Na+ symporter	 <=> 
+59	TRANS-RXN0-549	transport of poly-beta-1,6-N-acetyl-D-glucosamine	 --> 
+60	TRANS-RXN0-511	L-methionine S-oxide transport	ATP + CPD-15815 --> ADP + PROTON + Pi
+61	TRANS-RXN0-258	transport of N-acetyl-beta-D-glucosamine(anhydrous)-N-acetylmuramate	 <=> 
+62	TRANS-RXN-92	SDS efflux pump	 --> 
+63	TRANS-RXN-40	L-arabinose exporter	 <=> 
+64	TRANS-RXN-357	enterobactin efflux pump	 --> 
+65	ABC-13-RXN	transport of L-glutamate	ATP + CPD-15815 --> ADP + PROTON + Pi
+66	RXN0-3	L-cysteine exporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+67	TRANS-RXN0-593	L-cystine ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+68	TRANS-RXN0-508	djenkolate ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+69	TRANS-RXN0-239	nitrate:nitrite antiporter	 --> 
+70	RXN0-6	Fe2+:H+ antiporter	 <=> 
+71	RXN-5076	xanthine:H+ symporter XanQ;xanthine:H+ symporter XanP	 <=> 
+72	ABC-8-RXN	Transport of a dipeptide	ATP + CPD-15815 --> ADP + PROTON + Pi
+73	TRANS-RXN-354	acriflavin efflux pump;acriflavine efflux pump	 --> 
+74	ABC-10-RXN	transport of ferric enterobactin	ATP + CPD-15815 --> ADP + PROTON + Pi
+75	RXN0-5111	glycolate:cation symporter	 <=> 
+76	TRANS-RXN-290	D-cystine ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+77	RXN-8638	transport of a quarternary amine	ATP + CPD-15815 --> ADP + PROTON + Pi
+78	RXN0-1701	transport of ferrichrome	 --> 
+79	TRANS-RXN0-504	maltotetraose ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+80	ABC-25-RXN	putrescine/spermidine ABC transporter;transport of putresince	ATP + CPD-15815 --> ADP + PROTON + Pi
+81	TRANS-RXN-351	sulfadiazine efflux pump	 --> 
+82	TRANS-RXN-220	glucosyl-oleandomycin-exporting ATPase	ATP + CPD-15815 --> ADP + PROTON + Pi
+83	TRANS-RXN-145	water channel AqpZ	 <=> 
+84	TRANS-RXN0-576	transport of tellurite	 <=> 
+85	RXN0-11	transport of glutathione	ATP + CPD-15815 --> ADP + PROTON + Pi
+86	TRANS-RXN0-478	selenate ABC transporter;selenate  ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+87	TRANS-RXN0-226	transport of GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala	 <=> 
+88	TRANS-RXN0-162	ABC complex for formation and release of holoCcmE	ATP + CPD-15815 --> ADP + PROTON + Pi
+89	ABC-5-RXN	vitamin B12 ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+90	TRANS-RXN-364	CCCP efflux pump	 --> 
+91	ABC-20-RXN	nickel ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+92	TRANS-RXN-349	deoxycholate:Na+ antiport	 <=> 
+93	TRANS-RXN-3	K+:H+ symporter Kup;K+ transporter TrkH;K+ transporter TrkG	 <=> 
+94	RXN0-4083	serine/threonine:Na+ symporter	 <=> 
+95	TRANS-RXN-2	K+ transporting ATPase	ATP + CPD-15815 --> ADP + PROTON + Pi
+96	RXN0-22	guanosine:H+ antiporter	 <=> 
+97	TRANS-RXN0-573	transport of a glycerophosphodiester	ATP + CPD-15815 --> ADP + PROTON + Pi
+98	TRANS-RXN0-453	autoinducer 2 exporter	 <=> 
+99	TRANS-RXN0-281	acetoacetate transporter	 --> 
+100	TRANS-RXN-298	ferrichrome ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+101	RXN0-4522	methionine transport	ATP + CPD-15815 --> ADP + PROTON + Pi
+102	TRANS-RXN-167	N-acetyl-D-galactosamine PTS;N-acetylglucosamine PTS permease;N-acetyl-D-glucosamine PTS permease	Hpr-pi-phospho-L-histidines + N-acetyl-D-glucosamine --> Hpr-Histidine + N-ACETYL-D-GLUCOSAMINE-6-P
+103	TRANS-RXN0-617	homocystine ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+104	TRANS-RXN-121	succinate:H+ symporter;transport of succinate;succinate transporter	 <=> 
+105	ABC-34-RXN	transport of glycerol-3-phosphate	ATP + CPD-15815 --> ADP + PROTON + Pi
+106	ATPSYN-RXN	ATP synthase;ATP hydrolase;H+-translocating V-ATPase	ATP + CPD-15815 <=> ADP + PROTON + Pi
+107	TRANS-RXN0-595	flavin mononucleotide (FMN) export	 --> 
+108	RXN0-18	inosine:H+ antiporter	 <=> 
+109	TRANS-RXN0-491	transport of alpha-D-galactofuranose	ATP + CPD-15815 --> ADP + PROTON + Pi
+110	TRANS-RXN0-445	chitobiose transport;transport of N,N'-diacetyl-chitobiose	 --> 
+111	TRANS-RXN0-240	biotin transporter	 --> 
+112	ABC-9-RXN	transport of ferric dicitrate	ATP + CPD-15815 --> ADP + PROTON + Pi
+113	TRANS-RXN-355	n-hexane efflux pump	 --> 
+114	RXN0-5205	Zn2+-exporting ATPase	ATP + CPD-15815 --> ADP + PROTON + Pi
+115	TRANS-RXN-291	diaminopimelate ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+116	TRANS-RXN-272	flavin adenine dinucleotide (FAD) export	 --> 
+117	TRANS-RXN-127	L-tartrate:succinate antiporter	 <=> 
+118	RXN0-1702	transport of ferric coprogen	 --> 
+119	RXN66-448	Sodium independent arginine transport;sodium independent arginine plasma membrane transport;L-arginine exporter	 <=> 
+120	TRANS-RXN0-505	propionate transporter	 --> 
+121	TRANS-RXN0-235	2,3-diketo-L-gulonate:Na+ symporter	 --> 
+122	TRANS-RXN0-202	methionine transport	ATP + CPD-15815 --> ADP + PROTON + Pi
+123	ABC-7-RXN	thiosulfate ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+124	ABC-26-RXN	transport of proline	ATP + CPD-15815 --> ADP + PROTON + Pi
+125	TRANS-RXN-352	deoxycholate efflux pump	 --> 
+126	TRANS-RXN-242	L-homoserine:H+ antiporter	 <=> 
+127	TRANS-RXN-178	copper P1B-ATPase;Cu transporting P-type ATPase;copper-transporting ATPase;Cu-ATPase	ATP + CPD-15815 --> ADP + PROTON + Pi
+128	RXN0-1981	acetate:cation symporter	 <=> 
+129	TRANS-RXN0-479	selenite  ABC transporter;selenite ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+130	TRANS-RXN0-286	lipid II flippase	 --> 
+131	TRANS-RXN0-268	Transport of L-Ala-D-Glu-meso-A2pm	ATP + CPD-15815 --> ADP + PROTON + Pi
+132	TRANS-RXN0-181	TatABCE protein export complex	 --> 
+133	TRANS-RXN-365	deoxycholate efflux pump	 --> 
+134	TRANS-RXN-283	glycine betaine ABC transporter	ATP + CPD-15815 --> ADP + PROTON + Pi
+135	RXN0-1923	O-acetyl-L-serine exporter;export of O-acetyl-L-serine	 --> 
+136	TRANS-RXN-122A	aspartate transport;L-aspartate:H+ symporter;transport of L-aspartate	 <=> 
+137	TRANS-RXN-99	choline:H+ symporter	 <=> 

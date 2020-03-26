@@ -1,0 +1,426 @@
+>datp_c DATP C10H12N5O12P3 DATP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>dctp_c DCTP C9H12N3O13P3 DCTP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_FORMATE_c	formate demand_smiley	FORMATE_c --> 	
+
+>dgtp_c DGTP C10H12N5O13P3 DGTP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>dttp_c DTTP C10H13N2O14P3 TTP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>cobalt2_c Co2+ CO+2_c
+No need for gap-filling
+
+>cu2_c Copper CU+2_c
+No need for gap-filling
+
+>fe2_c Fe2+ mitochondria FE+2_c
+FE2tex	Iron (II) transport via diffusion (extracellular to periplasm)	FE+2_e <=> FE+2_c	b0241 or b1377 or b2215 or b0929
+
+>fe3_c Iron (Fe3+) FE+3_c
+No need for gap-filling
+
+>k_c Potassium K+_c
+Ktex	Potassium transport via diffusion (extracellular to periplasm)	K+_e <=> K+_c	b1377 or b0241 or b0929 or b2215
+
+>mg2_c Magnesium MG+2_c
+No need for gap-filling
+
+>mn2_c Manganese MN+2_c
+No need for gap-filling
+
+>mobd_c Molybdate CPD-3_c
+MOBDtex	Molybdate transport via diffusion (extracellular to periplasm)	CPD-3_e <=> CPD-3_c	b1377 or b0241 or b0929 or b2215
+
+>ni2_c Nickel NI+2_c
+NI2tex	Nickel transport via diffusion (extracellular to periplasm)	NI+2_e <=> NI+2_c	b1377 or b0241 or b0929 or b2215
+
+>so4_c Sulfate SULFATE_c
+SO4tex	Sulfate transport via diffusion (extracellular to periplasm)	SULFATE_e <=> SULFATE_c	b1377 or b0241 or b0929 or b2215
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+
+>zn2_c Zinc ZN+2_c
+Zn2tex	Zinc (Zn+2) transport via diffusion (extracellular to periplasm)	ZN+2_e <=> ZN+2_c	b1377 or b0241 or b0929 or b2215
+
+>ca2_c Calcium CA+2_c
+No need for gap-filling
+
+>cl_c Chloride CL-_c
+CLtex	Chloride (Cl-1) transport via diffusion (extracellular to periplasm)	CL-_e <=> CL-_c	b1377 or b0241 or b0929 or b2215
+
+>nh4_c Ammonium AMMONIUM_c
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+
+>kdo2lipid4_e KDO(2)-lipid IV(A) KDO2-LIPID-IVA_e
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+K2L4Aabctex	KDO(2)-lipid IV A transport via ABC system (periplasm to extracellular)	ATP_c + KDO2-LIPID-IVA_c + WATER_c --> ADP_c + KDO2-LIPID-IVA_e + PROTON_c + Pi_c	b0054 and b3201 and b4261 and b4262 and b3199 and b3200 and b0641
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>pe160_p Phosphatidylethanolamine (dihexadecanoyl, n-C16:0) CPD-12819_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+AGPAT160	1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0)	1hdecg3p_c + palmACP_c --> ACP_c + CPD0-1422_c	b3018
+PSSA160	Phosphatidylserine syntase (n-C16:0)	SER_c + cdpdhdecg_c --> CMP_c + CPD-12817_c + PROTON_c	b2585
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>pe161_p Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1) CPD-17086_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+PSSA161	Phosphatidylserine syntase (n-C16:1)	SER_c + cdpdhdec9eg_c --> CMP_c + PROTON_c + ps161_c	b2585
+AGPAT161	1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1)	1hdec9eg3p_c + hdeACP_c --> ACP_c + pa161_c	b3018
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>ala__L_c L-Alanine L-ALPHA-ALANINE_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>arg__L_c L-Arginine ARG_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>asn__L_c L-Asparagine ASN_c
+ASNS2	Asparagine synthetase	AMMONIUM_c + ATP_c + L-ASPARTATE_c --> AMP_c + ASN_c + PPI_c + PROTON_c	b3744 or b0674
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_WATER_c	H2O demand_smiley	WATER_c --> 	
+
+>asp__L_c L-Aspartate L-ASPARTATE_c
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_GLYCOLLATE_c	glycolate demand_smiley	GLYCOLLATE_c --> 	
+
+>cys__L_c L-Cysteine CYS_c
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>gln__L_c L-Glutamine GLN_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>glu__L_c L-Glutamate GLT_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>gly_c Glycine GLY_c
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_WATER_c	H2O demand_smiley	WATER_c --> 	
+
+>his__L_c L-Histidine HIS_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_GLYCOLLATE_c	glycolate demand_smiley	GLYCOLLATE_c --> 	
+
+>ile__L_c L-Isoleucine ILE_c
+HSK	Homoserine kinase	ATP_c + HOMO-SER_c --> ADP_c + O-PHOSPHO-L-HOMOSERINE_c + PROTON_c	b0003
+HSDy	Homoserine dehydrogenase (NADPH)	HOMO-SER_c + NADP_c <=> L-ASPARTATE-SEMIALDEHYDE_c + NADPH_c + PROTON_c	b3940 or b0002
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>leu__L_c L-Leucine LEU_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>lys__L_c L-Lysine LYS_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+THDPS	Tetrahydrodipicolinate succinylase	DELTA1-PIPERIDEINE-2-6-DICARBOXYLATE_c + SUC-COA_c + WATER_c --> CO-A_c + N-SUCCINYL-2-AMINO-6-KETOPIMELATE_c	b0166
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>met__L_c L-Methionine MET_c
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+HSDy	Homoserine dehydrogenase (NADPH)	HOMO-SER_c + NADP_c <=> L-ASPARTATE-SEMIALDEHYDE_c + NADPH_c + PROTON_c	b3940 or b0002
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>phe__L_c L-Phenylalanine PHE_c
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>pro__L_c L-Proline PRO_c
+G5SADs	L-glutamate 5-semialdehyde dehydratase (spontaneous)	L-GLUTAMATE_GAMMA-SEMIALDEHYDE_c --> L-DELTA1-PYRROLINE_5-CARBOXYLATE_c + PROTON_c + WATER_c	s0001
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>ser__L_c L-Serine SER_c
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+
+>thr__L_c L-Threonine THR_c
+HSK	Homoserine kinase	ATP_c + HOMO-SER_c --> ADP_c + O-PHOSPHO-L-HOMOSERINE_c + PROTON_c	b0003
+HSDy	Homoserine dehydrogenase (NADPH)	HOMO-SER_c + NADP_c <=> L-ASPARTATE-SEMIALDEHYDE_c + NADPH_c + PROTON_c	b3940 or b0002
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>trp__L_c L-Tryptophan TRP_c
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>tyr__L_c L-Tyrosine TYR_c
+PPND	Prephenate dehydrogenase	NAD_c + PREPHENATE_c --> CARBON-DIOXIDE_c + NADH_c + P-HYDROXY-PHENYLPYRUVATE_c	b2600
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_OXALACETIC_ACID_c	oxaloacetate demand_smiley	OXALACETIC_ACID_c --> 	
+
+>val__L_c L-Valine VAL_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>atp_c ATP C10H12N5O13P3 ATP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>ctp_c CTP C9H12N3O14P3 CTP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+F6PA	Fructose 6-phosphate aldolase	FRUCTOSE-6P_c <=> DIHYDROXYACETONE_c + GAP_c	b0825 or b3946
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>gtp_c GTP C10H12N5O14P3 GTP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>utp_c UTP C9H11N2O15P3 UTP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+F6PA	Fructose 6-phosphate aldolase	FRUCTOSE-6P_c <=> DIHYDROXYACETONE_c + GAP_c	b0825 or b3946
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>h_c H+ PROTON_c
+EX_h_e	H+ exchange	PROTON_e <=> 	
+
+>10fthf_c 10-Formyltetrahydrofolate 10-FORMYL-THF_c
+DNMPPA	Dihydroneopterin monophosphate dephosphorylase	DIHYDRONEOPTERIN-P_c + WATER_c --> CPD-11770_c + Pi_c	
+DNTPPA	Dihydroneopterin triphosphate pyrophosphatase	DIHYDRONEOPTERIN-P3_c + WATER_c --> DIHYDRONEOPTERIN-P_c + PPI_c + PROTON_c	b1865 or b0099
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+GCALDD	Glycolaldehyde dehydrogenase	GLYCOLALDEHYDE_c + NAD_c + WATER_c --> GLYCOLLATE_c + NADH_c + 2.0 PROTON_c	b1415
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>2fe2s_c [2Fe-2S] iron-sulfur cluster 2fe2s_c
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+DM_PALMITATE_c	Hexadecanoate (n-C16:0) demand_smiley	PALMITATE_c --> 	
+
+>2ohph_c 2-Octaprenyl-6-hydroxyphenol 2-OCTAPRENYL-6-HYDROXYPHENOL_c
+O2tex	Oxygen transport via diffusion (extracellular to periplasm)	OXYGEN-MOLECULE_e <=> OXYGEN-MOLECULE_c	b1377 or b0241 or b0929 or b2215
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>4fe4s_c [4Fe-4S] iron-sulfur cluster CPD-7_c
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>amet_c S-Adenosyl-L-methionine S-ADENOSYLMETHIONINE_c
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+HSDy	Homoserine dehydrogenase (NADPH)	HOMO-SER_c + NADP_c <=> L-ASPARTATE-SEMIALDEHYDE_c + NADPH_c + PROTON_c	b3940 or b0002
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>btn_c Biotin BIOTIN_c
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+THDPS	Tetrahydrodipicolinate succinylase	DELTA1-PIPERIDEINE-2-6-DICARBOXYLATE_c + SUC-COA_c + WATER_c --> CO-A_c + N-SUCCINYL-2-AMINO-6-KETOPIMELATE_c	b0166
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+DM_DIHYDROXYPENTANEDIONE_c	autoinducer 2 demand_smiley	DIHYDROXYPENTANEDIONE_c --> 	
+DM_CPD0-2167_c	5'-deoxyribose demand_smiley	CPD0-2167_c --> 	
+DM_METOH_c	methanol demand_smiley	METOH_c --> 	
+DM_ALLYSINE_c	(S)-2-amino-6-oxohexanoate demand_smiley	ALLYSINE_c --> 	
+
+>coa_c Coenzyme A CO-A_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+PNTK	Pantothenate kinase	ATP_c + PANTOTHENATE_c --> 4-P-PANTOTHENATE_c + ADP_c + PROTON_c	b3974
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>fad_c Flavin adenine dinucleotide oxidized FAD_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>h2o_c H2O H2O WATER_c
+EX_h2o_e	H2O exchange	WATER_e <=> 	
+
+>mlthf_c 5,10-Methylenetetrahydrofolate METHYLENE-THF_c
+DNMPPA	Dihydroneopterin monophosphate dephosphorylase	DIHYDRONEOPTERIN-P_c + WATER_c --> CPD-11770_c + Pi_c	
+DNTPPA	Dihydroneopterin triphosphate pyrophosphatase	DIHYDRONEOPTERIN-P3_c + WATER_c --> DIHYDRONEOPTERIN-P_c + PPI_c + PROTON_c	b1865 or b0099
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+4HTHRK	4-Hydroxy-L-threonine kinase	ATP_c + CPD0-2189_c --> 4-PHOSPHONOOXY-THREONINE_c + ADP_c + PROTON_c	b0003
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>murein5px4p_p Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain) CPD0-2278_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+THDPS	Tetrahydrodipicolinate succinylase	DELTA1-PIPERIDEINE-2-6-DICARBOXYLATE_c + SUC-COA_c + WATER_c --> CO-A_c + N-SUCCINYL-2-AMINO-6-KETOPIMELATE_c	b0166
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>nad_c Nicotinamide adenine dinucleotide NAD_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+NADS1	NAD synthase (nh3)	AMMONIUM_c + ATP_c + DEAMIDO-NAD_c --> AMP_c + NAD_c + PPI_c + PROTON_c	b1740
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>nadp_c Nicotinamide adenine dinucleotide phosphate NADP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+NADS1	NAD synthase (nh3)	AMMONIUM_c + ATP_c + DEAMIDO-NAD_c --> AMP_c + NAD_c + PPI_c + PROTON_c	b1740
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>pheme_c Protoheme C34H30FeN4O4 PROTOHEME_c
+O2tex	Oxygen transport via diffusion (extracellular to periplasm)	OXYGEN-MOLECULE_e <=> OXYGEN-MOLECULE_c	b1377 or b0241 or b0929 or b2215
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+CITtex	Citrate transport via diffusion (extracellular to periplasm)	CIT_e <=> CIT_c	b1377 or b0241 or b0929 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>pydx5p_c Pyridoxal 5'-phosphate PYRIDOXAL_PHOSPHATE_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+O2tex	Oxygen transport via diffusion (extracellular to periplasm)	OXYGEN-MOLECULE_e <=> OXYGEN-MOLECULE_c	b1377 or b0241 or b0929 or b2215
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+DM_HYDROGEN-MOLECULE_c	H2 demand_smiley	HYDROGEN-MOLECULE_c --> 	
+
+>ribflv_c Riboflavin C17H20N4O6 RIBOFLAVIN_c
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>sheme_c Siroheme C42H36FeN4O16 SIROHEME_c
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_GLYOX_c	glyoxylate demand_smiley	GLYOX_c --> 	
+DM_DIHYDROXYPENTANEDIONE_c	autoinducer 2 demand_smiley	DIHYDROXYPENTANEDIONE_c --> 	
+
+>succoa_c Succinyl-CoA SUC-COA_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+PNTK	Pantothenate kinase	ATP_c + PANTOTHENATE_c --> 4-P-PANTOTHENATE_c + ADP_c + PROTON_c	b3974
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>thf_c 5,6,7,8-Tetrahydrofolate THF_c
+DNMPPA	Dihydroneopterin monophosphate dephosphorylase	DIHYDRONEOPTERIN-P_c + WATER_c --> CPD-11770_c + Pi_c	
+DNTPPA	Dihydroneopterin triphosphate pyrophosphatase	DIHYDRONEOPTERIN-P3_c + WATER_c --> DIHYDRONEOPTERIN-P_c + PPI_c + PROTON_c	b1865 or b0099
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+4HTHRK	4-Hydroxy-L-threonine kinase	ATP_c + CPD0-2189_c --> 4-PHOSPHONOOXY-THREONINE_c + ADP_c + PROTON_c	b0003
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>thmpp_c Thiamine diphosphate THIAMINE-PYROPHOSPHATE_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+ADSK	Adenylyl-sulfate kinase	APS_c + ATP_c --> ADP_c + PAPS_c + PROTON_c	b2750
+O2tex	Oxygen transport via diffusion (extracellular to periplasm)	OXYGEN-MOLECULE_e <=> OXYGEN-MOLECULE_c	b1377 or b0241 or b0929 or b2215
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+UREAtex	Urea transport via diffusion (extracellular to periplasm)	UREA_e <=> UREA_c	b1377 or b0241 or b0929 or b2215
+EX_h2o_e	H2O exchange	WATER_e <=> 	
+EX_so4_e	Sulfate exchange	SULFATE_e <=> 	
+THZPSN3	Thiazole phosphate synthesis	ATP_c + CPD-12279_c + DEOXYXYLULOSE-5P_c + NADPH_c + PROTON_c + iscssh_c --> AMP_c + CARBON-DIOXIDE_c + NADP_c + PPI_c + THZ-P_c + 2.0 WATER_c + iscs_c	b3992 and b3990 and b0423 and b2530 and b4407
+DM_ACET_c	acetate demand_smiley	ACET_c --> 	
+
+>udcpdp_c Undecaprenyl diphosphate CPD-9649_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+GLCtex_copy2		Glucopyranose_e <=> Glucopyranose_c	b0241 or b0929 or b1377 or b2215
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_CARBON-DIOXIDE_c	CO2 demand_smiley	CARBON-DIOXIDE_c --> 	
+
+>adp_c ADP C10H12N5O10P2 ADP_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+GLCtex_copy1		Glucopyranose_e --> Glucopyranose_c	b4036
+EX_nh4_e	Ammonia exchange	AMMONIUM_e <=> 	
+DM_PROTON_c	H+ demand_smiley	PROTON_c --> 	
+DM_H2CO3_c	carbonic acid demand_smiley	H2CO3_c --> 	
+
+>pi_c Phosphate Pi_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+PItex	Phosphate transport via diffusion (extracellular to periplasm)	Pi_e <=> Pi_c	b1377 or b0241 or b0929 or b2215
+
+>ppi_c Diphosphate PPI_c
+EX_pi_e	Phosphate exchange	Pi_e <=> 	
+EX_h_e	H+ exchange	PROTON_e <=> 	
+CHLtex	Choline transport via diffusion (extracellular to periplasm)	CHOLINE_e <=> CHOLINE_c	b1377 or b0241 or b0929 or b2215
+DM_WATER_c	H2O demand_smiley	WATER_c --> 	
+
