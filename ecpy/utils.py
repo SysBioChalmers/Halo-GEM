@@ -199,50 +199,62 @@ def test_glucose(model):
         s1,s2 = test_biomass_production(model)
         rgs.append([s1.objective_value,s2.objective_value])
     
-    plt.figure(figsize=(4,3))
+    plt.figure(figsize=(7,3))
     rgs = np.array(rgs)
-    plt.scatter(glcs,rgs[:,0],label='Without YE')
-    plt.scatter(glcs,rgs[:,1],label='With YE')
-    plt.legend()
-    plt.ylabel('Specific growth rate (h$^{-1}$)')
-    plt.xlabel('Glucose uptake (mmol/dDW/h)')
-    #plt.ylim(0,5)
+    titles = ['Without YE','With YE']
+    for i in range(2):
+        plt.subplot(1,2,i+1)
+        #plt.scatter(glcs,rgs[:,0],label='Without YE')
+        plt.scatter(glcs,rgs[:,i])
+        plt.ylabel('Specific growth rate (h$^{-1}$)')
+        plt.xlabel('Glucose uptake (mmol/dDW/h)')
+        plt.title(titles[i])
+        
     plt.tight_layout()
     plt.show()
 
 def test_NGAM(model):
-    rgs2 = []
+    rgs = []
     ngams = np.arange(0,20)
     for ngam in ngams:
         set_bound(model,'NGAM',eq=ngam)
         s1,s2 = test_biomass_production(model)
-        rgs2.append([s1.objective_value,s2.objective_value])
+        rgs.append([s1.objective_value,s2.objective_value])
     
-    plt.figure(figsize=(4,3))
-    rgs2 = np.array(rgs2)
-    plt.scatter(ngams,rgs2[:,0],label='Without YE')
-    plt.scatter(ngams,rgs2[:,1],label='With YE')
-    plt.legend()
-    plt.ylabel('Specific growth rate (h$^{-1}$)')
-    plt.xlabel('NGAM (mmol/dDW/h)')
+    plt.figure(figsize=(7,3))
+    rgs = np.array(rgs)
+    titles = ['Without YE','With YE']
+    for i in range(2):
+        plt.subplot(1,2,i+1)
+        #plt.scatter(glcs,rgs[:,0],label='Without YE')
+        plt.scatter(ngams,rgs[:,i])
+        plt.title(titles[i])
+        plt.ylabel('Specific growth rate (h$^{-1}$)')
+        plt.xlabel('NGAM (mmol/dDW/h)')
+        
     #plt.ylim(0,5)
     plt.tight_layout()
     plt.show()
     
-def test_PHB(model,ys=np.arange(0,1000,20)):
+def test_PHA(model,ys=np.arange(0,1000,20)):
     rgs = []
     for y in ys:
         set_bound(model,'PHA_secretion',lb=y,ub=1000)
         s1,s2 = test_biomass_production(model)
         rgs.append([s1.objective_value,s2.objective_value])
-    
-    plt.figure(figsize=(4,3))
+        
+    plt.figure(figsize=(7,3))
     rgs = np.array(rgs)
-    plt.scatter(ys,rgs[:,0],label='Without YE')
-    plt.scatter(ys,rgs[:,1],label='With YE')
-    plt.legend()
-    plt.ylabel('Specific growth rate (h$^{-1}$)')
-    plt.xlabel('PHA secretion (mmol/dDW/h)')
+    titles = ['Without YE','With YE']
+    for i in range(2):
+        plt.subplot(1,2,i+1)
+        #plt.scatter(glcs,rgs[:,0],label='Without YE')
+        plt.scatter(ys,rgs[:,i])
+        plt.ylabel('Specific growth rate (h$^{-1}$)')
+        plt.xlabel('PHA secretion (mmol/dDW/h)')
+        plt.title(titles[i])
+        
+   
     #plt.ylim(0,5)
     plt.tight_layout()
     plt.show()
@@ -254,15 +266,17 @@ def test_Glc_to_ATP(model):
         set_bound(model,'Exchange_Glucopyranose',ub=glc)
         s1,s2 = test_atp_production(model)
         rgs.append([s1.objective_value,s2.objective_value])
-    
-    plt.figure(figsize=(4,3))
-    print(rgs)
+        
+    plt.figure(figsize=(7,3))
     rgs = np.array(rgs)
-    plt.scatter(glcs,rgs[:,0],label='Without YE')
-    plt.scatter(glcs,rgs[:,1],label='With YE')
-    plt.legend()
-    plt.ylabel('ATP_c (mmol/dDW/h)')
-    plt.xlabel('Glucose uptake (mmol/dDW/h)')
+    titles = ['Without YE','With YE']
+    for i in range(2):
+        plt.subplot(1,2,i+1)
+        #plt.scatter(glcs,rgs[:,0],label='Without YE')
+        plt.scatter(glcs,rgs[:,i])
+        plt.title(titles[i])
+        plt.ylabel('ATP_c (mmol/dDW/h)')
+        plt.xlabel('Glucose uptake (mmol/dDW/h)')
     
     plt.tight_layout()
     plt.show()
@@ -301,13 +315,16 @@ def test_Glc_to_NGAM(model):
         s1,s2 = test_ngam_flux(model)
         rgs.append([s1.objective_value,s2.objective_value])
     print(rgs)
-    plt.figure(figsize=(4,3))
+    plt.figure(figsize=(7,3))
     rgs = np.array(rgs)
-    plt.scatter(glcs,rgs[:,0],label='Without YE')
-    plt.scatter(glcs,rgs[:,1],label='With YE')
-    plt.legend()
-    plt.ylabel('NGAM (mmol/dDW/h)')
-    plt.xlabel('Glucose uptake (mmol/dDW/h)')
+    titles = ['Without YE','With YE']
+    for i in range(2):
+        plt.subplot(1,2,i+1)
+        #plt.scatter(glcs,rgs[:,0],label='Without YE')
+        plt.scatter(glcs,rgs[:,i])
+        plt.title(titles[i])
+        plt.ylabel('NGAM (mmol/dDW/h)')
+        plt.xlabel('Glucose uptake (mmol/dDW/h)')
     
     plt.tight_layout()
     plt.show()
