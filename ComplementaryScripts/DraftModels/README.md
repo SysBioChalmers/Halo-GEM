@@ -184,6 +184,15 @@ For those reactions still with missing genes, remove missing genes and add a not
 ```python
 rxn.notes['old_gr']= old_gr
 ```
+The model contains
+```
+Number of reactions: 2269
+Number of metabolits: 2339
+Number of compartments: 3 {'c': '', 'p': '', 'e': ''}
+Number of genes: 1353
+Number of missing genes: 0
+Number of reactions with missing genes: 0
+```
  
 Save the resulted model as 
 ```

@@ -17,13 +17,13 @@ was used. Gap-filling was performed with iJO1366 as universal model.
 
 - Pubmed ID: TBA
 
-- Last update: 2020-02-28
+- Last update: 2020-03-28
 
 - The model contains:
 
 | Taxonomy | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|-----:|
-| _Halomonas bluephagenesis_ TD01 | 1,930 | 2,014 | 1,270 |
+| _Halomonas bluephagenesis_ TD01 | 2,269 | 2,339 | 1,353 |
 
 This repository is administered by Gang Li ([@SysBioChalmers](https://github.com/SysBioChalmers)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology
 
