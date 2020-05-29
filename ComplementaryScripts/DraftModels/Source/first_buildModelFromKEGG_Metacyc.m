@@ -8,7 +8,7 @@ clear
 
 %% 1. get model from KEGG
 dataDir = 'prok90_kegg87';
-fastaFile = '../../../ComplementaryData/protein_sequences_v2.0.fasta';
+fastaFile = '../../../ComplementaryData/protein_sequences_v3.0.fasta';
 % scores = [-50];
 % for i = 1:length(scores)
 %     score = 10^scores(i);
