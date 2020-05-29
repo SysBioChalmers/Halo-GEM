@@ -458,7 +458,7 @@ def match_kcats(irrModel,dfkcat):
     return rxn_kcats, case_count
                 
 
-def prepare_kcats_dict(irrModel, df_enz_kcat):
+def prepare_kcats_dict(irrModel, df_enz_kcat,col='log10_kcat_mean'):
     '''
     irrModel   : cobra.Model object, with only irreversible reactions
     df_enz_kcat: a pd.DataFrame with reaction id in irrModel as index, "log10_kcat_mean" and "log10_kcat_std" as columns.
@@ -486,7 +486,7 @@ def prepare_kcats_dict(irrModel, df_enz_kcat):
     
     for rxn_id in df_enz_kcat.index:
         rxn = irrModel.reactions.get_by_id(rxn_id)
-        for gene in rxn.genes: kcat_dict[(gene.id,rxn_id)] = 10**df_enz_kcat.loc[rxn_id,'log10_kcat_mean']*3600 # kcat in 1/h
+        for gene in rxn.genes: kcat_dict[(gene.id,rxn_id)] = 10**df_enz_kcat.loc[rxn_id,col]*3600 # kcat in 1/h
     return kcat_dict
             
     
