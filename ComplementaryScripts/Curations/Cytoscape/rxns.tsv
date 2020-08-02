@@ -1,0 +1,1726 @@
+ID	Name
+RXN-6021	Choline dehydrogenase
+DEOXYRIBOSE-P-ALD-RXN	Deoxyribose-phosphate aldolase
+THREONINE-ALDOLASE-RXN	Threonine aldolase
+ALATA_L2	Alanine transaminase
+R00945	Glycine hydroxymethyltransferase, reversible
+R02300_copy1	Tetrahydrofolate aminomethyltransferase
+R02300_copy2	Aminomethyltransferase
+THRA2	L-allo-Threonine Aldolase
+RXN0-5240	D-alanine transaminase
+4HTHRA	4-hydroxy-L-threonine aldolase
+SIROHEME-FERROCHELAT-RXN	Sirohydrochlorin ferrochelatase
+DIMETHUROPORDEHYDROG-RXN	Sirohydrochlorin dehydrogenase (NAD)
+RXN-13403	Uroporphyrinogen methyltransferase
+RXN0-1461	Coproporphyrinogen oxidase (O2 required)
+GLUTATHIONE-REDUCT-NADPH-RXN	Glutathione oxidoreductase
+DHORD2	Dihydoorotic acid dehydrogenase (quinone8)
+DHORD5	Dihydroorotic acid (menaquinone-8)
+GLYCTO2	Glycolate oxidase
+GLYCTO4	Glycolate oxidase
+GLYCTO3	Glycolate oxidase
+PFK	Phosphofructokinase
+TAGAKIN-RXN	Phosphofructokinase
+RXN0-6541	Phosphofructokinase (s7p)
+RXN0-2381	Tryptophan synthase (indoleglycerol phosphate)
+TRYPSYN-RXN	Tryptophan synthase (indoleglycerol phosphate)
+RXN0-2382	Tryptophan synthase (indole)
+G3PD5	Glycerol-3-phosphate dehydrogenase (ubiquinone-8)
+BRANCHED-CHAINAMINOTRANSFERLEU-RXN	Leucine transaminase (irreversible)
+BRANCHED-CHAINAMINOTRANSFERILEU-RXN	Isoleucine transaminase
+TYROSINE-AMINOTRANSFERASE-RXN	Tyrosine transaminase
+PHEAMINOTRANS-RXN	Phenylalanine transaminase
+BRANCHED-CHAINAMINOTRANSFERVAL-RXN	Valine transaminase
+SHIKIMATE-5-DEHYDROGENASE-RXN	Shikimate dehydrogenase
+GLUTSEMIALDEHYDROG-RXN	Glutamate-5-semialdehyde dehydrogenase
+RIBOFLAVINSYNDEAM-RXN	Diaminohydroxyphosphoribosylaminopryrimidine deaminase (25drapp)
+RIBOFLAVINSYNREDUC-RXN	5-amino-6-(5-phosphoribosylamino)uracil reductase
+R07281	3,4-Dihydroxy-2-butanone-4-phosphate synthase
+FADSYN-RXN	FMN adenylyltransferase
+RIBOFLAVINKIN-RXN	Riboflavin kinase
+RXN0-5187	Acid phosphatase (FMN)
+RIBOPHOSPHAT-RXN	Pyrimidine phosphatase
+RIBOFLAVIN-SYN-RXN	Riboflavin synthase
+FPPSYN-RXN	Geranyltranstransferase
+GPPSYN-RXN	Dimethylallyltranstransferase
+UROGENIIISYN-RXN	Uroporphyrinogen-III synthase
+UROGENDECARBOX-RXN	Uroporphyrinogen decarboxylase (uroporphyrinogen III)
+URA-PHOSPH-RXN	Deoxyuridine phosphorylase
+THYM-PHOSPH-RXN	Thymidine phosphorylase
+RXN0-5224	HCO3 equilibration reaction
+IMPCYCLOHYDROLASE-RXN	IMP cyclohydrolase
+R04560	Phosphoribosylaminoimidazolecarboxamide formyltransferase
+IMP-DEHYDROG-RXN	IMP dehydrogenase
+RXN-11667	3-hydroxyacyl-CoA dehydratase (3-hydroxybutanoyl-CoA)
+RXN-12490	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA)
+RXN-14273	3-hydroxyacyl-CoA dehydratase (3-hydroxytetradecanoyl-CoA)
+R04745	3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA)
+RXN-12567	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexanoyl-CoA)
+RXN-12570	3-hydroxyacyl-CoA dehydrogenase (3-oxohexanoyl-CoA)
+R04170	3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanoyl-CoA)
+CTECOAI8	3-cis-2-trans-enoyl-CoA isomerase
+R04746	3-hydroxyacyl-CoA dehydratase (3-hydroxyoctanoyl-CoA)
+R04741	3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA)
+RXN-14272	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexadecanoyl-CoA)
+HACD8	3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA), peroxisomal
+RXN-14271	3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA)
+CTECOAI6	3-cis-2-trans-enoyl-CoA isomerase
+ECOAH8	3-hydroxyacyl-CoA dehydratase (3-hydroxyoctadecanoyl-CoA)
+RXN-11662	3-hydroxyacyl-CoA dehydrogenase (acetoacetyl-CoA)
+RXN-13616	3-hydroxyacyl-CoA dehydratase (3-hydroxydecanoyl-CoA)
+CTECOAI7	3-cis-2-trans-enoyl-CoA isomerase
+RXN-12507	3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA)
+R05578	Glutamyl-tRNA synthetase
+THI-P-SYN-RXN	Thiamine-phosphate diphosphorylase
+HYPOXANPRIBOSYLTRAN-RXN	Hypoxanthine phosphoribosyltransferase (Hypoxanthine)
+GUANPRIBOSYLTRAN-RXN	Guanine phosphoribosyltransferase
+XANPRIBOSYLTRAN-RXN	Xanthine phosphoribosyltransferase
+DCDPKIN-RXN	Nucleoside-diphosphate kinase (ATP:dCDP)
+DGDPKIN-RXN	Nucleoside-diphosphate kinase (ATP:dGDP)
+RXN-14074	Adentylate kinase (GTP)
+DEOXYADENYLATE-KINASE-RXN	Deoxyadenylate kinase
+UDPKIN-RXN	Nucleoside-diphosphate kinase (ATP:UDP)
+ADENYL-KIN-RXN	Adenylate kinase
+DTDPKIN-RXN	Nucleoside-diphosphate kinase (ATP:dTDP)
+DUDPKIN-RXN	Nucleoside-diphosphate kinase (ATP:dUDP)
+ADENOSINE-KINASE-RXN	Adenosine kinase
+CDPKIN-RXN	Nucleoside-diphosphate kinase (ATP:CDP)
+DADPKIN-RXN	Nucleoside-diphosphate kinase (ATP:dADP)
+ADK4	Adentylate kinase (ITP)
+GDPKIN-RXN	Nucleoside-diphosphate kinase (ATP:GDP)
+DIHYDROOROT-RXN	Dihydroorotase
+OROTPDECARB-RXN	Orotidine-5'-phosphate decarboxylase
+CITSYN-RXN	Citrate synthase
+ACETALD-DEHYDROG-RXN	Acetaldehyde dehydrogenase (acetylating)
+INORGPYROPHOSPHAT-RXN	Inorganic diphosphatase
+TRIPHOSPHATASE-RXN	Inorganic triphosphatase
+RXN-14025_copy1	5'-nucleotidase (UMP)
+AMP-DEPHOSPHORYLATION-RXN_copy1	5'-nucleotidase (AMP)
+RXN-14026_copy1	5'-nucleotidase (CMP)
+NTD12	5'-nucleotidase (dIMP)
+RXN-14143_copy1	5'-nucleotidase (dUMP)
+RXN-7607_copy1	5'-nucleotidase (IMP)
+RXN0-5292_copy1	5'-nucleotidase (dCMP)
+RXN-14161_copy1	5'-nucleotidase (dAMP)
+XMPXAN-RXN_copy1	5'-nucleotidase (XMP)
+RXN-14142_copy1	5'-nucleotidase (dGMP)
+RXN-7609_copy1	5'-nucleotidase (GMP)
+THYMIDYLATE-5-PHOSPHATASE-RXN_copy1	5'-nucleotidase (dTMP)
+PEPCARBOXYKIN-RXN	Phosphoenolpyruvate carboxykinase
+1.1.1.39-RXN	Malic enzyme (NAD)
+ALARACECAT-RXN	Alanine racemase
+ALANINE-AMINOTRANSFERASE-RXN	L-alanine transaminase
+RXN0-382	1-Deoxy-D-xylulose kinase
+XYLULOKIN-RXN	Xylulokinase
+GLYCEROL-KIN-RXN	Glycerol kinase
+D-PPENTOMUT-RXN	Phosphopentomutase 2 (deoxyribose)
+RXN-14456	Phosphopentomutase
+ASPAMINOTRANS-RXN	Aspartate transaminase
+CYSTEINE-AMINOTRANSFERASE-RXN	Cysteine transaminase
+PEPDEPHOS-RXN	Pyruvate kinase
+R00659	Pyruvate kinase(2)
+RXN-14117	Pyruvate kinase(3)
+R00572	Pyruvate kinase(4)
+PYK6	RE2954
+DARAB5PISOM-RXN	Arabinose-5-phosphate isomerase
+3-ISOPROPYLMALISOM-RXN	2-isopropylmalate hydratase
+RXN-8991	3-isopropylmalate dehydratase
+ACETOLACTSYN-RXN	Acetolactate synthase
+ACETOOHBUTSYN-RXN	2-aceto-2-hydroxybutanoate synthase
+2.5.1.19-RXN	3-phosphoshikimate 1-carboxyvinyltransferase
+ANTHRANSYN-RXN	Anthranilate synthase
+PRTRANS-RXN	Anthranilate phosphoribosyltransferase
+CHORISMATEMUT-RXN	Chorismate mutase
+PREPHENATEDEHYDRAT-RXN	Prephenate dehydratase
+CHORISMATE-SYNTHASE-RXN	Chorismate synthase
+PRAISOM-RXN	Phosphoribosylanthranilate isomerase (irreversible)
+IGPSYN-RXN	Indole-3-glycerol-phosphate synthase
+2PGADEHYDRAT-RXN	Enolase
+METHGLYSYN-RXN	Methylglyoxal synthase
+PEPSYNTH-RXN	Phosphoenolpyruvate synthase
+PGLUCISOM-RXN	Glucose-6-phosphate isomerase
+PHOSGLYPHOS-RXN	Phosphoglycerate kinase
+KDPGALDOL-RXN	2-dehydro-3-deoxy-phosphogluconate aldolase
+OXALODECARB-RXN	Oxaloacetate decarboxylase
+RIBULP3EPIM-RXN	Ribulose 5-phosphate 3-epimerase
+TRANSALDOL-RXN	Transaldolase
+2TRANSKETO-RXN	Transketolase
+TKT1	Transketolase
+ALCOHOL-DEHYDROG-RXN	Alcohol dehydrogenase (ethanol)
+R01036	Alcohol dehydrogenase (glycerol)
+RXN0-3962	Aldehyde dehydrogenase (acetaldehyde, NADP)
+ALDD3y	Aldehyde dehydrogenase (propanal, NADP)
+NADPYROPHOSPHAT-RXN	NAD diphosphatase
+2.7.7.1-RXN	Nicotinamide-nucleotide adenylyltransferase
+NICONUCADENYLYLTRAN-RXN	Nicotinate-nucleotide adenylyltransferase
+PYRIMSYN3-RXN	Phosphomethylpyrimidine kinase
+OHMETPYRKIN-RXN	Hydroxymethylpyrimidine kinase (ATP)
+RXN0-5199	Purine-nucleoside phosphorylase (Guanosine)
+DEOXYADENPHOSPHOR-RXN	Purine-nucleoside phosphorylase (Deoxyadenosine)
+DEOXYINOPHOSPHOR-RXN	Purine-nucleoside phosphorylase (Deoxyinosine)
+ADENPHOSPHOR-RXN	Purine-nucleoside phosphorylase (Adenosine)
+INOPHOSPHOR-RXN	Purine-nucleoside phosphorylase (Inosine)
+DEOXYGUANPHOSPHOR-RXN	Purine-nucleoside phosphorylase (Deoxyguanosine)
+RXN0-3543	2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphatase
+GUANOSINE-DIPHOSPHATASE-RXN	Nucleoside diphosphatase  GDP 
+RXN0-3542	Thiamin pyrophosphatase
+OROPRIBTRANS-RXN	Orotate phosphoribosyltransferase
+R04457	Riboflavin synthase
+DIHYDROXYMETVALDEHYDRAT-RXN	Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)
+DIHYDROXYISOVALDEHYDRAT-RXN	Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)
+FRD3	Fumarate reductase
+FRD2	Fumarate reductase
+PTAALT-RXN	Phosphate acetyltransferase
+PHOSACETYLTRANS-RXN	Phosphotransacetylase
+ACETATEKIN-RXN	Acetate kinase
+KDOTRANS-RXN	3-deoxy-D-manno-octulosonic acid transferase
+KDOTRANS2-RXN	3-deoxy-D-manno-octulosonic acid transferase
+RXN-9138	Undecaprenyl diphosphate synthase
+LIPIDXSYNTHESIS-RXN	UDP-sugar hydrolase
+LIPIDADISACCHARIDESYNTH-RXN	Lipid A disaccaride synthase
+TETRAACYLDISACC4KIN-RXN	Tetraacyldisaccharide 4'kinase
+RXN0-5107	Nucleoside triphosphate pyrophosphorylase (dttp)
+RXN0-383	Nucleoside triphosphate pyrophosphorylase (ctp)
+DCTP-PYROPHOSPHATASE-RXN	Nucleoside triphosphate pyrophosphorylase (dctp)
+RXN-14140	Nucleoside triphosphate pyrophosphorylase (gtp)
+ATP-PYROPHOSPHATASE-RXN	Nucleoside triphosphate pyrophosphorylase (atp)
+RXN0-384	Nucleoside triphosphate pyrophosphorylase (datp)
+RXN0-385	Nucleoside triphosphate pyrophosphorylase (dgtp)
+RXN-14139	Nucleoside triphosphate pyrophosphorylase (utp)
+NTPTP2	Nucleoside triphosphate tripolyhydrolase
+DGTPTRIPHYDRO-RXN	Nucleoside triphosphate tripolyhydrolase
+3-ISOPROPYLMALDEHYDROG-RXN	3-isopropylmalate dehydrogenase
+1.1.1.83-RXN	Malate decarboxylating oxidoreductase (decarboxylating)
+RXN0-743	Phosphoribosylaminoimidazole carboxylase (mutase rxn)
+AICARSYN-RXN	Adenylosuccinate lyase
+AMPSYN-RXN	Adenylsuccinate lyase
+THIOREDOXIN-REDUCT-NADPH-RXN	Thioredoxin reductase (NADPH)
+GDPREDUCT-RXN	Ribonucleoside-diphosphate reductase (GDP)
+CDPREDUCT-RXN	Ribonucleoside-diphosphate reductase (CDP)
+UDPREDUCT-RXN	Ribonucleoside-diphosphate reductase (UDP)
+DSBDR	DsbD reductase
+1.8.4.8-RXN	Phosphoadenylyl-sulfate reductase (thioredoxin)
+ADPREDUCT-RXN	Ribonucleoside-diphosphate reductase (ADP)
+1.8.4.14-RXN_copy1	L-methionine-R-sulfoxide reductase
+1.8.4.14-RXN_copy2	L-methionine-S-oxide reductase
+RXN0-267	Hydrogen peroxide reductase (thioredoxin)
+R02101	Thymidylate synthase
+P-PANTOCYSDECARB-RXN	Phosphopantothenoylcysteine decarboxylase
+P-PANTOCYSLIG-RXN	Phosphopantothenate-cysteine ligase
+R00944	Formyltetrahydrofolate deformylase
+PGLUCONDEHYDRAT-RXN	6-phosphogluconate dehydratase
+LYSINE-23-AMINOMUTASE-RXN	Lysine 2,3-aminomutase
+NADH5	NADH dehydrogenase (ubiquinone-8 )
+NADH10	NADH dehydrogenase (menaquinone-8 & 0 protons)
+NADH9	NADH dehydrogenase (demethylmenaquinone-8 & 0 protons)
+MALATE-DEH-RXN	Malate dehydrogenase
+FUMHYDR-RXN	Fumarase
+D--TARTRATE-DEHYDRATASE-RXN	D(-)-tartrate dehydratase
+PMPOXI-RXN	Pyridoxamine 5'-phosphate oxidase
+PNPOXI-RXN	Pyridoxine 5'-phosphate oxidase
+PSERTRANSAMPYR-RXN	O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase
+PSERTRANSAM-RXN	Phosphoserine transaminase
+SUCCINYLDIAMINOPIMTRANS-RXN	Succinyldiaminopimelate transaminase
+R04109	Glutamyl-tRNA reductase
+R07411	Heme O synthase
+SAMDECARB-RXN	Adenosylmethionine decarboxylase
+AGMATIN-RXN	Agmatinase
+ARGDECARBOX-RXN_copy1	Arginine decarboxylase
+ARGSUCCINSYN-RXN	Argininosuccinate synthase
+N-ACETYLGLUTPREDUCT-RXN	N-acetyl-g-glutamyl-phosphate reductase
+SPERMIDINESYN-RXN	Spermidine synthase
+RXN0-5217	Aminopropylcadaverine synthase
+GSAAMINOTRANS-RXN	Glutamate-1-semialdehyde aminotransferase
+CPM-KDOSYNTH-RXN	3-deoxy-manno-octulosonate cytidylyltransferase
+5.4.2.10-RXN	Phosphoglucosamine mutase
+UAGDP	UDP-N-acetylglucosamine diphosphorylase
+G1PACT	Glucosamine-1-phosphate N-acetyltransferase
+UDPNACETYLGLUCOSAMENOLPYRTRANS-RXN	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+GLUTRACE-RXN	Glutamate racemase
+UDPGLCNACEPIM-RXN	UDP-N-acetylglucosamine 2-epimerase
+MALONYL-ACPDECARBOX-RXN	Malonyl-ACP decarboxylase
+3OAS100	3-oxoacyl-[acyl-carrier-protein] synthase (n-C10:0)
+3-OXOACYL-ACP-SYNTH-BASE-RXN	Beta-ketoacyl-ACP synthase
+3OAS121	3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1)
+3OAS60	3-oxoacyl-[acyl-carrier-protein] synthase (n-C6:0)
+3OAS120	3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:0)
+3OAS80	3-oxoacyl-[acyl-carrier-protein] synthase (n-C8:0)
+3OAS161	3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1)
+OPMEACPS	3-Oxo-pimeloyl-[ACP] methyl ester synthase
+3OAS160	3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:0)
+3OAS141	3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1)
+3OAS140	3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:0)
+3OAS180	3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0)
+2-OCTAPRENYL-6-OHPHENOL-METHY-RXN	2-octaprenyl-6-hydroxyphenol methylase
+DHHB-METHYLTRANSFER-RXN	3-Dimethylubiquinonol 3-methyltransferase
+H2PTERIDINEPYROPHOSPHOKIN-RXN	6-hydroxymethyl-dihydropterin pyrophosphokinase
+PANTEPADENYLYLTRAN-RXN	Pantetheine-phosphate adenylyltransferase
+DXPREDISOM-RXN	1-deoxy-D-xylulose reductoisomerase
+3-OCTAPRENYL-4-OHBENZOATE-DECARBOX-RXN	Octaprenyl-hydroxybenzoate decarboxylase
+ACETYLORNTRANSAM-RXN	Acetylornithine transaminase
+GABATRANSAM-RXN	4-aminobutyrate transaminase
+SUCCSEMIALDDEHYDROG-RXN	Succinate-semialdehyde dehydrogenase (NADP)
+SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	Succinate-semialdehyde dehydrogenase (NAD)
+4.3.1.17-RXN	L-serine deaminase
+THREODEHYD-RXN	L-threonine dehydrogenase
+2-DEHYDROPANTOATE-REDUCT-RXN	2-dehydropantoate 2-reductase
+ACETOOHBUTREDUCTOISOM-RXN	Ketol-acid reductoisomerase (2-Acetolactate)
+ACETOLACTREDUCTOISOM-RXN	Ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)
+ACETYL-COA-CARBOXYLTRANSFER-RXN	Acetyl-CoA carboxylase
+NAD-KIN-RXN	NAD kinase
+ISOCHORMAT-RXN	Isochorismatase
+GLYOXI-RXN	Lactoylglutathione lyase
+3.1.3.68-RXN	2 deoxyglucose 6 phosphatase
+MN6PP	Mannose 6-phosphate phosphatase
+E4PP	Erythrose-4-phosphate phosphatase
+3.1.3.74-RXN	Pyridoxal 5-phosphate phosphatase
+RXN66-526	Glucose-6-phosphate phosphatase
+F6PP	D-fructose 6-phosphate phosphatase
+DXS-RXN	1-deoxy-D-xylulose 5-phosphate synthase
+2.7.1.148-RXN	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase
+RXN0-302	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+DEOXYGLUCONOKIN-RXN	2-dehydro-3-deoxygluconokinase
+PHOSMANMUT-RXN	Phosphomannomutase
+R00479	Isocitrate lyase
+R01221	Glycine Cleavage System
+PYRUVDEH-RXN	Pyruvate dehydrogenase
+2OXOGLUTARATEDEH-RXN	2-Oxogluterate dehydrogenase
+MMUM-RXN	Homocysteine Methyltransferase
+HOMOCYSTEINE-S-METHYLTRANSFERASE-RXN	Homocysteine S-methyltransferase
+TRE6PHYDRO-RXN	Trehalose-6-phosphate hydrolase
+R00345	Phosphoenolpyruvate carboxylase
+GTP-CYCLOHYDRO-II-RXN	GTP cyclohydrolase II (25drapp)
+SADT2	Sulfate adenyltransferase
+MANNONOXIDOREDUCT-RXN	Mannonate oxidoreductase
+GPH-RXN	Phosphoglycolate phosphatase
+GLYOCARBOLIG-RXN	Glyoxalate carboligase
+KDGALDOL-RXN	5-dehydro-4-deoxyglucarate aldolase
+3OAS181	3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1)
+EDTXS3	Endotoxin Synthesis (palmitoleoyl ACP)
+QUINOPRIBOTRANS-RXN	Nicotinate-nucleotide diphosphorylase (carboxylating)
+AACPS6	Acyl-[acyl-carrier-protein] synthetase  (n-C18:0)
+ACPPAT140	Acyl-(acyl carrier protein):phosphate acyltransferase (C14:0)
+ACP-S-ACETYLTRANSFER-RXN	Acetyl-CoA ACP transacylase
+MALONYL-COA-ACP-TRANSACYL-RXN	Malonyl-CoA-ACP transacylase
+AACPS7	Acyl-[acyl-carrier-protein] synthetase  (n-C12:0)
+ACPPAT181	Acyl-(acyl carrier protein):phosphate acyltransferase (C18:1)
+ACPPAT160	Acyl-(acyl carrier protein):phosphate acyltransferase (C16:0)
+ACPPAT141	Acyl-(acyl carrier protein):phosphate acyltransferase (C14:1)
+AACPS4	Acyl-[acyl-carrier-protein] synthetase  (n-C16:1)
+ACPPAT180	Acyl-(acyl carrier protein):phosphate acyltransferase (C18:0)
+AACPS2	Acyl-[acyl-carrier-protein] synthetase  (n-C14:1)
+ACPPAT120	Acyl-(acyl carrier protein):phosphate acyltransferase (C12:0)
+ACPPAT161	Acyl-(acyl carrier protein):phosphate acyltransferase (C16:1)
+AACPS3	Acyl-[acyl-carrier-protein] synthetase  (n-C16:0)
+AACPS5	Acyl-[acyl-carrier-protein] synthetase  (n-C18:1)
+AACPS1	Acyl-[acyl-carrier-protein] synthetase (n-C14:0)
+UDPNACETYLGLUCOSAMACYLTRANS-RXN	UDP-N-acetylglucosamine acyltransferase
+AACPS9	Acyl-[acyl-carrier-protein] synthetase  (n-C8:0)
+AACPS8	Acyl-[acyl-carrier-protein] synthetase  (n-C10:0)
+2AGPEAT181	2-acyl-glycerophospho-ethanolamine acyltransferase (n-C18:1)
+2AGPEAT120	2-acyl-glycerophospho-ethanolamine acyltransferase (n-C12:0)
+2AGPEAT141	2-acyl-glycerophospho-ethanolamine acyltransferase (n-C14:1)
+2AGPEAT180	2-acyl-glycerophospho-ethanolamine acyltransferase (n-C18:0)
+2AGPGAT180	2-acyl-glycerophospho-glycerol acyltransferase (n-C18:0)
+2AGPEAT161	2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:1)
+2AGPGAT181	2-acyl-glycerophospho-glycerol acyltransferase (n-C18:1)
+2AGPGAT160	2-acyl-glycerophospho-glycerol acyltransferase (n-C16:0)
+2AGPGAT141	2-acyl-glycerophospho-glycerol acyltransferase (n-C14:1)
+2AGPEAT140	2-acyl-glycerophospho-ethanolamine acyltransferase (n-C14:0)
+2AGPGAT161	2-acyl-glycerophospho-glycerol acyltransferase (n-C16:1)
+2AGPEAT160	2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:0)
+2AGPGAT120	2-acyl-glycerophospho-glycerol acyltransferase (n-C12:0)
+2AGPGAT140	2-acyl-glycerophospho-glycerol acyltransferase (n-C14:0)
+SUCCDIAMINOPIMDESUCC-RXN	Succinyl-diaminopimelate desuccinylase
+RIBAZOLEPHOSPHAT-RXN	Alpha-ribazole 5-phosphate phosphatase
+ADENPRIBOSYLTRAN-RXN	Adenine phosphoribosyltransferase
+RXN-8992	Octaprenyl pyrophosphate synthase
+CATAL-RXN	Catalase
+RXN-10819	Phenylacetate-CoA ligase
+GP4GH	Gp4G hydrolase
+RXN-10966	Ap5A hydrolase
+3.6.1.41-RXN	Ap4A hydrolase
+RXN0-4342	D-glycero-D-manno-hepose 1-phosphate adenyltransferase
+GMHEPK	D-glycero-D-manno-heptose 7-phosphate kinase
+UDCPDP	Undecaprenyl-diphosphatase
+RXN-11832	Cytidylate kinase (CMP)
+RXN-7913	Cytidylate kinase (dCMP)
+RXN-12002	UMP kinase
+GMKALT-RXN	Deoxyguanylate kinase (dGMP:ATP)
+GUANYL-KIN-RXN	Guanylate kinase (GMP:ATP)
+ACETOACETYL-COA-TRANSFER-RXN	Acetyl-CoA:acetoacetyl-CoA transferase
+HXCT	Acetyl-CoA:hexanoate-CoA transferase
+BUTCT	Acetyl-CoA:butyrate-CoA transferase
+DTDPGLUCOSEPP-RXN	Glucose-1-phosphate thymidylyltransferase
+DTDPGLUCDEHYDRAT-RXN	DTDPglucose 4,6-dehydratase
+DTDPDEHYDRHAMEPIM-RXN	DTDP-4-dehydrorhamnose 3,5-epimerase
+DTDPDEHYRHAMREDUCT-RXN	DTDP-4-dehydrorhamnose reductase
+UDPNACETYLMURAMATEDEHYDROG-RXN	UDP-N-acetylenolpyruvoylglucosamine reductase
+GMHEPPA	D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase
+RXN0-4301	Sedoheptulose 7-phosphate isomerase
+NADPH-DEHYDROGENASE-FLAVIN-RXN	Flavin reductase
+RXN-12444	FMN reductase
+R09750	Flavin reductase (NAD)
+RXN-8506	FAD reductase
+RXN-9510	FMN reductase
+FE3Ri	Fe(III) reduction
+GTPPYPHOSKIN-RXN	GTP diphosphokinase
+GDPPYPHOSKIN-RXN	GDP diphosphokinase
+PROTOHEMEFERROCHELAT-RXN	Ferrochelatase
+4OHBENZOATE-OCTAPRENYLTRANSFER-RXN	Hydroxybenzoate octaprenyltransferase
+DEPHOSPHOCOAKIN-RXN	Dephospho-CoA kinase
+THIAZOLSYN3-RXN	Hydroxyethylthiazole kinase
+R03254	3-deoxy -D-manno-octulosonic -acid 8-phosphate synthase
+KDO-8PPHOSPHAT-RXN	3-deoxy-manno-octulosonate-8-phosphatase
+ARGININE-N-SUCCINYLTRANSFERASE-RXN	Arginine succinyltransferase
+SUCCGLUDESUCC-RXN	Succinylglutamate desuccinylase
+GSPSYN-RXN	Glutathionylspermidine synthetase
+GSPAMID-RXN	Glutathionylspermidine amidase
+GUANINE-DEAMINASE-RXN	Guanine deaminase
+DTMPKI-RXN	DTMP kinase
+PHOSPHOGLUCMUT-RXN	Phosphoglucomutase
+F1PP	D-fructose 1-phosphate phosphatase
+RXN0-7249	Alkaline phosphatase
+R5PP	Ribose 5-phosphate phosphatase
+GNP	Phosphogluconate phosphatase
+FRUK	Fructose-1-phosphate kinase
+RIBOSYLHOMOCYSTEINASE-RXN	S-ribosylhomocysteine cleavage enzyme
+R02566	Betaine-aldehyde dehydrogenase
+BADH-RXN	Betaine-aldehyde dehydrogenase
+PYRNUTRANSHYDROGEN-RXN	NAD transhydrogenase
+ACPS1	Acyl-carrier protein synthase
+GMP-SYN-GLUT-RXN	GMP synthase
+GMP-SYN-NH3-RXN	GMP synthase
+PABASYN-RXN	4-amino-4-deoxychorismate synthase
+ADCLY-RXN	4-aminobenzoate synthase
+CHORPYRLY-RXN	Chorismate pyruvate lyase
+URACIL-PRIBOSYLTRANS-RXN	Uracil phosphoribosyltransferase
+CTPSYN-RXN	CTP synthase (glutamine)
+PAPPT3	Phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)
+UAGPT3	UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+5.1.3.20-RXN	ADP-D-glycero-D-manno-heptose epimerase
+RXN0-300	Hydroxypyruvate reductase (NADPH)
+GLYCOLATE-REDUCTASE-RXN	Glycolate dehydrogenase (NAD)
+GLYCERATE-DEHYDROGENASE-RXN	Hydroxypyruvate reductase (NADH)
+GLYOXYLATE-REDUCTASE-NADP+-RXN	Glycolate dehydrogenase (NADP)
+ACETYLORNDEACET-RXN	Acetylornithine deacetylase
+ADDALT-RXN	Deoxyadenosine deaminase
+ADENODEAMIN-RXN	Adenosine deaminase
+ADENYLOSUCCINATE-SYNTHASE-RXN	Adenylosuccinate synthase
+NAG6PDEACET-RXN	N-acetylglucosamine-6-phosphate deacetylase
+ASPARAGHYD-RXN	L-asparaginase
+ASPCARBTRANS-RXN	Aspartate carbamoyltransferase
+DMPPS	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp)
+IPDPS	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp)
+DIAMINOPIMEPIM-RXN	Diaminopimelate epimerase
+DHDPRy	Dihydrodipicolinate reductase (NADPH)
+SUCCORNTRANSAM-RXN	Succinylornithine transaminase
+THRESYN-RXN	Threonine synthase
+DAHPSYN-RXN	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase
+NMNAMIDOHYDRO-RXN	Nicotinamide-nucleotide amidase
+PYRROLINECARBDEHYDROG-RXN	1-pyrroline-5-carboxylate dehydrogenase
+PROD3	Proline dehydrogenase (q8)
+SPERMACTRAN-RXN	Spermidine acetyltransferase
+RXN0-7165	Spermidine acetyltransferase (N8)
+MALSYN-RXN	Malate synthase
+ADPRDP	ADPribose diphosphatase
+R00844	Glycerol-3-phosphate dehydrogenase (NADP)
+FUCPALDOL-RXN	L-fuculose 1-phosphate aldolase
+ACCOAL	Acetate-CoA ligase (ADP-forming)
+GLUC1PURIDYLTRANS-RXN	UTP-glucose-1-phosphate uridylyltransferase (irreversible)
+UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-RXN	UDP-3-O-(3-hydroxymyristoyl)glucosamine acyltransferase
+UAAGDS	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase
+UDP-NACMUR-ALA-LIG-RXN	UDP-N-acetylmuramoyl-L-alanine synthetase
+UDP-NACMURALA-GLU-LIG-RXN	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase
+UREIDOGLYCOLATE-HYDROLASE-RXN	Ureidoglycolate hydrolase
+R02601	2-oxopent-4-enoate hydratase
+R00750	4-hydroxy-2-oxopentanoate aldolase
+RXN-10040	3-hydroxycinnamate hydroxylase
+MHPHYDROXY-RXN	3-(3-hydroxy-phenyl)propionate hydroxylase
+ASPDECARBOX-RXN	Aspartate 1-decarboxylase
+UGMDDS	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase
+UDPACYLGLCNACDEACETYL-RXN	UDP-3-O-acetylglucosamine deacetylase
+ATPPHOSPHORIBOSYLTRANS-RXN	ATP phosphoribosyltransferase
+RXN-8001	Histidinol dehydrogenase
+IMIDPHOSDEHYD-RXN	Imidazoleglycerol-phosphate dehydratase
+HISTIDPHOS-RXN	Histidinol-phosphatase
+PRPPS	Phosphoribosylpyrophosphate synthetase
+PRIBFAICARPISOM-RXN	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase
+SERINE-O-ACETTRAN-RXN	Serine O-acetyltransferase
+ACSERLY-RXN	Cysteine synthase
+325-BISPHOSPHATE-NUCLEOTIDASE-RXN	3',5'-bisphosphate nucleotidase
+PAPSR2	Phosphoadenylyl-sulfate reductase (glutaredoxin)
+ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	Aspartate-semialdehyde dehydrogenase
+DIAMINOPIMDECARB-RXN	Diaminopimelate decarboxylase
+S-ADENMETSYN-RXN	Methionine adenosyltransferase
+COBINPGUANYLYLTRANS-RXN	Adenosyl cobinamide phosphate guanyltransferase
+COBINAMIDEKIN-RXN	Adenosyl cobinamide kinase
+COBALAMINSYN-RXN	Adenosylcobalamin 5'-phosphate synthase
+THI-P-KIN-RXN	Thiamine-phosphate kinase
+MHPCHYDROL-RXN	2-hydroxy-6-ketonona-2,4-dienedioic acid hydrolase
+R06789	2-hydroxy-6-ketononotrienedioate hydrolase
+GKI-RXN	Glycerate kinase
+AIRC2	Phosphoribosylaminoimidazole carboxylase
+GLUCOKIN-RXN	Hexokinase (D-glucose:ATP)
+MALIC-NADP-RXN	Malic enzyme (NADP)
+ARGSUCCINLYA-RXN	Argininosuccinate lyase
+CARBPSYN-RXN	Carbamoyl-phosphate synthase (glutamine-hydrolysing)
+GLUTKIN-RXN	Glutamate 5-kinase
+2-ISOPROPYLMALATESYN-RXN	2-isopropylmalate synthase
+2.3.1.180-RXN	Beta-ketoacyl-ACP synthase (2)
+OGMEACPS	3-Oxo-glutaryl-[ACP] methyl ester synthase
+SUPEROX-DISMUT-RXN_copy1	Superoxide dismutase
+ADENOSYLHOMOCYSTEINE-NUCLEOSIDASE-RXN	S-adenosylhomocysteine nucleosidase
+METHYLTHIOADENOSINE-NUCLEOSIDASE-RXN	Methylthioadenosine nucleosidase
+RXN0-6550	5'-deoxyadenosine nuclosidase
+R01251	Pyrroline-5-carboxylate reductase
+THIOSULFATE-SULFURTRANSFERASE-RXN	Cyanide sulfurtransferase
+MERCAPYSTRANS-RXN	3-mercaptopyruvate sulfurtransferase
+DETHIOBIOTIN-SYN-RXN	Dethiobiotin synthase
+DCTP-DEAM-RXN	DCTP deaminase
+DHDPS	Dihydrodipicolinate synthase
+CYTDEAM-RXN	Cytosine deaminase
+L-GLN-FRUCT-6-P-AMINOTRANS-RXN	Glutamine-fructose-6-phosphate transaminase
+GLUTCYSLIG-RXN	Gamma-glutamylcysteine synthetase
+GLUTAMIN-RXN	Glutaminase
+PRPPAMIDOTRANS-RXN	Glutamine phosphoribosyldiphosphate amidotransferase
+RXN-13854	Nitrite Reductase (NADH)
+ORNCARBAMTRANSFER-RXN	Ornithine carbamoyltransferase
+R04325	Phosphoribosylglycinamide formyltransferase
+3.1.4.2-RXN_copy1	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)
+RXN-14160_copy1	Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine)
+RXN-14073_copy1	Glycerophosphodiester phosphodiesterase (Glycerophosphoglycerol)
+RXN-14136_copy1	Glycerophosphodiester phosphodiesterase (Glycerophosphoserine)
+3.1.4.44-RXN_copy1	Glycerophosphodiester phosphodiesterase (Glycerophosphoinositol)
+METHYLISOCITRATE-LYASE-RXN	Methylisocitrate lyase
+SUCCGLUALDDEHYD-RXN	Succinylglutamic semialdehyde dehydrogenase
+PDX5PS	Pyridoxine 5'-phosphate synthase
+PORPHOBILSYNTH-RXN	Porphobilinogen synthase
+GLYRIBONUCSYN-RXN	Phosphoribosylglycinamide synthase
+PRFGS	Phosphoribosylformylglycinamidine synthase
+ETHAMLY-RXN	Ethanolamine ammonia-lyase
+MANNPGUANYLTRANGDP-RXN	Mannose-1-phosphate guanylyltransferase (GDP)
+RXN0-5408	Myo-inositol 1-phosphatase
+GLYCEROL-2-PHOSPHATASE-RXN	Glycerol-2-phosphate phosphatase
+2-METHYLCITRATE-SYNTHASE-RXN	2-methylcitrate synthase
+RXN0-5462	Nucleoside-triphosphatase (GTP)
+RXN0-5073	Nucleoside-triphosphatase (ITP)
+RXN-12195	Nucleoside-triphosphatase (CTP)
+ATPASE-RXN	Nucleoside-triphosphatase (ATP)
+GLU6PDEHYDROG-RXN	Glucose 6-phosphate dehydrogenase
+R01226	3-methyl-2-oxobutanoate hydroxymethyltransferase
+UGD-RXN	UDPglucose 6-dehydrogenase
+UDPMANNACADEHYDROG-RXN	UDP-N-acetyl-D-mannosamine oxidoreductase
+GLUTDECARBOX-RXN	Glutamate Decarboxylase
+R01286	Cystathionine b-lyase
+O-SUCCHOMOSERLYASE-RXN	O-succinylhomoserine lyase (L-cysteine)
+ACACT3r	Acetyl-CoA C-acyltransferase (hexanoyl-CoA) (r)
+RXN-14268	Acetyl-CoA C-acyltransferase (dodecanoyl-CoA) (r)
+ACACT5r	Acetyl-CoA C-acyltransferase (decanoyl-CoA) (r)
+RXN-13617	Acetyl-CoA C-acyltransferase (octanoyl-CoA) (r)
+ACACT8r	Acetyl-CoA acyltransferase (hexadecanoyl-CoA), (r)
+2.3.1.155-RXN	Acetyl-CoA C-acyltransferase (tetradecanoyl-CoA) (r)
+RXN-12565	Acetyl-CoA C-acyltransferase (butanoyl-CoA) (r)
+ACETYL-COA-ACETYLTRANSFER-RXN	Acetyl-CoA C-acetyltransferase
+RXN0-5114	Phosphoserine phosphatase (L-serine)
+ARHGDx	(R)-alpha-hydroxyglutarate dehydrogenase
+PGLYCDEHYDROG-RXN	Phosphoglycerate dehydrogenase
+RXN-16701	(S)-alpha-hydroxyglutarate dehydrogenase
+GTP-CYCLOHYDRO-I-RXN	GTP cyclohydrolase I
+DIHYDROFOLATESYNTH-RXN	Dihydrofolate synthase
+R00946	Methionine synthase
+SAICARSYN-RXN	Phosphoribosylaminoimidazolesuccinocarboxamide synthase
+RXN0-5289	Tartronate semialdehyde reductase
+PPK2	Polyphosphate kinase
+PPK	Polyphosphate kinase
+R07168	5,10-methylenetetrahydrofolate reductase (NADH)
+L-ASPARTATE-OXID-RXN	L-aspartate oxidase
+ASPO3	L-aspartate oxidase
+ASPO4	L-aspartate oxidase
+RXN-9772	L-aspartate oxidase
+H2PTEROATESYNTH-RXN	Dihydropteroate synthase
+R01220	Methylenetetrahydrofolate dehydrogenase (NADP)
+R01655	Methenyltetrahydrofolate cyclohydrolase
+QUINOLINATE-SYNTHA-RXN	Quinolinate synthase
+L_LACD2	L-Lactate dehydrogenase (ubiquinone)
+L_LACD3	L-Lactate dehydrogenase (menaquinone)
+GLCTR1	Glucosyltransferase I (LPS core synthesis)
+3HPADHi	3-Hydroxypropanal Dehydrogenase
+R07418	Gamma-glutamyl-gamma aminobutyric acid dehydrogenase
+RXN0-3942	Gamma-glutamyl-gamma-aminobutyric acid hydrolase
+R05724	Nitric oxide dioxygenase
+R05725	Nitric oxide dioxygenase
+AGM4PA	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide amidase
+AGM3PA	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide amidase
+AM4PA	Anhydrous-N-Acetylmuramyl-tetrapeptide amidase
+AM3PA	Anhydrous-N-Acetylmuramyl-tripeptide amidase
+RXN-6622	Alanyl aminopeptidase (cys-gly)
+AMPTASEPG	Aminopeptidase (pro-gly)
+RXN0-6981	L-alanyl-gamma-L-glutamate peptidase
+GRXR	Glutaredoxin reductase
+RNDR1b	Ribonucleoside-diphosphate reductase (ADP) (glutaredoxin)
+RNDR3b	Ribonucleoside-diphosphate reductase (CDP) (glutaredoxin)
+RNDR2b	Ribonucleoside-diphosphate reductase (GDP) (glutaredoxin)
+RNDR4b	Ribonucleoside-diphosphate reductase (UDP) (glutaredoxin)
+BTUR2-RXN	Cobinamide adenyltransferase
+COBALADENOSYLTRANS-RXN	Cob(I)alamin adenosyltransferase
+FACOAE60	Fatty-acid-CoA thioesterase (hexanoate)
+FACOAE120	Fatty-acid-CoA thioesterase (dodecanoate)
+FACOAE141	Fatty-acid-CoA thioesterase (tetradecenoate)
+FACOAE161	Fatty-acid-CoA thioesterase (hexadecenoate)
+FACOAE181	Fatty-acid-CoA thioesterase (octadecenoate)
+PALMITOYL-COA-HYDROLASE-RXN	Fatty-acid-CoA thioesterase (hexadecanoate)
+RXN-9624	Fatty-acid-CoA thioesterase (octadecanoate)
+FACOAE140	Fatty-acid-CoA thioesterase (tetradecanoate)
+FACOAE100	Fatty-acid-CoA thioesterase (decanoate)
+FACOAE80	Fatty-acid-CoA thioesterase (octanoate)
+RXN0-6427	Guanosine 3'-diphosphate 5'-triphosphate 3'-diphosphatase
+PPGPPSYN-RXN	Guanosine-3',5'-bis(diphosphate) 3'-diphosphatase
+GGPTRCS	Gamma glutamyl putrescine synthase
+RXN0-1602	Nucleoside triphosphate pyrophosphorylase (ditp)
+RXN0-6382	Nucleoside triphosphate pyrophosphorylase (itp)
+RXN0-1603	Nucleoside triphosphate pyrophosphorylase (xtp)
+O16AT	Rhamanosyl-N-acetylglucosamyl-undecaprenyl diphosphate O-acetyltransferase (LPS O16 antigen biosynthesis)
+RXN0-276	Formaldehyde dehydrogenase
+LCARSyi	Lacaldehyde reductase (S-propane-1,2-diol forming)
+RXN-15743	Propane-1,2-diol:NADP+ 1-oxidoreductase
+HISTAMINOTRANS-RXN	Histidinol-phosphate transaminase
+GLUCONOKIN-RXN	Gluconokinase
+OHMETHYLBILANESYN-RXN	Hydroxymethylbilane synthase
+2.7.7.60-RXN	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+GLUTDEHYD-RXN	Glutamate dehydrogenase (NADP)
+GLUTAMATESYN-RXN	Glutamate synthase (NADPH)
+DAAD	D-Amino acid dehydrogenase
+GLYOXII-RXN	Hydroxyacylglutathione hydrolase
+RXN-7682	Hypoxanthine dehydrogenase
+RXN0-901	Xanthine dehydrogenase
+DMBPPRIBOSYLTRANS-RXN	Nicotinate-nucleotide dimethylbenzimidazole phosphoribosyltransferase
+ERYTH4PDEHYDROG-RXN	Erythrose 4-phosphate dehydrogenase
+GLUTAMIDOTRANS-RXN	Imidazole-glycerol-3-phosphate synthase
+DUTP-PYROP-RXN	DUTP diphosphatase
+THREDEHYD-RXN	L-threonine deaminase
+2.7.9.3-RXN	Selenophosphate synthase
+ANHMK	1,6-anhydrous-N-Acetylmuramate kinase
+R00939	Dihydrofolate reductase
+SHIKIMATE-KINASE-RXN	Shikimate kinase
+SUCCARGDIHYDRO-RXN	Succinylarginine dihydrolase
+DAPASYN-RXN	Adenosylmethionine-8-amino-7-oxononanoate transaminase
+N-ACETYLTRANSFER-RXN	N-acetylglutamate synthase
+RXN0-5038	3',5'-cyclic-nucleotide phosphodiesterase
+CDGUNPD	3,5-cyclic-nucleotide phosphodiesterase
+35-CYCLIC-GMP-PHOSPHODIESTERASE-RXN	3',5'-cyclic-nucleotide phosphodiesterase
+DALADALALIG-RXN	D-alanine-D-alanine ligase (reversible)
+SUCCCOASYN-RXN	Succinyl-CoA synthetase (ADP-forming)
+PANTOATE-BETA-ALANINE-LIG-RXN	Pantothenate synthase
+3-DEHYDROQUINATE-SYNTHASE-RXN	3-dehydroquinate synthase
+3PGAREARR-RXN	Phosphoglycerate mutase
+TRIOSEPISOMERIZATION-RXN	Triose-phosphate isomerase
+RPI	Ribose-5-phosphate isomerase
+ERYTHRON4PDEHYDROG-RXN	Erythronate 4-phosphate (4per) dehydrogenase
+AGM3PH	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase
+AGMH	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl beta -1,4-N-acetylglucosaminidase
+AGM4PH	N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide beta -1,4-N-acetylglucosaminidase
+DSERDHr	D-serine dehydrogenase
+RXN-16000	L-allo-threonine dehydrogenase
+RXN0-2201	L-serine dehydrogenase
+RXN-8974	Malonic semialdehyde reductase
+GLUTAMINESYN-RXN	Glutamine synthetase
+GLUTATHIONE-SYN-RXN	Glutathione synthetase
+RXN0-1863	UDP-4''-ketopentose:UDP-4-amino-4-deoxy-L-arabinose aminotransferase
+RXN0-4281	Aldose reductase (methylglyoxal)
+RXN0-5061	Heptosyltransferase II (LPS core synthesis)
+HEPT3	Heptosyltransferase III (LPS core synthesis)
+S2FE2SR	SUF [2Fe-2S] regeneration
+S2FE2SS2	SUF [2Fe-2S] Synthesis II
+S2FE2SS	SUF [2Fe-2S] Synthesis
+R00863	L-cysteine sulfinic acid desulfurase
+SCYSDS	SUF Cysteine desulfuration
+HEMN-RXN	Oxygen Independent coproporphyrinogen-III oxidase
+PRAIS	Phosphoribosylaminoimidazole synthase
+DIHYDROURACIL-DEHYDROGENASE-NAD+-RXN	Dihydrouracil dehydrogenase (NAD)
+GALACTONDEHYDRAT-RXN	Galactonate dehydratase
+DLACTDEHYDROGNAD-RXN	D-lactate dehydrogenase
+3HAD121	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1)
+4.2.1.59-RXN	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0)
+R04544	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0)
+3HAD40	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0)
+3HAD161	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1)
+R07764	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)
+R04965	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0)
+R04954	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0)
+T2DECAI	Trans-2-decenoyl-ACP isomerase
+3HAD141	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1)
+R04535	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0)
+RXN-9537	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0)
+3HAD181	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1)
+EAR60x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C6:0)
+EAR160y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0)
+R10118	Enoylglutaryl-[ACP] methyl ester reductase
+EAR161x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:1)
+EAR121x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:1)
+EAR120x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:0)
+EAR60y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C6:0)
+EAR180x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:0)
+EAR141x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:1)
+EAR80y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0)
+EAR80x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C8:0)
+EAR121y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:1)
+EAR181y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:1)
+EAR40y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0)
+EAR140y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:0)
+EAR40x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C4:0)
+EAR141y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1)
+EAR100x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C10:0)
+EAR140x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:0)
+EAR180y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:0)
+EAR161y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:1)
+EAR181x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:1)
+EAR100y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C10:0)
+EAR160x	Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:0)
+EAR120y	Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:0)
+R10122	Enoylpimeloyl-[ACP] methyl ester reductase
+DASYN141	CDP-diacylglycerol synthetase (n-C14:1)
+DASYN181	CDP-diacylglycerol synthetase (n-C18:1)
+DASYN120	CDP-diacylglycerol synthetase (n-C12:0)
+DASYN140	CDP-diacylglycerol synthetase (n-C14:0)
+DASYN160	CDP-diacylglycerol synthetase (n-C16:0)
+DASYN161	CDP-diacylglycerol synthetase (n-C16:1)
+DASYN180	CDP-diacylglycerol synthetase (n-C18:0)
+PGSA141	Phosphatidylglycerol synthase (n-C14:1)
+PGSA160	Phosphatidylglycerol synthase (n-C16:0)
+PGSA161	Phosphatidylglycerol synthase (n-C16:1)
+PGSA120	Phosphatidylglycerol synthase (n-C12:0)
+PGSA140	Phosphatidylglycerol synthase (n-C14:0)
+PGSA181	Phosphatidylglycerol synthase (n-C18:1)
+PGSA180	Phosphatidylglycerol synthase (n-C18:0)
+OGMEACPR	3-Oxo-glutaryl-[ACP] methyl ester reductase
+R04953	3-oxoacyl-[acyl-carrier-protein] reductase (n-C6:0)
+3OAR141	3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1)
+3OAR40	3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0)
+R04543	3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:0)
+3OAR161	3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1)
+RXN-9524	3-oxoacyl-[acyl-carrier-protein] reductase (n-C8:0)
+3OAR121	3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1)
+3OAR180	3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0)
+RXN-9536	3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:0)
+R04964	3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:0)
+OPMEACPR	3-Oxo-pimeloyl-[ACP] methyl ester reductase
+RXN-9528	3-oxoacyl-[acyl-carrier-protein] reductase (n-C10:0)
+3OAR181	3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1)
+CFAS180E	Cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C18:0)
+CFAS160E	Cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C16:0)
+CFAS160G	Cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C16:0)
+CFAS180G	Cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C18:0)
+PGPP180	Phosphatidylglycerol phosphate phosphatase (n-C18:0)
+PGPP140	Phosphatidylglycerol phosphate phosphatase (n-C14:0)
+PGPP161	Phosphatidylglycerol phosphate phosphatase (n-C16:1)
+PGPP181	Phosphatidylglycerol phosphate phosphatase (n-C18:1)
+PGPP120	Phosphatidylglycerol phosphate phosphatase (n-C14:0)
+PGPP141	Phosphatidylglycerol phosphate phosphatase (n-C14:1)
+PGPP160	Phosphatidylglycerol phosphate phosphatase (n-C16:0)
+RXN0-305	Hydroxypyruvate isomerase
+GGPTRCO	Gamma glutamyl putrescine oxidase
+ADOMET-DMK-METHYLTRANSFER-RXN	S-adenosylmethione:2-demthylmenaquinole methyltransferase (menaquinone 8)
+OMBZLM	2-Octaprenyl-6-methoxy-benzoquinol methylase
+S-FORMYLGLUTATHIONE-HYDROLASE-RXN	S-Formylglutathione hydralase
+DMK-RXN	1,4-dihydroxy-2-naphthoate octaprenyltransferase
+AMPMS2	4-amino-2-methyl-5-phosphomethylpyrimidine synthetase
+GLUTATHIONE-PEROXIDASE-RXN	Glutathione peridoxase
+RXN-11481	3-Oxo-pimeloyl-[ACP] methyl ester dehydratase
+RXN-11477	3-Oxo-glutaryl-[ACP] methyl ester dehydratase
+AGPAT140	1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:0)
+AGPAT120	1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C12:0)
+AGPAT180	1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0)
+AGPAT141	1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:1)
+AGPAT181	1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1)
+AGPAT161	1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1)
+AGPAT160	1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0)
+DAGK160	Diacylglycerol kinase (n-C16:0)
+DAGK161	Diacylglycerol kinase (n-C16:1)
+DAGK141	Diacylglycerol kinase (n-C14:1)
+DAGK140	Diacylglycerol kinase (n-C14:0)
+DAGK180	Diacylglycerol kinase (n-C18:0)
+DAGK120	Diacylglycerol kinase (n-C12:0)
+DAGK181	Diacylglycerol kinase (n-C18:1)
+PSD180	Phosphatidylserine decarboxylase (n-C18:0)
+PSD181	Phosphatidylserine decarboxylase (n-C18:1)
+PSD160	Phosphatidylserine decarboxylase (n-C16:0)
+PSD141	Phosphatidylserine decarboxylase (n-C14:1)
+PSD120	Phosphatidylserine decarboxylase (n-C12:0)
+PSD140	Phosphatidylserine decarboxylase (n-C14:0)
+PSD161	Phosphatidylserine decarboxylase (n-C16:1)
+SUCDi	Succinate dehydrogenase (irreversible)
+R01900	Aconitase (half-reaction B, Isocitrate hydro-lyase)
+ACONITATEDEHYDR-RXN	Aconitase (half-reaction A, Citrate hydro-lyase)
+4.2.1.99-RXN	2-methylisocitrate dehydratase
+NADH-PEROXIDASE-RXN	NADH peroxidase
+R03990	Acyl-CoA dehydrogenase (tetradecanoyl-CoA)
+ACOAD8f	Acyl-CoA dehydrogenase (octadecanoyl-CoA)
+ACOAD4f	Acyl-CoA dehydrogenase (decanoyl-CoA)
+R03777	Acyl-CoA dehydrogenase (octanoyl-CoA)
+R01279	Acyl-CoA dehydrogenase (hexadecanoyl-CoA)
+R03857	Acyl-CoA dehydrogenase (dodecanoyl-CoA)
+R01175	Acyl-CoA dehydrogenase (butanoyl-CoA)
+ACOAD2f	Acyl-CoA dehydrogenase (hexanoyl-CoA)
+FA100ACPHi	Fatty-acyl-ACP hydrolase
+FA120ACPHi	Fatty-acyl-ACP hydrolase
+FA140ACPHi	Fatty-acyl-ACP hydrolase
+FA160ACPHi	Fatty-acyl-ACP hydrolase
+FA161ACPHi	Fatty-acyl-ACP hydrolase
+FA141ACPHi	Fatty-acyl-ACP hydrolase
+FA80ACPHi	Fatty-acyl-ACP hydrolase
+UM4PL	UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate-D-alanine ligase
+UM3PL	UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase
+RXN0-5229	L-galactonate oxidoreductase
+MALCOAMT	Malonyl-CoA methyltransferase
+DGUNC	Diguanylate cyclase
+LDGUNPD	Linear diguanylate phosphodiesterase
+RXN-8344	Molybdopterin adenylyltransferase
+ICYSDS	ISC Cysteine desulfuration
+MOADSUx	MoaD sulfuration (nadh, assumed)
+OXDHCOAT	3-oxo-5,6-dehydrosuberyl-CoA thiolase
+REPHACCOAI	Ring 1,2-epoxyphenylacetyl-CoA isomerase (oxepin-CoA forming)
+APG3PAT160	Acyl-phosphate:glycerol-3-phosphate acyltransferase (C16:0)
+APG3PAT181	Acyl-phosphate:glycerol-3-phosphate acyltransferase (C18:1)
+APG3PAT140	Acyl-phosphate:glycerol-3-phosphate acyltransferase (C14:0)
+APG3PAT180	Acyl-phosphate:glycerol-3-phosphate acyltransferase (C18:0)
+APG3PAT120	Acyl-phosphate:glycerol-3-phosphate acyltransferase (C12:0)
+APG3PAT161	Acyl-phosphate:glycerol-3-phosphate acyltransferase (C16:1)
+APG3PAT141	Acyl-phosphate:glycerol-3-phosphate acyltransferase (C14:1)
+S4FE4SR	SUF [4Fe-4S] Reduction
+S4FE4ST	SUF [4Fe-4S] Transfer
+S2FE2ST	SUF [2Fe-2S] Transfer
+BWCOS	Tungsten bispterin cofactor synthase
+WCOS	Tungsten pterin cofactor synthase
+BMOCOS	Bis-molybdenum cofactor synthase
+MOCOS	Molybdenum cofactor synthase
+BMOGDS2	Bis-molybdopterin guanine dinucleotide synthase
+BMOGDS1	Bis-molybdopterin guanine dinucleotide synthase (single GDP)
+BWCOGDS1	Tungsten bispterin guanine dinucleotide synthase (single GDP)
+MOGDS	Molybdopterin guanine dinucleotide synthase
+BWCOGDS2	Tungsten bispterin guanine dinucleotide synthase
+DHNPTE	Dihydroneopterin epimerase
+H2NEOPTERINALDOL-RXN	Dihydroneopterin aldolase reversible
+BTS5	Biotin synthase
+RXN-12093	7-cyano-7-carbaguanine synthase
+RXN0-4022	7-cyano-7-deazaguanine reductase
+RXN0-6460	Peroxyureidoacrylate hydrolase
+POAACR	Peroxyaminoacrylate reductase
+APH180	Acylphosphatase (C18:0)
+APH181	Acylphosphatase (C18:1)
+APH120	Acylphosphatase (C12:0)
+APH140	Acylphosphatase (C14:0)
+APH141	Acylphosphatase (C14:1)
+APH161	Acylphosphatase (C16:1)
+APH160	Acylphosphatase (C16:0)
+RXN-11319	Tyrosine lyase
+PACCOAE	Ring 1,2-phenylacetyl-CoA epoxidase (NADPH)
+RXN-3641	3-oxoadipyl-CoA thiolase
+RXN0-2044	3-hydroxyadipyl-CoA dehydrogenase (NAD+)
+MPTS	Molybdopterin synthase
+RXN-11484	8-amino-7-oxononanoate synthase
+RXN-11483	Pimeloyl-[ACP] methyl ester esterase
+RXN0-6511	Oxepin-CoA hydrolase/ 3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase (NADP+)
+DHACOAH	2,3-dehydroadipyl-CoA hydratase
+MPTSS	Molybdopterin synthase sulfurylase
+CPMPS	Cyclic pyranopterin monophosphate synthase
+LIPOCT	Lipoyl(octanoyl) transferase
+LIPOS	Lipoate synthase
+RXN0-5208	Ap4A synthetase
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN	Gamma-hydroxybutyrate dehydrogenase (NADH)
+3SLAR	3-sulfolactaldehyde reductase
+SHGO	S-2-hydroxyglutarate oxidase
+NADPHXD	NADPHX dehydratase
+NADHXD	NADHX dehydratase
+NADPHXE	NADPHX epimerase
+NADHXE	NADHX epimerase
+FE3DCITR5	Ferric-dicitrate reductase via nadph
+FEENTERR4	Fe-enterobactin reduction via nadph
+FE3DHBZS3R	Fe(III)-(2,3-dihydroxybenzoylserine)3 reductase via NADPH
+ALLTAMH2	Allantoate amidinohydrolase
+UGCIAMH	Ureidoglycine aminohydrolase
+ACOAD1fr	Acyl-CoA dehydrogenase (butanoyl-CoA)
+ALR2x	Aldose reductase (methylglyoxal) (nadh)
+OMPHHXy	2-octaprenyl-6-methoxyphenol hydroxylase (NADPH)
+ACOXT	Acetyl-CoA:oxalate CoA-transferase
+2HESR	2-hydroxyethyldisulfide reductase
+CHOLID	7-?-hydroxysteroid dehydrogenase
+4ABZGLUH	P-aminobenzoyl-glutamate hydrolase
+PHDA	Phenylhydantoinase
+PACOAT	Phenylacetyl-CoA thioesterase
+HPACOAT	Hydroxyphenylacetyl-CoA thioesterase
+DHCURR	NADPH-dependent dihydrocurcumin reductase
+CURR	NADPH-dependent curcumin reductase
+METNA	L-amino acid N-acyltransferase
+HPYRP	3-phosphohydroxypyruvate phosphatase
+PNSPA	Purine Nucleoside Phorphoramidase
+UDPGPT	Undecaprenyl-phosphate glucose phosphotransferase
+OMMBLHXy	2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase (NADPHl)
+OPHHXy	2-Octaprenylphenol hydroxylase (NADPH)
+2HPTCOAT	2-hydroxycyclohepta-1,4,6-triene-1-carboxyl-CoA thioesterase
+CXSAMS	Carboxy-S-adenosyl-L-methionine synthase
+SQGH	Sulfoquinovosidase
+2-HALOACID-DEHALOGENASE-RXN	haloacid dehalogenase;S-2-haloacid dehalogenase
+3.5.99.5-RXN	2-aminomuconate deaminase
+RXN-12463	23S rRNA (cytidine1920-2'-O)-methyltransferase
+RXN-18709	TusA:TusD sulfurtransferase
+1TRANSKETO-RXN	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase;transketolase
+GLYCPDIESTER-RXN	glycerophosphodiester phosphodiesterase;phosphatidylglycerol phospholipase C;glycerophosphoryl diester phosphodiesterase;glycerophosphodiesterase
+RXN-17783	acyl-CoA dehydrogenase
+MANNPISOM-RXN	phosphomannose isomerase;mannose-6-phosphate isomerase
+RXN0-1342	tRNA preQ134 S-adenosylmethionine ribosyltransferase-isomerase;S-adenosylmethionine--tRNA ribosyltransferase-isomerase
+PYRUVATE-CARBOXYLASE-RXN	pyruvate carboxylase
+RXN0-2161	L-serine:tRNASec ligase (AMP-forming);seryl-tRNAsec synthetase
+RXN0-7272	phosphatidylglycerol synthase
+TRNA-GUANINE-N7--METHYLTRANSFERASE-RXN	tRNA m7G46 methyltransferase
+RXN-2462	2-pyrone-4,6-dicarboxylate hydrolase
+RXN0-7167	tRNA cmo5U34 methyltransferase
+GLUTAMINE--TRNA-LIGASE-RXN	glutaminyl-tRNA synthetase;glutaminemdashtRNA ligase
+RXN-17775	acyl-CoA dehydrogenase
+RXN-6261	adenosylcobinamide-phosphate synthase
+RXN-15782	malonyl-[PigH]--pyrrolyl-2-carboxyl-2-carboxyl-S-[PigJ acyl-carrier protein] malonyltransferase (decarboxylating)
+RXN0-7090	protein-arginine oxygenase
+RXN-16242	CAI-1 synthase
+RXN0-7230	choline dehydrogenase
+ALANINE--TRNA-LIGASE-RXN	alaninemdashtRNA ligase
+RXN0-7119	isobutyraldehyde reductase
+GLUCOSAMINE-KINASE-RXN	glucosamine kinase
+CYSTATHIONINE-BETA-LYASE-RXN	cystathionine beta-lyase;L-cystathionine beta-lyase
+RXN-11838	23S rRNA pseudouridine955/2504/2580 synthase
+PROLINE-RACEMASE-RXN	proline racemase
+RXN-15744	(S)-lactaldehyde reductase
+RXN-13826	precorrin-7 (C5) methyltransferase
+RXN-18586	S-sulfo-L-cysteine reductase
+RXN0-6952	phospholipase A1
+RXN0-7008	proline dehydrogenase
+PNP-RXN	purine nucleoside phosphorylase;purine-nucleoside:phosphate ribosyltransferase
+1.2.1.54-RXN	4-guanidinobutyraldehyde dehydrogenase
+RXN-14255	(R)-3-hydroxybutanoyl-CoA thioesterase
+RXN-16649	D-alanyl-D-alanine carboxypeptidase;peptidoglycan DD-carboxypeptidase;DD carboxypeptidase
+ACETYLPUTRESCINE-DEACETYLASE-RXN	acetylpolyamine amidohydrolase
+SULFOCYS-RXN	S-sulfo-L-cysteine synthase;S-sulfocysteine synthase
+PHOSPHATE-BUTYRYLTRANSFERASE-RXN	phosphotransbutyrylase
+RXN-9307	4,4'-diaponeurosporenal dehydrogenase
+RXN-8340	GTP 3',8'-cyclase
+RXN-14197	5-methylcytosine deaminase
+RXN-14667	dTDP-4-dehydro-beta-L-rhamnose C5-methyltransferase
+CARDIOLIPSYN-RXN	cardiolipin synthase
+RXN0-5418	tRNAMet cytidine acetyltransferase
+CDPDIGLYSYN-RXN	phosphatidate cytidylyltransferase;CTP:phosphatidate cytidyltransferase;CDP-diacylglycerol synthase
+KYNURENINASE-RXN	kynurenine hydrolase;kynureninase
+5.4.1.2-RXN	precorrin-8x methylmutase
+RXN0-5515	CTP:2,3,4-saturated L-phosphatidate cytidylyltransferase
+RXN-7644	D-sorbitol dehydrogenase;L-sorbitol dehydrogenase
+5.1.1.18-RXN	serine racemase
+RIB5PISOM-RXN	ribose-5-phosphate isomerase A;ribose 5-phosphate isomerase
+RXN-11213	methylmalonate-semialdehyde dehydrogenase
+ENZRXN-201-RXN	butanal reductase;butanol dehydrogenase;butanal reducatase
+3-HYDROXYISOBUTYRATE-DEHYDROGENASE-RXN	3-hydroxyisobutyrate dehydrogenase
+NUCLEOSIDE-DIP-KIN-RXN	nucleoside diphosphate kinase;ribonucleoside-diphosphate kinase
+RXN-13089	3-succinoylsemialdehyde-pyridine dehydrogenase
+3-NUCLEOTID-RXN	3'-nucleotidase;nucleoside 3'-monophosphate phosphatase
+RXN0-5144	5-methylaminomethyl-2-thiouridine-forming methyltransferase
+4.3.1.21-RXN	glucosaminate ammonia-lyase
+RXN0-5223	lipid kinase
+5-METHYLTHIORIBOSE-KINASE-RXN	MTR kinase;5'-methylthioribose kinase
+BETA-LACTAMASE-RXN	carbapenemase;beta-lactamase;penicillinase;PSE-4 beta-lactamase
+RXN-16493	2-(4-hydroxybenzyl)-malate synthase
+RXN-11601	23S rRNA m5U1939 methyltransferase
+RXN-8673	sarcosine oxidase
+RXN-12558	crotonyl-CoA reductase
+ARYLFORMAMIDASE-RXN	kynurenine formamidase;arylformamidase
+RXN-16009	3',5'-nucleoside bisphosphate phosphatase
+HISTIDINE-AMMONIA-LYASE-RXN	histidase
+RXN0-4181	cyclic di-GMP phosphodiesterase;c-di-GMP phosphodiesterase
+RXNQT-4165	methylthioalkylmalate dehydrogenase
+2.1.1.130-RXN	precorrin-2 (C20)-methyltransferase
+RXN-11574	23S rRNA m2G2445 methyltransferase
+RXN-17899	leucylD,E-transferase
+R146-RXN	acireductone dioxygenase [nickel(II)-requiring];1,2-dihydroxy-5-(methylthio)pent-1-en-3-one:oxygen oxidoreductase (formate- and CO-forming)
+RXN0-3901	glutamate-putrescine ligase
+DIACYLGLYKIN-RXN	diacylglycerol kinase
+GSDEADENYLATION-RXN	glutamine synthetase deadenylase
+RXN-17848	phenylalanyl-tRNAmdashprotein transferase
+VALINE--TRNA-LIGASE-RXN	valinemdashtRNA ligase
+2.7.7.13-RXN	GDP-D-mannose pyrophosphorylase;mannose-1-phosphate-guanyltransferase;mannose-1-phosphate guanylyltransferase
+R101-RXN	diaminobutyrate aminotransferase;diaminobutyratemdash2-oxoglutarate transaminase;L-2,4-diaminobutyrate:2-ketoglutarate 4-aminotransferase;diaminobutyrate--2-oxoglutarate transaminase;diaminobutyrate-2-oxoglutarate transaminase;L-2,4-diaminobutyrate aminotransferase
+RXN-15878	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase
+2-AMINOADIPATE-AMINOTRANSFERASE-RXN	alpha-aminoadipate aminotransferase;2-aminoadipatee:2-oxoglutarate aminotransferase;2-aminoadipate-2-oxoglutarate aminotransferase;L-2-aminoadipate aminotransferase
+UDP-NACMURALGLDAPLIG-RXN	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase;UDP-N-acetylmuramoyl-L-alanyl-D-glutamatemdash2,6-diaminopimelate ligase
+RXN-9031	trans-2,3-dihydro-3-hydroxy-anthranilate isomerase
+3.4.11.2-RXN	alanyl aminopeptidase
+RXN-19193	butanoate-CoA ligase
+D-XYLULOSE-REDUCTASE-RXN	NAD-dependent xylitol dehydrogenase;NAD-xylitol dehydrogenase;NAD+-dependent xylitol dehydrogenase
+RXN-16881	(E)-11-methyl-12-octadec-12-enoate hydroxylase/cyclase
+RXN-17796	acyl-CoA dehydrogenase
+RXN0-262	molybdenum cofactor guanylyltransferase
+RXN-11014	pre-bisucaberin synthetase
+RXN-17809	cyclic pyranopterin monophosphate synthase
+METHIONINE-RACEMASE-RXN	methionine racemase
+RXN0-7349	tRNA U34 hydroxylase
+RXN-16807	caffealdehyde 4,5-ring cleavage dioxygenase
+1.8.98.1-RXN	CoB-CoM heterodisulfide reductase
+RXN-14382	cysteine :[Thil sulfur-protein cysteine] sulfurtransferase
+RXN-17788	acyl-CoA dehydrogenase
+RXN-6383	3-hydroxypropionyl-CoA dehydratase;D-specific acryloyl-CoA hydratase
+3.5.2.17-RXN	hydroxyisourate hydrolase;5-hydroxyisourate hydrolase
+3.5.1.80-RXN	N-acetylgalactosamine-6-phosphate deacetylase;N-acetylglucosamine-6-phosphate deacetylase
+RXN0-7104	phenylacetyl-CoA thioesterase
+1.3.1.2-RXN	dihydrouracil dehydrogenase;dihydropyrimidine dehydrogenase;dihydropyrimidine dehydrogenase (NADP+)
+RXN-11835	23S rRNA pseudouridine2604 synthase
+RXN-11867	tRNA Um32 methyltransferase
+RXN-9384	O-succinyl-L-homoserine sulfhydrylase
+THIOESTER-RXN	Acyl-coenzyme A thioesterase 8;Acyl-coenzyme A thioesterase 9, mitochondrial;acyl-CoA thioesterase;Cytosolic acyl coenzyme A thioester hydrolase
+PHOSPHONOACETALDEHYDE-HYDROLASE-RXN	phosphonoacetaldehyde hydrolase
+LUMAZINESYN-RXN	6,7-dimethyl-8-ribityllumazine synthase
+GAPOXNPHOSPHN-RXN	glyceraldehyde-3-phosphate dehydrogenase;NAD-dependent glyceraldehyde-3-phosphate dehydrogenase;glyceraldehyde 3-phosphate dehydrogenase;NAD+-dependent glyceraldehyde-3-phosphate dehydrogenase
+LEUCINE--TRNA-LIGASE-RXN	leucinemdashtRNA ligase
+RXN0-6677	NADPH-dependent dihydrocurcumin reductase
+RXN0-6727	(S)-NADHX dehydratase
+L-LACTDEHYDROGFMN-RXN	L-lactate dehydrogenase
+RXN-1224	UDP-sulfoquinovose:DAG sulfoquinovosyltransferase;sulfoquinovosyldiacylglycerol synthase
+PHOSPHAGLYPSYN-RXN	phosphatidylglycerolphosphate synthase;CDP-diacylglycerol glycerol-3-phosphate 3-phosphatidyltransferase;CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase;CDP-diacylglycerolmdashglycerol-3-phosphate 3-phosphatidyltransferase
+RXN0-6562	3-phosphohydroxypyruvate phosphatase
+RXN-15089	1-oleoylglycerol lipase
+RXN-20896	asparagine racemase
+7KAPSYN-RXN	8-amino-7-oxononanoate synthase
+RXN0-6515	16S rRNA m2G966 methyltransferase
+CDP-GLUCOSE-46-DEHYDRATASE-RXN	CDP-D-glucose-4,6-dehydratase
+RXN-14142	dGMP 5'-phosphate phosphohydrolase;dGMP phosphatase
+5.3.3.14-RXN	trans-2-decenoyl-[acyl-carrier protein] isomerase;trans-2-decenoyl-ACP isomerase;trans-2-decenoyl-[acyl-carrier-protein] isomerase;(2E)-dec-2-enoyl-[acp] isomerase
+RXN0-5390	Cytosolic acyl coenzyme A thioester hydrolase;acyl-CoA thioesterase
+RXN-14129	5-fluorocytosine deaminase
+RXN-12614	glycine oxidase
+ISOCITRATE-DEHYDROGENASE-NAD+-RXN	NAD+-dependent isocitrate dehydrogenase
+RXN0-5195	alanyl aminopeptidase
+RXN-19306	icotinate-nucleotide--benzimidazole phosphoribosyltransferase
+RXN-14090	3'CMP phosphatase;cytidine 3'-phosphate phosphohydrolase;cytidine 3' nucleotidase
+2.8.3.7-RXN	succinatemdashcitramalate CoA-transferase
+ASPARTATE--TRNA-LIGASE-RXN	aspartyl-tRNAAsp synthetase;aspartatemdashtRNA ligase;aspartyl-tRNA synthetase
+RXN-11598	16S rRNA m3U1498 methyltransferase
+HOMOGENTISATE-12-DIOXYGENASE-RXN	homogentisate oxygenase;homogentisate 1,2-dioxygenase;homogentisate dioxygenase
+RXN-17006	lyngbyatoxin A monooxygenase
+RXN-19256	D-alanyl-D-alanine carboxypeptidase
+RXNQT-4345	2-oxo-6-methylthiohexanoate aminotransferase
+R223-RXN	acyl-CoA synthetase;short chain fatty acid CoA ligase;octanoyl-CoA synthetase
+RXN-8163	D-lysine oxidase
+RXN-11589	23S rRNA 2'-O-ribose C2498 methyltransferase
+HISTPRATPHYD-RXN	phosphoribosyl-ATP pyrophosphatase;phosphoribosyl-ATP pyrophosphohydrolase
+2.7.8.24-RXN	phosphatidylcholine synthase
+NACGLCTRANS-RXN	N-acetylglucosaminyl transferase
+2-OCTAPRENYLPHENOL-HYDROX-RXN	2-octaprenylphenol 6-hydroxylase
+UROCANATE-HYDRATASE-RXN	urocanase
+AMP-NUCLEOSID-RXN	AMP nucleosidase
+3.2.2.23-RXN	DNA-formamidopyrimidine glycosylase
+AMINO-CARBOXYMUCONATE-SEMIALDEHYDE-RXN	2-amino-3-carboxymuconate 6-semialdehyde decarboxylase;2-amino 3-carboxymuconate 6-semialdehyde decarboxylase;aminocarboxymuconate-semialdehyde decarboxylase;2-amino-3-carboxymuconate-6-semialdehyde decarboxylase
+RXN0-3241	isoaspartyl dipeptide hydrolase;isoaspartyl dipeptidase
+UREASE-RXN	urease
+RXN0-2281	tRNA 2-selenouridine synthase
+RXN0-884	dimethylallyl-diphosphate:NAD(P)+ oxidoreductase
+RXN-11475	malonyl-CoA methyltransferase
+RXN-17392	peptidoglycan lytic endotransglycosylase
+METHYLGLUTACONYL-COA-HYDRATASE-RXN	methylglutaconyl-CoA hydratase, mitochondrial;3-methylglutaconyl-CoA hydratase
+METHIONINE--TRNA-LIGASE-RXN	methioninemdashtRNA ligase
+RXN0-2023	tRNA-specific 2-thiouridylase
+RXN-8964	succinyl CoA:L-malate CoA transferase
+RXN-18660	N-acetyl-D-muramate 1-kinase
+ALANINE-DEHYDROGENASE-RXN	alanine dehydrogenase;L-alanine dehydrogenase
+RXN-16813	caffealdehyde 2,3-ring cleavage dioxygenase
+TRNA-PSEUDOURIDINE-SYNTHASE-I-RXN	tRNA pseudouridine38-40 synthase
+RXN0-7173	glyoxalase III
+RXN-13329	2-iminoacetate deaminase
+AIRS-RXN	phosphoribosylaminoimidazole synthetase;phosphoribosylformylglycinamidine cyclo-ligase;phosphoribosylformylglycinamide cyclo-ligase
+RXN-11840	tRNA pseudouridine65 synthase
+RXN-12299	trans-2-hexenal reductase;trans-hexenal reductase;trans-2-hexenal reducatase
+RXN-17701	sulfoquinovosidase
+RXN-21018	methylarsenite oxide oxygenase
+RXN0-6998	23S rRNA m6A2030 methyltransferase
+RXN-16660	L,D-transpeptidase;L,D transpeptidase
+1.2.1.32-RXN	2-aminomuconic 6-semialdehyde dehydrogenase;2-aminomuconate semialdehyde dehydrogenase;2-aminomucoate semialdehyde dehydrogenase;2-aminomuconate 6-semialdehyde dehydrogenase;2-aminomuconate-semialdehyde dehydrogenase
+LEUCYLTRANSFERASE-RXN	leucyl-tRNAmdashprotein transferase
+RXN-15127	2-iminopropanoate deaminase
+CHD-RXN	choline dehydrogenase;choline monooxygenase
+RXN0-6722	FMN dependent NADH:quinone reductase,
+SULFATE-ADENYLYLTRANS-RXN	sulfate adenylyltransferase;ATP sulfurylase
+L-IDITOL-2-DEHYDROGENASE-RXN	L-iditol dehydrogenase;L-iditol 2-dehydrogenase
+RXN-12752	NADHX epimerase
+ACETOACETYL-COA-HYDROLASE-RXN	acetoacetyl-CoA transferase
+SUPEROX-DISMUT-RXN	superoxide dismutase
+L-PIPECOLATE-OXIDASE-RXN	L-pipecolate oxidase
+RXN-12246	xylono-1,5-lactonase
+RXN0-6256	2-hydroxyethyldisulfide reductase
+PEPTIDYLPROLYL-ISOMERASE-RXN	peptidyl-prolyl cis-trans isomerase;Peptidyl-prolyl cis-trans isomerase B
+RXN0-6371	aldose sugar dehydrogenase
+KETOGLUTREDUCT-RXN	2-oxoglutarate reductase;2-oxoglutarate reductase ((R)-2-hydroxyglutarate-forming)
+R83-RXN	2-hydroxy-3-keto-5-methylthio-phosphopentene phosphatase;2-hydroxy-3-keto-5-methylthiopentenyl-1- phosphate phosphatase
+RXN-13141	(S)-NADPHX dehydratase
+5.3.1.23-RXN	methylthioribose-1-phosphate isomerase;5-methylthioribose-1-phosphate isomerase
+FESGSHTHIO-RXN	S-sulfanylglutathione dioxygenase
+RXN-14116	1-pyrroline-5-carboxylate dehydrogenase;L-glutamate gamma-semialdehyde dehydrogenase;Delta1-pyrroline-5-carboxylate dehydrogenase
+SERINE--TRNA-LIGASE-RXN	seryl-tRNAser synthetase;L-serine:tRNASer ligase (AMP-forming)
+2.3.1.157-RXN	glucosamine-1-phosphate N-acetyltransferase;glucosamine-1-phosphate acetyltransferase
+RXN-14149	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase
+RXN0-5225	1,6-anhydro-N-acetylmuramoyl-L-alanine amidase
+5-OXOPROLINASE-ATP-HYDROLYSING-RXN	5-oxoprolinase;5-oxo-L-prolinase
+RXN-7607	inosine-5'-phosphate phosphohydrolase;IMP 5'-nucleotidase;inosine-5'-phosphate nucleotidase;IMP phosphatase;inosine 5'-phosphate 5' nucleotidase
+RXN0-5375	FMN dependent NADH-azoreductase
+RXN0-5189	3 methyl-adenine DNA glycosylase
+ORNITHINE-GLU-AMINOTRANSFERASE-RXN	ornithine aminotransferase;ornithine delta-transaminase;ornithine delta-aminotransferase;ornithine-delta-aminotransferase
+RXN-11638	16S rRNA m4C1402 methyltransferase
+RXN-8675	uroporphyrinogen-III (C7)-methyltransferase;uroporphyrin-III (C7)-methyltransferase;S-adenosyl-L-methionine:precorrin-1 C-methyltransferase
+3-HYDROXYPROPIONATE-DEHYDROGENASE-RXN	3-hydroxypropionate dehydrogenase;3-hydroxypropanonate dehydrogenase
+RXN-4314	trans-zeatin riboside monophosphate phosphoribohydrolase
+OCTAPRENYL-METHYL-METHOXY-BENZOQ-OH-RXN	2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase;5-demethoxyubiquinol-8 5-hydroxylase
+RXN1F-20	magnesium chelatase
+RXN-19312	1-acyl-lysophospholipase;1-acyl lysophospholipase
+3-DEHYDROQUINATE-DEHYDRATASE-RXN	dehydroquinate dehydratase;3-dehydroquinate dehydratase
+RXN0-5065	hydroxyphenylacetyl-CoA thioesterase
+RXN-10699	3-oxoacyl CoA thiolase;3-ketoacyl-CoA thiolase, peroxisomal;OPC8-3-ketoacyl-CoA thiolase
+DNA-LIGASE-NAD+-RXN	DNA ligase
+RXN-18354	factor-independent urate hydroxylase
+RXN-17951	glyphosate oxidase
+R341-RXN	hydrogenobyrinate a,c-diamide synthase
+RXN-19253	D-alanyl-D-alanine carboxypeptidase
+ASPARTATEKIN-RXN	aspartokinase;aspartate kinase I;aspartate kinase II;aspartate kinase III
+2.1.1.132-RXN	precorrin-6B (C5,15) methyltransferase
+RXN-11576	16S rRNA m2G1207 methyltransferase
+RXN-18331	lipoamide reductase
+RXN-12560	(3R)-3-hydroxypentanoyl-CoA reductase;hydroxyvaleryl-CoA reductase
+RXN-16938	N-acetylmuramoyl-L-alanine amidase
+DIHYDROPYRIMIDINASE-RXN	dihydropyrimidinase;dihydrouracil amidohydrolase;5,6-dihydrouracil dihydropyrimidinase;dihydrouracil hydrolase;dihydropyrimidase
+RXN-11586	23S rRNA m2A2503 methyltransferase
+MYO-INOSOSE-2-DEHYDRATASE-RXN	myo-inosose-2 dehydratase;scyllo-inosose dehydratase
+3.4.13.9-RXN	Xaa-Pro dipeptidase
+RXN-19245	deoxyribodipyrimidine photolyase
+2-OCTAPRENYL-6-METHOXYPHENOL-HYDROX-RXN	2-octaprenyl-6-methoxyphenol 4-hydroxylase;2-methoxy-6-(all-trans-octaprenyl)phenol 4-hydroxylase
+DIENOYLCOAREDUCT-RXN	2,4-dienoyl-CoA reductase
+RXN-20163	thiol-disulfide exchange
+RXN-19195	3-pentenoate-CoA ligase
+2-OXOPENT-4-ENOATE-HYDRATASE-RXN	2-oxopent-4-enoate hydratase
+1.13.11.6-RXN	3-hydroxyanthranilate 3,4-dioxygenase
+RXN-20141	perillate-CoA ligase
+UROPORIIIMETHYLTRANSA-RXN	S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase;uroporphyrinogen-III (C2)-methyltransferase;uroporphyrin-III (C2)-methyltransferase
+RXN-12462	16S rRNA (cytidine1409-2'-O)-methyltransferase
+RXN0-3182	serine endoprotease
+RXN-13945	hydroperoxylinolenate reductase
+1PFRUCTPHOSN-RXN	1-phosphofructokinase
+RXN-8999	ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific]
+MHPELY-RXN	4-hydroxy-2-oxovalerate aldolase
+R103-RXN	ectoine synthase
+RXN0-2101	selenate reductase
+AMINOCYL-TRNA-HYDROLASE-RXN	peptidyl-tRNA hydrolase
+RXN0-742	5-(carboxyamino)imidazole ribonucleotide synthase
+METHYLCROTONYL-COA-CARBOXYLASE-RXN	3-methylcrotonyl-CoA carboxylase
+RXN0-7309	dimethylallyl diphosphate pyrophosphatase
+PYRIMSYN1-RXN	phosphomethylpyrimidine synthase
+RXN-18708	TusD:TusE sulfurtransferase
+ALLANTOIN-RACEMASE-RXN	allantoin racemase
+RXN0-7229	glycolate dehydrogenase
+RXN0-1321	preQ1 tRNA-ribosyltransferase;tRNA-guanine transglycosylase
+RXN0-7115	tRNA threonylcarbamoyladenosine dehydratase
+PROLINE--TRNA-LIGASE-RXN	prolinemdashtRNA ligase
+PROTOPORGENOXI-RXN	protoporphyrinogen IX oxidase;protoporphyrinogen oxidase
+RXN0-7067	tRNA U34 carboxymethyltransferase
+RXN0-7007	tRNA m2A37 methyltransferase
+TRANS-2-ENOYL-COA-REDUCTASE-NAD+-RXN	trans-2-enoyl-CoA reductase (NAD+)
+ACYL-COA-HYDROLASE-RXN	acyl-coA hydrolase (long chain);Acyl-coenzyme A thioesterase 9, mitochondrial;Cytosolic acyl coenzyme A thioester hydrolase;acyl-CoA thioesterase;S-acyl fatty acid synthase thioesterase, medium chain
+RXN-16750	8-amino-3,8-dideoxy-D-manno-octulosonate kinase
+RXN-11837	23S rRNA pseudouridine1911/1915/1917 synthase
+RXN-9386	glutamyl-tRNAGln synthetase
+RXN-13824	precorrin-6B (C15) methyltransferase
+RXN-20952	levoglucosan dehydrogenase
+RXN-9892	3-chloro-cis,cis-muconate dehalogenase;3-chloro-cis,cis-muconate cycloisomerase;2-chloro-2,5-dihydro-5-oxofuran-2-acetate lyase (decyclizing);chloromuconate cycloisomerase
+RXN0-6950	23S rRNA m7G2069 methyltransferase
+RXN-15123	2-iminobutanoate deaminase
+RXN-20478	thymine glycol DNA glycosylase
+RXN-16665	L,D-transpeptidase
+RXN-8769	cobyrinate a,c-diamide synthase;cobyrinate A,C-diamide synthase
+RXN0-5510	RNA pyrophosphohydrolase
+6.3.5.7-RXN	glutamyl-tRNA(Gln) amidotransferase;aspartyl-tRNAAsn amidotransferase;glutamyl-tRNAGln amidotransferase
+KDO-8PSYNTH-RXN	3-deoxy-D-manno-octulosonate 8-phosphate synthase;3-deoxy-8-phosphooctulonate synthase
+RXN-19339	cob(I)yrinic acid a,c-diamide adenosyltransferase;cobinamide adenosyltransferase
+RXN0-5414	poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase
+CARBOXYLESTERASE-RXN	carboxylesterase;carboxylic ester hydrolase
+RXN0-5359	diguanylate cyclase
+NUCLEOTIDE-PYROPHOSPHATASE-RXN	nucleoside triphosphate pyrophosphohydrolase
+RXN0-5185	6-phosphogluconate phosphatase;6-phospho D-gluconate phosphatase;gluconate 6-phosphate phosphatase
+RXN-18435	7,8-dihydro-8-oxoguanine DNA glycosylase
+RXN0-5234	allothreonine acetaldehyde-lyase (glycine-forming)
+RXN-11211	dihydrothymine hydrolase;dihydrothyminidase;dihydrothymine amidohydrolase
+RXN-8672	D-alanine oxidase
+RXN-15016	(Z)-N,N'-(but-2-ene-2,3-diyl)diacetamide hydrolase
+RXN-13076	nicotine dehydrogenase
+RXN-18397	ectoine hydrolase
+RXN-13088	pseudooxynicotine oxidase;pesudooxynicotine oxidase
+RXN-11592	23S rRNA m3Psi1915 methyltransferase
+RXN-11573	23S rRNA m1G745 methyltransferase
+RXN-17898	leucylD,E-transferase
+ARGDECARBOX-RXN	arginine decarboxylase;arginine decarboxylase, degradative;pyruvoyl-dependent arginine decarboxylase;arginine decarboxylase, biosynthetic
+HISTIDINE--TRNA-LIGASE-RXN	histidinemdashtRNA ligase
+MYO-INOSITOL-2-DEHYDROGENASE-RXN	myo-inositol 2-dehydrogenase
+RXNMETA-12672	3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase
+RXN-19242	deoxyribodipyrimidine photolyase
+RXN-8119	2-furaldehyde phosphate aminotransferase
+UREIDOGLYCOLATE-LYASE-RXN	ureidoglycolate urea-lyase;ureidoglycolate lyase
+RXN-19192	4-hydroxypentanoate-CoA ligase
+4.1.1.81-RXN	L-threonine-O-3-phosphate decarboxylase;threonine-phosphate decarboxylase
+RXN-16880	cis-vaccenate 11-methyltransferase
+RXN0-308	cysteine desulfurase;L-cysteine:[protein cysteine] sulfurtransferase
+RXN-11493	limonene hydroxylase
+RXN-17847	phenylalanyl-tRNAmdashprotein transferase
+RXN-8	polyamine aminotransferase;putrescine aminotransferase
+UDP-NACMURALGLDAPAALIG-RXN	D-alanyl-D-alanine-adding enzyme;UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+METHYLACYLYLCOA-HYDROXY-RXN	enoyl-CoA hydratase;3-hydroxy-isobutyryl-CoA hydro-lyase
+RXN0-1441	ADP-ribose pyrophosphatase;ADP-ribose pyrophosphohydrolase;ADP-sugar pyrophosphatase
+RXN-10445	fumarylpyruvate hydrolase;3-fumarylpyruvate hydrolase
+RXN0-2361	UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl-meso-2,6-diaminoheptandioate ligase;UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase
+RXN-11006	putrescine N-hydroxylase
+RXN0-7285	homoserine racemase
+1.6.5.7-RXN	hydroxybenzoquinone reductase;2-hydroxy-1,4-benzoquinone reductase
+1.1.1.291-RXN	2-(hydroxymethyl)glutarate dehydrogenase
+TRNA-URACIL-5--METHYLTRANSFERASE-RXN	tRNA(m5U54)methyltransferase
+RXN-11013	pre-bisucaberin cyclase
+RXN-1961	tRNAIle-lysidine synthetase
+RXN-17779	acyl-CoA dehydrogenase
+RXN0-1241	protein-glutamine N-methyltransferase
+3.5.1.88-RXN	peptide deformylase
+GLURS-RXN	glutamyl-tRNAGlu synthetase;glutamatemdashtRNA ligase
+RXN-11866	tRNA Cm32 methyltransferase
+RXN-18662	N-acetyl-D-glucosamine 1-kinase
+1.3.1.54-RXN	precorrin-6A reductase
+CYSTEINE--TRNA-LIGASE-RXN	cysteinemdashtRNA ligase
+PPENTOMUT-RXN	phosphodeoxyribomutase;alpha-D-ribose 1,5-phosphomutase
+RXN0-7000	EF-P-Lys34 hydroxylase
+AGMATINE-DEIMINASE-RXN	agmatine deaminase;agmatine iminohydrolase;agmatine deiminase
+RXN0-7079	m7GTP pyrophosphatase
+RXN-5901	acetoacetyl-CoA reductase;3-hydroxybutyryl-CoA dehydrogenase
+RXN-14251	(S)-3-hydroxybutanoyl-CoA thioesterase
+RXN-11834	23S rRNA pseudouridine2457 synthase
+ACETYLHOMOSER-CYS-RXN	O-acetylhomoserine sulfhydrylase
+RXN0-6726	ribosomal protein S6 modification
+3.1.3.70-RXN	mannosyl-3-phosphoglycerate phosphatase
+PHOSNACMURPENTATRANS-RXN	phospho-N-acetylmuramoyl-pentapeptide-transferase
+RXN-15138	(S)-2-chloropropionate dehalogenase
+RXN-5183	[LysW]-L-2-aminoadipate 6-phosphate reductase
+RXN-18999	glucosylglycerate phosphorylase
+RXN-11791	UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferase;undecaprenyl-phosphate glucose phosphotransferase
+RXN-20426	3'-phosphomonoesterase
+RXN0-6512	3-oxo-5,6-dehydrosuberyl-CoA thiolase;3-oxoacyl CoA thiolase;3-ketoacyl-CoA thiolase, peroxisomal
+RXN0-6676	NADPH-dependent curcumin reductase
+PHENYLSERINE-ALDOLASE-RXN	phenylserine aldolase
+RXN-12746	acyl-CoA synthetase;3-[(3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H-inden-4-yl]propanoyl:CoA ligase
+RXN66-1	ethanol peroxidase
+PDXJ-RXN	pyridoxine 5'-phosphate synthase
+FGAMSYN-RXN	phosphoribosylformylglycinamidine synthase;phosphoribosylformylglycinamidine synthetase;phosphoribosylformylglycinamide synthetase
+RXN-17571	isopropanol dehydrogenase;propan-2-ol dehydrogenase
+RXN-20895	leucine racemase
+RXN0-6274	tRNA dimethylallyltransferase
+RXN-19335	cobalamin adenosyltransferase
+SELENOCYSTEINE-LYASE-RXN	selenocysteine lyase
+RXN-14570	N6-L-threonylcarbamoyladenine synthase
+5-DEHYDRO-2-DEOXYGLUCONOKINASE-RXN	5-dehydro-2-deoxygluconokinase;5-dehydro-2-deoxy-D-gluconate kinase
+BETA-UREIDOPROPIONASE-RXN	beta-ureidopropionase;beta-alanine synthase
+RXN-17005	lyngbyatoxin A monooxygenase
+RXN-11209	dihydrothymine dehydrogenase
+SARCOX-RXN	sarcosine oxidase
+RXN-8667	hydroperoxidase;catalase-peroxidase
+IMIDAZOLONEPROPIONASE-RXN	imidazolone-5-propionate hydrolase;imidazole propionase;imidazolonepropionase
+R502-RXN	N-methy-L-proline N-demethylase;N-methyl-L-proline N-demethylase
+RXN0-5192	lysine 2,3-aminomutase
+RXN-8182	glutarate semialdehyde dehydrogenase;glutarate-semialdehyde dehydrogenase
+DIOHBUTANONEPSYN-RXN	3,4-dihydroxy-2-butanone 4-phosphate synthase;3,4 dihydroxy-2-butanone-4-phosphate synthase;3,4-dihydroxy-2-butanone-4-phosphate synthase
+RXN-14536	2-chloroacrylate reductase
+RXN-8162	L-alpha-aminoadipate delta-semialdehyde:NAD oxidoreductase;Delta1-piperideine-6-carboxylate dehydrogenase
+RXN-11588	23S rRNA 2'-O-ribose G2251 methyltransferase
+HISTOLDEHYD-RXN	histidinol dehydrogenase
+2.1.1.77-RXN	Protein-L-isoaspartate(D-aspartate) O-methyltransferase;L-isoaspartate protein carboxylmethyltransferase
+3.4.17.8-RXN	muramoyl pentapeptide carboxypeptidase;muramoylpentapeptide carboxypeptidase
+RXN-12572	3-(methylsulfanyl)propanoyl-CoA dehydrogenase
+RXN-16457	bis(molybdenum cofactor) synthase
+RXN-10701	OPC4-3-ketoacyl-CoA thiolase;3-ketoacyl-CoA thiolase, peroxisomal;3-oxoacyl CoA thiolase
+RXN-19255	beta-tabtoxin peptidase
+DIHYDRODIPICSYN-RXN	4-hydroxy-tetrahydrodipicolinate synthase;dihydrodipicolinate synthase
+RXN-11578	16S rRNA m7G527 methyltransferase
+URUR-RXN	(S)-ureidoglycine aminohydrolase
+XYLONATE-DEHYDRATASE-RXN	D-xylonate dehydratase
+RXNQT-4178	methylthioalkylmalate dehydrogenase
+4.1.1.77-RXN	2-oxo-3-hexenedioate decarboxylase
+2-OCTAPRENYL-METHOXY-BENZOQ-METH-RXN	2-octaprenyl-6-methoxy-1,4-benzoquinol methylase
+RXN-15375	acyl-CoA:3-sulfinopropionate CoA-transferase
+AMP-DEPHOSPHORYLATION-RXN	5'-AMP nucleotidase;AMP 5'-nucleotidase;AMP phosphohydrolase;AMP phosphatase
+GLYCOLATEDEHYDRO-RXN	glycolate oxidase;glycolate dehydrogenase
+R-2-METHYLMALATE-DEHYDRATASE-RXN	(R)-2-methylmalate hydro-lyase (2-methylmaleate-forming)
+RXN0-2661	adenine glycosylase
+RXN-17784	acyl-CoA dehydrogenase
+GLUTRNAREDUCT-RXN	glutamyl-tRNA reductase
+TYROSINE--TRNA-LIGASE-RXN	tyrosinemdashtRNA ligase
+RXN-17792	acyl-CoA dehydrogenase
+PRPPSYN-RXN	ribose-phosphate pyrophosphokinase;ribose-phosphate diphosphokinase
+RXN0-7168	tRNA (5-methoxycarbonylmethoxyuridine)-ribose methyltransferase
+RXN0-7316	glutarate hydroxylase;glutarate dioxygenase
+TRYPTOPHAN--TRNA-LIGASE-RXN	tryptophanmdashtRNA ligase
+RXN-10996	hydroxycadaverine succinyl-transferase;hydroxycadaverine acyl transferase
+RXN-11860	tRNA (cytidine-2'-O)-ribose methyltransferase
+LYSINE-RACEMASE-RXN	lysine racemase
+RXN-18659	N-acetyl-beta-muramate 6-phosphate phosphatase
+RXN-11176	glutamate Cgamma-tyrosine C3 ligase
+RXN-11839	tRNA pseudouridine55 synthase
+RXN-17700	sulfoquinovosidase
+RXN-21017	phenylarsenite oxide oxygenase
+RXN0-1147	dihydrolipoyltranssuccinylase;dihydrolipoyllysine-residue succinyltransferase
+1.8.4.12-RXN	protein-methionine-S-oxide reductase
+LYSDECARBOX-RXN	L-lysine decarboxylase
+RXN-6883	ubiquinol oxidase;ubiquinol:oxygen oxidoreductase
+RXN-17215	C35-phenolphthiodiolenone synthase
+RXN-11333	alcohol dehydrogenase
+RXN-5841	NMN 5'-nucleotidase;beta-nicotinamide D-ribonucleotide phosphohydrolase
+RXN0-7010	S-glutathionyl-hydroquinone reductase
+RXN-10660	3-hydroxy cis Delta9-hexadecenoyl-[acp] dehydratase
+THREONINE--TRNA-LIGASE-RXN	threoninemdashtRNA ligase
+4.2.1.58-RXN	(3R)-3-hydroxybutanoyl-[acyl-carrier protein] dehydratase;(3R)-3-hydroxybutanoyl-[acp] dehydratase;(R)-3-hydroxybutanoyl-[acyl-carrier protein] hydro-lyase
+RXN0-5513	acyl-ACP synthetase
+2.3.1.168-RXN	dihydrolipoyllysine-residue (2-methylpropanoyl)transferase;lipoamide acyltransferase
+RXN-13613	beta-ketodecanoyl-[acyl-carrier-protein] synthase
+RXN-8629	dihydrolipoyl dehydrogenase;lipoamide dehydrogenase;dihydrolipoamide dehydrogenase;H-Gcv-protein-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+RXN-12297	trans-2-pentenal reductase;trans-2-pentenal reducatase;trans-pentenal reductase
+RXN0-6549	bromoacetate dehalogenase
+RXN-10657	cis-Delta7-tetradecenoyl-[acp]:NAD+ oxidoreductase
+CYTOCHROME-C-OXIDASE-RXN	cytochrome c oxidase;cytochrome oxidase
+RXN-9662	myristoyl-[acp] reductase;myristoyl-[acyl-carrier-protein] reductase
+FRUCTOKINASE-RXN	fructokinase;ATP:D-fructose 6-phosphotransferase
+RXN-16659	peptidoglycan DD-transpeptidase;peptidoglycan D,D-transpeptidase
+RXN66-550	electron transfer flavoprotein-ubiquinone oxidoreductase
+RXN-10654	3-oxo-cis-Delta7-tetradecenoyl-[acp] synthase
+RIBONUCLEOSIDE-DIP-REDUCTII-RXN	2'-deoxycytidine diphosphate:oxidized NrdH glutaredoxin-like protein oxidoreductase;CDP reductase
+RXN-8342	molybdopterin synthase
+RXN-16622	(7Z)-3-oxo-hexadec-7-enoyl-[acp] reductase
+PGLYCEROLTRANSI-RXN	phosphoglycerol transferase
+RXN0-722	UDP reductase;2'-deoxyuridine 5'-diphosphate:oxidized NrdH glutaredoxin-like protein oxidoreductase
+2OXOGLUTDECARB-RXN	oxoglutarate dehydrogenase;2-oxoglutarate decarboxylase
+RXN-9659	octanoyl-[acp] reductase;octanoyl-[acyl-carrier-protein] reductase
+RXN-9539	beta-ketopalmityl-[acp] synthase;myristoyl-[acyl-carrier protein]:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating);3-oxo-palmitoyl-[acp] synthase
+RXN-9520	(3R)-3-hydroxyhexanoyl-[acp] dehydratase;(R)3-hydroxyhexanoyl-[acp]-[acyl-carrier protein]hydro-lyase (trans-hex-2-enoyl-[acyl-carrier-protein]-forming);(3R)-3-hydroxyhexanoyl-[acyl-carrier protein] dehydratase;(R)-3-hydroxyhexanoyl-[acp] dehydratase
+RXN-8771	aerobic 5,6-dimethylbenzimidazole synthase
+PEPCARBOX-RXN	phosphoenolpyruvate carboxylase
+RXN-12673	perakine reductase
+RXN0-5364	(S)-2-hydroxyglutarate oxidase
+RXN-11482	enoylpimeloyl-[acp] methyl ester reductase
+ENOYL-ACP-REDUCT-NADPH-RXN	enoyl-[acyl-carrier-protein] reductase;2,3,4-saturated-fatty-acid-[acp] reductase
+CHER-RXN	chemotaxis protein methyltransferase
+RXN-15682	3-benzyl-3,6 -bis(cysteinylglycine)-6-(hydroxymethyl)-diketopiperazine dipeptidase
+RXN0-2144	3-hydroxy cis Delta5-dodecenoyl-[acp] dehydratase
+RXN-11217	dihydropyrimidinase;hydantoin amidohydrolase
+RXN-9655	(R)-3-hydroxydecanoyl-[acp] dehydratase;(3R)-3-hydroxydecanoyl-[acyl-carrier protein] dehydratase;3-hydroxydecanoyl-[acp] dehydrase;(3R)-3-hydroxydecanoyl-[acp] dehydratase;(R)3-hydroxydecenoyl-[acp]-[acyl-carrier protein]hydro-lyase (trans-Delta2-decenoyl-[acyl-carrier-protein]-forming)
+RXN-9558	cis-vaccen-2-enoyl-[acp] reductase
+RXN-7716	dihydrolipoate dehydrogenase;dihydrolipoyltranssuccinylase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase;dihydrolipoamide dehydrogenase;dihydrolipoyl dehydrogenase
+RXN-17246	C37-phenolphthiodiolenone synthase
+RXN0-5209	Ap3A synthetase
+RXN-11479	3-oxo-pimeloyl-[acp] methyl ester synthase
+RXN-11476	3-oxo-glutaryl-[acp] methyl ester reductase
+RXN-18446	isovalerate--CoA ligase
+R82-RXN	2,3-diketo-5-methylthiopentyl-1-phosphate enolase;2,3-diketo-5-methylthio-1-phosphopentane enolase
+RXN-19311	2-acyl lysophospholipase;2-acyl-lysophospholipase
+RXN-19793	endo-poly-beta-1,6-D-glucosamine hydrolase
+RXN1G01-46	glutamine racemase
+GCVP-RXN	glycine decarboxylase;glycine dehydrogenase
+DISULFOXRED-RXN	protein disulfide oxidoreductase
+INOSINATE-NUCLEOSIDASE-RXN	inosinate nucleosidase
+RXN0-747	2'-deoxyadenosine 5'-diphosphate:oxidized NrdH glutaredoxin-like protein oxidoreductase;ADP reductase
+RXN-18427	aspartate-semialdehyde dehydrogenase (non-phosphorylating)
+RXN0-20	phosphatidylglycerolmdashprolipoprotein diacylglyceryl transferase
+RXN-14957	lipoyl synthase
+5-NUCLEOTID-RXN	5'-ribonucleotidase;pyrimidine 5'-nucleotidase;nucleoside 5'-monophosphate phosphatase;ribonucleoside monophosphate phosphohydrolase;UMP phosphatase
+2.3.1.41-RXN	beta-ketoacyl [acyl-carrier protein] synthase;3-oxoacyl-[acyl-carrier-protein] synthase
+RXN-9555	cis-vaccenoyl-[acp] thioesterase
+1.8.4.13-RXN	methionine sulfoxide reductase;methionine-S-sulfoxide reductase
+RXN-9533	(R)-3-hydroxydodecanoyl-[acp] dehydratase;(3R)-3-hydroxydodecanoyl-[acyl-carrier protein] dehydratase;(3R)-3-hydroxydodecanoyl dehydratase;(3R)-3-hydroxydodecanoyl-[acp] dehydratase;(R)3-hydroxydodecanoyl-[acp]-[acyl-carrier protein]hydro-lyase (trans-dodeca-2-enoyl-[acyl-carrier-protein]-forming)
+RXN-17950	glyphosate oxidoreductase
+RXN-17222	C33-phthiodiolenone synthase
+R322-RXN	precorrin-5 (C1)-methyltransferase
+RXN-13099	furfural reductase;NADH-dependent furfural reductase;furfuryl:NAD+oxidoreductase
+RXN-10661	palmitoleoyl-[acp]:NAD+ oxidoreductase
+RXN-13614	decanoate--CoA ligase
+RXN-11602	23S rRNA m5C1962 methyltransferase
+HOMOSERINE-O-ACETYLTRANSFERASE-RXN	homoserine O-acetyltransferase
+HYDROG-RXN	Fe hydrogenase;Ech hydrogenase
+RXN-11637	16S rRNA 2'-O-ribose C1402 methyltransferase
+HYDROXYMETHYLGLUTARYL-COA-LYASE-RXN	hydroxymethylglutaryl-CoA lyase
+RXN-8674	N-ethylglycine oxidase
+RXN-12559	trans-2-hexenoyl-CoA reductase
+R266-RXN	cyclohex-1-ene-1-carboxyl-CoA hydratase
+RXN-14992	protein-(glutamine-N5) methyltransferase
+BIOTIN-CARBOXYL-RXN	biotin carboxylase
+RXN-12587	S-sulfanyl-[cysteine desulfurase]:[acceptor protein cysteine] sulfurtransferase;[cysteine desulfurase]-S-sulfanylcysteine:[acceptor protein]-cysteine sulfurtransferase
+RXN-15783	malonyl-CoA:[PigH PKS] malonyltransferase
+RXN-4313	N6-(Delta2-isopentenyl)-adenosine 5'-monophosphate phosphoribohydrolase
+RXN0-1138	lipoyl-protein ligase
+RXN-14950	lipoyl synthase
+4.2.99.18-RXN	DNA-AP site lyase
+RXN-7561	ornithine succinyltransferase
+2.3.1.179-RXN	3-oxo-cis-vaccenoyl-[acp] synthase
+RXN-14930	lysine--8-amino-7-oxononanoate transaminase
+RXN-13259	heptadecanoyl-[acp] elongase/decarboxylase
+THIOSULFATE-DEHYDROGENASE-RXN	thiosulfate dehydrogenase
+RXN0-5063	isopentenyl-adenosine tRNA methylthiolase
+RXN-10658	3-oxo-cis-Delta9-hexadecenoyl-[acp] synthase
+RXN-16626	(9Z)-3-oxo-octadec-9-enoyl-[acp] reductase
+HOMOCYSMET-RXN	5-methyltetrahydropteroyltriglutamate:homocysteine S-methyltransferase;methionine synthase;cobalamin-independent homocysteine transmethylase;cobalamin-independent methionine synthase;homocysteine methyltransferase
+FLAVONADPREDUCT-RXN	flavodoxin-NADP+ oxidoreductase;flavodoxin-NADP oxidoreductase;flavodoxin-NADP+ reductase
+RXN-9092	4-hydroxybutyryl-CoA synthetase
+CYTOCHROME-C-PEROXIDASE-RXN	cytochrome c peroxidase
+RXN0-4401	NADH pyrophosphatase
+RXN0-1132	lipoate acetyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase;dihydrolipoyl dehydrogenase;dihydrolipoamide dehydrogenase
+RXN-7253	inositol monophosphatase;myo-inositol-monophosphate phosphohydrolase
+RXN-9663	palmitoyl-[acp] reductase;palmitoyl-[acyl-carrier-protein] reductase
+RXN-19252	UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-L-glutamate epimerase
+2.1.1.131-RXN	precorrin-3B (C17)-methyltransferase
+XMPXAN-RXN	XMP phosphohydrolase;XMP 5'-nucleotidase
+RXN-17272	phthiodiolenone synthase
+R147-RXN	1,2-dihydroxy-5-(methylthio)pent-1-en-3-one:oxygen oxidoreductase (formate-forming);acireductone dioxygenase [iron(II)-requiring]
+THIAZOLSYN2-RXN	1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase;thiazole synthase
+RXN-18330	(R)-lipoate reductase
+RXN0-3921	gamma-glutamylputrescine oxidase
+RXN-10655	3-oxo-cis-Delta7-tetradecenoyl-[acp] reductase
+RXNQT-4174	methylthioalkylmalate dehydrogenase
+RXN-16937	flavin prenyltransferase;FMN prenyltransferase
+2.7.1.157-RXN	N-acetyl-D-galactosamine 1-kinase
+RXN-14461	flavin transferase
+R102-RXN	diaminobutanoate acetyltransferase
+RXN0-279	cysteine sulfinate desulfinase
+RXN-15881	L-cysteine desulfurase
+4-HYDROXY-2-KETOPIMELATE-LYSIS-RXN	4-hydroxy-2-ketopimelate aldolase
+R170-RXN	NADH cupric reductase
+AMINOBUTDEHYDROG-RXN	4-aminobutyraldehyde dehydrogenase;gamma-aminobutyraldehyde dehydrogenase;4-trimethylaminobutyraldehyde dehydrogenase
+RXN-6902	gamma aminobutyrate transaminase;gamma-aminobutyrate transaminase (pyruvate dependent)
+RXN-19185	levulinate-CoA ligase
+RXN0-5055	acetyl-CoA carboxylase;biotin carboxylase;acetyl/propionyl-coa carboxylase alpha chain;acetyl-CoA carboxyltransferase;acetyl CoA carboxytransferase;acetyl-CoA carboxytransferase
+3-HYDROXYDECANOYL-ACP-DEHYDR-RXN	3-hydroxyacyl-[acp] dehydratase;(R)3-hydroxyacyl-[acp]-[acyl-carrier protein]hydro-lyase (trans-Delta2-enoyl-[acyl-carrier-protein]-forming);(3R)-3-hydroxyacyl-[acyl-carrier protein] dehydratase;(3R)-3-hydroxyacyl-[acyl-carrier-protein] dehydratase;(3R)-3-hydroxyacyl-[acp] dehydratase
+RXN-9660	decanoyl-[acyl-carrier-protein] reductase;decanoyl-[acp] reductase
+SULFITE-REDUCTASE-FERREDOXIN-RXN	assimilatory sulfite reductase (ferredoxin);octaheme sulfite reductase;hydrogen sulfide:ferredoxin oxidoreductase;dissimilatory sulfite reductase
+R125-RXN	(S)-5-amino-3-oxohexanoate cleavage enzyme
+4-HYDROXYPHENYLPYRUVATE-DIOXYGENASE-RXN	4-hydroxyphenylpyruvate dioxygenase
+RXN-19194	pentanoate-CoA ligase
+METHYLITACONATE-DELTA-ISOMERASE-RXN	3-methylitaconate Delta-isomerase
+3.4.11.1-RXN	barley leucine aminopeptidase;acidic-leucine aminopeptidase;neutral leucine aminopeptidase;acidic leucine aminopeptidase;cytosolic leucyl aminopeptidase
+RXN0-2145	cis-Delta5-dodecenoyl-[acp]:NAD+ oxidoreductase
+RXN-9788	adenylate:persulfide transferase;carboxy-adenylated-[ThiS sulfur-carrier-protein] sulfurtransferase
+RXN-9657	crotonyl-[acyl-carrier-protein] reductase (NADH);crotonyl-[acp] reductase
+RXN-9590	phosphate acyltransferase
+1.11.1.15-RXN	lipid hydroperoxide peroxidase;Peroxiredoxin-1;peroxiredoxin;thiol peroxidase;thioredoxin-dependent peroxiredoxin
+RXN-9516	beta-ketohexanoyl-[acp] synthase;butyryl-[acp]:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating);3-oxo-hexanoyl-[acp] synthase
+RXN-7719	dihydrolipoamide dehydrogenase;dihydrolipoyl dehydrogenase;lipoamide acyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+RXN0-1281	tRNA-dihydrouridine16 synthase;tRNA-dihydrouridine synthase
+RXN-11480	3-oxo-pimeloyl-[acp] methyl ester reductase
+RXN-11027	decaprenyl diphosphate phosphatase
+RXN0-7352	GMP nucleosidase
+RXN-16616	(5Z)-3-oxo-tetradec-5-enoyl-[acyl-carrier-protein] reductase
+RXN0-748	GDP reductase;2'-deoxyguanosine 5'-diphosphate:oxidized NrdH glutaredoxin-like protein oxidoreductase
+RXN0-7160	peptidyl-lysine N-acetyltransferase
+RXN0-2141	(5Z)-3-oxo-dodec-5-enoyl-[acp] synthase;beta-keto-cis-Delta5-dodecenoyl-[acp] synthase
+RXN0-7298	isopentenol kinase
+RXN-9556	3-oxo-cis-vaccenoyl-[acp] reductase
+1.8.4.14-RXN	methionine-(R)-sulfoxide reductase;methionine sulfoxide reductase
+RXN-17823	methylphosphotriester-DNA-protein-cysteine S methyltransferase
+RXN-17363	apolipoprotein N-acyltransferase
+PROPIONATE--COA-LIGASE-RXN	propionyl-CoA synthetase;propanoate:CoA ligase (AMP-forming);propionate-CoA ligase
+RXN-17224	C31-phthiodiolenone synthase
+RXN-2205	2-oxo-5-methylthiopentanoate aminotransferase
+RXN0-7081	5-aminomethyl-2-thiouridine synthase
+RXN0-7227	(S)-2-hydroxybutanoate dehydrogenase
+PROTEIN-KINASE-RXN	serine/threonine protein kinase
+RXN-16630	(11Z)-3-oxo-icos-11-enoyl-[acp] reductase
+RXN-8893	clavulanate dehydrogenase
+BIOTINLIG-RXN	biotin--[acetyl-CoA carboxylase] synthetase;biotin-[acetyl-CoA-carboxylase] ligase
+4.2.1.61-RXN	3-hydroxypalmitoyl-[acp] dehydratase;(3R)-3-hydroxypalmitoyl-[acyl-carrier protein] dehydratase
+RXN-15784	ketoacyl synthase
+RXN0-7114	tRNA m6t6A37 methyltransferase
+RXN-9531	3-oxo-dodecanoyl-[acp] synthase;beta-ketododecanoyl-[acp] synthase;decanoyl-[acp]:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating)
+RXN-13260	fatty-acyl-[acp] elongase/decarboxylase
+RXN-11836	23S rRNA pseudouridine2605 synthase
+RXN-8668	protein-methionine-S-oxide reductase
+RXN-5741	octanoul-ACP synthetase
+LONG-CHAIN-ACYL-COA-DEHYDROGENASE-RXN	long-chain-acyl-CoA dehydrogenase
+RXN-10659	3-oxo-cis-Delta9-hexadecenoyl-[acp] reductase
+RXN0-7066	carboxy-S-adenosyl-L-methionine synthase
+HOLO-ACP-SYNTH-RXN	CoA:apo-[acyl-carrier protein]-pantetheinephosphotransferase;holo-[acyl-carrier-protein] synthase;holo-[acyl carrier protein] synthase;4'-phosphopantetheinyl transferase
+RXN-11845	23S rRNA 2'-O-ribose U2552 methyltransferase
+RXN0-1133	dihydrolipoamide acetyltransferase;dihydrolipoyllysine-residue acetyltransferase;lipoate acetyltransferase
+1.2.1.2-RXN	NAD-dependent formate dehydrogenase;NAD+-dependent formate dehydrogenase
+RXN-9550	palmitoleoyl-[acp] thioesterase
+RXN-9527	beta-ketodecanoyl-[acp] synthase;octanoyl-[acp]:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating);3-oxodecanoyl-[acp] synthase
+1.1.1.136-RXN	UDP-N-acetylglucosamine 6-dehydrogenase;UDP-N-acetyl-alpha-D-glucosamine 6-dehydrogenase
+RXN-10656	3-hydroxy cis Delta7-tetradecenoyl-[acp] dehydratase
+RXN-16664	L,D-carboxypeptidase
+PALMITOTRANS-RXN	palmitoleoyl acyltransferase
+GSADENYLATION-RXN	glutamine synthetase adenylyltransferase
+ACYLGPEACYLTRANS-RXN	2-acylglycerophosphoethanolamine acyltransferase
+3-OXOACYL-ACP-REDUCT-RXN	3-oxoacyl-[ACP] reductase;NADPH-dependent beta-ketoacyl reductase;3-oxoacyl-[acyl-carrier-protein] reductase;(3R)-3-hydroxyacyl-[acyl-carrier protein]:NADP+ oxidoreductase
+RXN-9661	dodecanoyl-[acp] reductase;dodeconyl-[acp] reductase;dodecanoyl-[acyl-carrier-protein] reductase
+2.1.1.63-RXN	O6-alkylguanine-DNA-alkyltransferase;O-6-methylguanine-DNA methyltransferase
+RXN-13449	short-chain acyl-CoA dehydrogenase
+RXN-10903	beta-etherase
+RXN0-6731	16S rRNA m2G1516 methyltransferase
+RXN-8348	molybdopterin molybdotransferase
+RXN-9523	3-oxo-octanoyl-[acp] synthase;hexanoyl-[acp]:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating);beta-ketooctanoyl-[acp] synthase
+1.18.1.2-RXN	ferredoxin-NADP+ oxidoreductase;ferredoxinmdashNADP+ reductase;ferredoxin-NADP oxidoreductase;ferredoxin-NADP+ reductase
+RXN-7790	2-oxobutanoate dehydrogenase
+6.3.5.6-RXN	glutamyl-tRNAGln amidotransferase;anspartyl-tRNA(Asn) amidotransferase
+RXN0-6563	4-hydroxy-L-threonine aldolase
+TAGAALDOL-RXN	tagatose-1,6-bisphosphate aldolase;D-tagatose-1,6-diphosphate aldolase;D-tagatose-1,6-bisphosphate aldolase
+RXN-20897	deoxyribodipyrimidine photolyase
+RXN-20429	3'-phosphodiesterase
+RXN0-7192	biotin-ATP ligase
+RXN-9789	[sulfur-carrier protein ThiS] adenylyltransferase;ThiS adenylyltransferase
+RXN-9658	hexanoyl-[acp] reductase;hexanoyl-[acyl-carrier-protein] reductase
+RXN-7744	beta-methyl-D-malate hydro-lyase (2-methylmaleate-forming)
+RXN-19922	S-adenosyl-L-methionine:glutathione methyltransferase
+RXN-20410	apurinic/apyrimidinic endonuclease
+RXN0-5422	glutamyl-Q tRNA(Asp) synthetase
+RXN-19949	thiol-disulfide exchange
+ENOYL-ACP-REDUCT-NADH-RXN	enoyl-[acyl-carrier-protein] reductase (NADH);2,3,4-saturated fatty acyl-[acp]:NAD+ oxidoreductase;2,3,4-saturated-fatty-acid-[acp] reductase
+RXN-15829	ubiquinol--cytochrome-c reductase
+RXN0-947	LIPoyl ligase 2;octanoyl transferase
+RXN0-2142	3-oxo-cis-Delta5-dodecenoyl-[acp] reductase
+2.7.13.1-RXN	protein-histidine pros kinase;protein-histidine pros-kinase
+RXN-14959	lipoyl synthase
+RXN-9557	3-hydroxy cis vaccenoyl-[acp] dehydratase
+RXN-9535	a dodecanoyl-[acp]:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating);3-oxo-meristoyl-[acp] synthase;beta-ketomeristoyl-[acp] synthase
+RXN-9514	acetoacetyl-[acp] reductase;acetoacyl-[acp] reductase;acetoacetyl-[acyl-carrier-protein]:NADPH+ oxidoreductase;acetoacetyl-[acyl-carrier protein] reductase
+RXN-17824	O-4-methylthymine-DNA methyltransferase;O4-methylthymine-DNA methyltransferase
+RXN-11478	enoylglutaryl-[acp] methyl ester reductase
+RXN-11210	3-ureido-isobutyrate amidohydrolase;3-amino-isobutyrate synthase;beta-ureidopropionase
+RXN-14131	myristoyl-CoA dehydrogenase
+RXN-15041	D-aminoacyl-tRNA deacylase
+3.1.1.23-RXN	1-monoacylglycerol acylhydrolase;monoacylglycerol lipase;Monoglyceride lipase
+ERYTHRULOSE-REDUCTASE-RXN	D-threitol dehydrogenase
+RXN-19818	histidine racemase
+RXN-18396	N2-acetyl-L-2,4-diaminobutanoate deacetylase
+R4-RXN	alkyl hydroperoxide reductase
+RXN-11193	D-amino acid dehydrogenase;D-amino-acid:quinone oxidoreductase (deaminating)
+NADH-DEHYDROG-A-RXN	NADH dehydrogenase;NADH-ubiquinone oxidoreductase;proton-translocating NADH-quinone oxidoreductase;NADH:ubiquinone oxidoreductase (H+-transporting)
+2.8.3.9-RXN	butyryl-CoA:acetoacetate CoA-transferase;butyrate-acetoacetate CoA-transferase
+RXN-15006	[LysW]-L-glutamate 5-phosphate reductase
+RXN0-5101	N-ethylmaleimide reductase
+3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN	crotonyl-CoA hydratase
+2.8.1.6-RXN	biotin synthase
+RXN-11633	16S rRNA m62A1518,m62A1519 dimethyltransferase
+RXN-12104	epoxyqueuosine reductase
+25-DIOXOVALERATE-DEHYDROGENASE-RXN	alpha-ketoglutarate semialdehyde dehydrogenase;2,5-dioxovalerate dehydrogenase;2,5-dioxopentanoate dehydrogenase;alpha-ketoglutaric semialdehyde dehydrogenase
+R345-RXN	adenosyl-cobyric acid synthase;adenosyl-cobyrate synthase
+HISTCYCLOHYD-RXN	phosphoribosyl-AMP cyclohydrolase
+RXN-17663	periplasmic protein-L-methionine-(R)-S-oxide reductase
+RXN0-4121	purine nucleoside phosphoramidase
+ARGININE-RACEMASE-RXN	arginine racemase
+2.7.7.33-RXN	alpha-D-glucose-1-phosphate cytidylyltransferase
+RXN-11591	16S rRNA m5C967 methyltransferase
+RXN-20677	3-hydroxyhexanoyl-CoA dehydratase
+RXN0-7123	NADH:menaquinone oxidoreductase
+RXN0-4341	heptose 7-phosphate kinase
+RXN-20058	thiol-disulfide exchange
+RXN0-5330	NADH:ubiquinone oxidoreductase (internal);NADH:ubiquinone oxidoreductase 2 (external);NADH:ubiquinone oxidoreductase 1 (external)
+RXN-19249	D-alanyl-D-alanine carboxypeptidase
+RXN0-5268	ubiquinol oxidase (H+-transporting)
+RXN-13990	2-keto-4-hydroxyglutarate aldolase
+RXNQT-4171	methylthioalkylmalate dehydrogenase
+RXN-17846	leucyl-tRNAmdashprotein transferase
+VAGL-RXN	5-aminovalerate transaminase;5-aminovalerate aminotransferase
+MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN	myo-inositol-3-phosphate monophosphatase;inositol monopohsphatase;inositol-1(or 4)-monophosphatase;inositol monophosphatase;myo-inositol 3-phosphate monophosphatase
+RXNMETA-12671	oxepin-CoA hydrolase
+SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	succinate dehydrogenase;succinate:quinone oxidoreductase;succinate dehydrogenase (ubiquinone);succinate-ubiquinone reductase
+RXN0-2301	isovaleryl-CoA dehydrogenase;isovaleryl-CoA:FAD oxidoreductase
+3.4.11.18-RXN	methionine aminopeptidase
+RXN-16312	polyphenol oxidase
+2.6.1.37-RXN	2-aminoethylphosphonate aminotransferase
+RXN-17393	endolytic murein transglycosylase
+RXN-12458	tRNA (guanine37-N1)-methyltransferase;tRNA m1G37 methyltransferase
+R601-RXN	fumarate reductase
+RXN0-7231	betaine aldehyde dehydrogenase
+RXN0-1081	tRNA adenosine34 deaminase
+3.5.1.87-RXN	N-carbamoyl-L-amino-acid hydrolase
+RXN0-2042	phenylacetyl-CoA 1,2-epoxidase;ring 1,2-phenylacetyl-CoA epoxidase
+RXN0-7346	RNA decapping hydrolase
+RXN-14347	scyllo-inositol dehydrogenase (NADP+)
+GLYCINE--TRNA-LIGASE-RXN	glycinemdashtRNA ligase
+RXN0-7124	ubiquinol:nitrate oxidoreductase
+RXN0-6491	dihydroorotate dehydrogenase
+RXN-2425	2,3-dehydroadipyl-CoA hydratase
+RXN-18661	N-acetyl-alpha-D-muramate 1-phosphate uridylyltransferase
+RXN0-7141	D-ribulose 5-phosphate 1-dehydrogenase
+RXN0-7283	RNA phosphohydrolase
+GLUTAMATE-N-ACETYLTRANSFERASE-RXN	ornithine acetyltransferase;acetylornithine acetyltransferase
+1.6.5.6-RXN	4-benzoquinone reductase
+TRANS-RXN-383	D-selenomethionine transport
+DIHYDROOROTATE-DEHYDROGENASE-RXN	dihydroorotate dehydrogenase
+TRNA-S-TRANSFERASE-RXN	tRNA cytosine32 2-sulfurtransferase
+RXN0-7078	protein-lysine deacetylase
+LYSINE--TRNA-LIGASE-RXN	lysinemdashtRNA ligase
+RXN0-3501	nitrate reductase;menaquinol:nitrate oxidoreductase
+RXN-10139	L-tryptophan:pyruvate aminotransferase;tryptophanmdashpyruvate aminotransferase
+RXN-17652	periplasmic protein-L-methionine-(S)-S-oxide reductase
+RXN-11833	16S rRNA pseudouridine516 synthase
+RXN-11865	tRNA (5-carboxymethylaminomethyluridine)-ribose methyltransferase
+LYSOPHOSPHOLIPASE-RXN	phospholipase B;Neuropathy Target Esterase;lysophospholipase
+ACYLCOADEHYDROG-RXN	acyl-CoA dehydrogenase
+1.1.1.178-RXN	2-methylacetoacetyl-coenzyme A reductase;3-hydroxy-2-methylbutyryl-CoA dehydrogenase
+RXN0-6554	dihydroorotate dehydrogenase (MQ)
+RXN-11841	tRNA pseudouridine13 synthase
+RXN-12300	cis-3-hexenal reducatase;cis-3-hexenal reductase
+RXN0-5388	NADH:menaquinone oxidoreductase (H+-transporting)
+LTAA-RXN	L-allo-threonine aldolase
+RXN-12332	3-aminopropanal dehydrogenase
+RXN-19024	glutathione-specific gamma-glutamylcyclotransferase
+RXN-19774	apolipoprotein N-acyltransferase
+RXN0-6999	EF-P-lysine lysyltransferase
+LCYSDESULF-RXN	L-cysteine desulfhydrase;L-cysteine desulfidase
+THIOPURINE-S-METHYLTRANSFERASE-RXN	thiopurine S-methyltransferase
+RXN-15745	glycerol-3-phosphate dehydrogenase
+ACONITATEHYDR-RXN	D-threo-isocitrate hydro-lyase (cis-aconitate-forming);aconitate hydratase;aconitase
+TARTRATE-DEHYDROGENASE-RXN	tartrate dehydrogenase;L-tartrate dehydrogenase
+DALADEHYDROG-RXN	D-alanine:quinone oxidoreductase (deaminating)
+RXN0-6373	glucose dehydrogenase;D-glucose dehydrogenase
+ACETYLGLUTKIN-RXN	acetylglutamate kinase
+RXN0-6725	phospholipase A2;phosphatidylethanolamine sn-2 acylhydrolase
+RXN-16165	methioninemdashtRNA ligase
+PGPPHOSPHA-RXN	phosphatidylglycerophosphatase;phosphatidylglycerolphosphate phosphatase
+RXN490-3641	L-proline trans-4-hydroxylase
+GALACTITOL-2-DEHYDROGENASE-RXN	galactitol 2-dehydrogenase
+1.4.3.19-RXN	glycine oxidase/deaminase
+RXN-13179	4-hydroxythreonine-4-phosphate dehydrogenase
+PHENYLALANINE--TRNA-LIGASE-RXN	phenylalaninemdashtRNA ligase
+ISOCITDEH-RXN	NADP+-dependent isocitrate dehydrogenase;NADP-dependent isocitrate dehydrogenase
+RXN0-6510	1,2-epoxyphenylacetyl-CoA isomerase
+RXN-11718	5-chloro-4-hydroxy-2-oxopentanoate decarboxylase
+3.1.3.77-RXN	acireductone synthase
+FORMATE-DEHYDROGENASE-NADP+-RXN	NADP-dependent formate dehydrogenase
+1.2.1.25-RXN	2-oxoisovalerate dehydrogenase;3-methyl-2-oxobutanoate dehydrogenase
+RXN-14172	hexanoate-CoA ligase;hexanoyl-CoA synthetase
+PCP4MONO-RXN	pentachlorophenol hydroxylase
+RXN-13158	3-isopropylmalate dehydrogenase (decarboxylating);beta-isopropylmalate dehydrogenase
+RXN-12588	L-cysteine desulfurase;cysteine desulfurtrase
+GLUTARYL-COA-DEHYDROGENASE-RXN	glutaryl-CoA dehydrogenase
+RXN-20886	6-hydroxypicolinate 3-monooxygenase
+2KETO-3METHYLVALERATE-RXN	3-methyl-2-oxopentanoate dehydrogenase;2-keto-3-methyl-valerate dehydrogenase
+RXN0-1134	pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase;pyruvate dehydrogenase;pyruvate dehydrogenase (lipoamide)
+RXN-14150	5-deoxy-D-glucuronate isomerase
+ISPH2-RXN	isopentenyl-diphosphate:NAD(P)+ oxidoreductase
+5.4.4.3-RXN	3-(hydroxyamino)phenol mutase
+2KETO-4METHYL-PENTANOATE-DEHYDROG-RXN	4-methyl-2-oxopentanoate dehydrogenase
+RXN-14126	adenosine 3' nucleotidase;adenosine 3'-phosphate phosphohydrolase;3'AMP phosphatase
+RXN-19334	cob(II)alamin reductase
+RXN-14569	threonylcarbamoyl-AMP synthase
+RXN-12625	N-acetyl-beta-glucosaminidase
+ISOLEUCINE--TRNA-LIGASE-RXN	isoleucinemdashtRNA ligase
+RXN-9726	progesterone 5beta-reductase
+RXN-13142	NADPHX epimerase
+RXN1G01-63	roxarsone (III)
+RXN0-5226	beta-N-acetylhexosaminidase;glcNAc-1,6-anhMurNAcaminidase
+RXN-7609	5'-GMP-nucleotidase;guanosine-5'-phosphate phosphohydrolase;GMP 5'-nucleotidase
+R342-RXN	cobaltochelatase
+RXN-13072	2-oxoglutaramate amidase;2-oxoglutaramate omega-amidase;2-ketoglutaramate amidase
+RXN-11181	pyrroloquinoline-quinone synthase
+NAG1P-URIDYLTRANS-RXN	UDP-N-acetylglucosamine pyrophosphorylase;UDP-N-acetylglucosamine diphosphorylase;N-acetylglucosamine-1-phosphate uridyltransferase;N-acetylglucosamine-1-phosphate uridylyltransferase
+RXN-12561	3-oxopantanoyl-CoA thiolase;beta-ketovaleryl-CoA thiolase
+RXN-14932	D-2-hydroxyglutarate dehydrogenase
+RXN-16456	bis(molybdenum cofactor) guanylyltransferase
+RXN-10700	3-oxoacyl CoA thiolase;3-ketoacyl-CoA thiolase, peroxisomal;OPC6-3-ketoacyl-CoA thiolase
+HEMEOSYN-RXN	heme o synthase;heme O synthase
+RXN-11596	23S rRNA m6A1618 methyltransferase
+RXN-15430	cyclooctatin synthase
+RXN0-4621	anhydro-N-acetylmuramic acid kinase
+RXNQT-4168	methylthioalkylmalate dehydrogenase
+2.1.1.133-RXN	precorrin-4 (C11)-methyltransferase
+HISTALDEHYD-RXN	histidinal dehydrogenase;histidinol dehydrogenase
+3.4.13.18-RXN	nonspecific dipeptidase
+N-CARBAMOYLPUTRESCINE-AMIDASE-RXN	N-carbamoylputrescine amidohydrolase;N-carbamolyputrescine amidohydrolase
+RXN-20693	peroxiredoxin
+RXNI-2	succinyl-CoA:acetoacetate CoA-transferase
+RXN0-3461	meso-diaminopimelic acid-D-alanyl endopeptidase;peptidoglycan DD-endopeptidase;murein DD-endopeptidase;peptidoglycan DD-endopeptidase MepH;peptidoglycan DD-endopeptidase MepM
+RXNQT-4142	L-galactose-1-phosphate phosphatase;L-galactose 1-phosphate phosphatase
+GUANIDINOBUTYRASE-RXN	guanidinobutyrase;guanidinobutyrate amidinohydrolase
+QUERCETIN-23-DIOXYGENASE-RXN	quercetin 2,3-dioxygenase
+RXN0-2584	uracil-DNA glycosylase;uracil DNA glycosylase
+METHENYLTHFCYCLOHYDRO-RXN	methenyltetrahydrofolate cyclohydrolase;methenyl tetrahydrofolate cyclohydrolase;5,10-methenyl-tetrahydropteroyl-[gamma-Glu] 5-hydrolase (decyclizing);5,10-methenyltetrahydrofolate 5-hydrolase (decyclizing)
+1.5.1.20-RXN	5,10-methylenetetrahydrofolate reductase;methylene tetrahydrofolate reductase
+METHYLENETHFDEHYDROG-NADP-RXN	NADP-dependent methylenetetrahydrofolate dehydrogenase;NADP+-dependent methylenetetrahydrofolate dehydrogenase;NADP-dependent methylene tetrahydrofolate dehydrogenase;5,10-methylenetetrahydrofolate:NADP+ oxidoreductase
+RXN0-7068	5-carboxymethylaminomethyluridineuridine-[tRNA] synthase;5-carboxymethylaminomethyluridine-tRNA synthase
+RXN-18710	5-carboxymethylaminomethyluridine-tRNA synthase
+THYMIDYLATESYN-RXN	thymidylate synthase;5,10-methylenetetrahydrofolate:dUMP C-methyltransferase;dTMP synthase
+5-FORMYL-THF-CYCLO-LIGASE-RXN	5-formyltetrahydrofolate cycloligase;5-formyltetrahydrofolate cyclo-ligase;5,10-methenyltetrahydrofolate synthetase
+RXN-6321	5,10-methenyltetrahydrofolate hydrolase
+METHIONYL-TRNA-FORMYLTRANSFERASE-RXN	10-formyltetrahydrofolate:L-methionyl-tRNAfMet N-formyltransferase
+GART-RXN	phosphoribosylglycinamide formyltransferase
+RXN-9736	dimethylsulfoniopropionate demethylase
+DIHYDROFOLATEREDUCT-RXN	dihydrofolate reductase
+3-CH3-2-OXOBUTANOATE-OH-CH3-XFER-RXN	ketopantoate hydroxymethyltransferase;3-methyl-2-oxobutanoate hydroxymethyltransferase
+GCVMULTI-RXN	glycine decarboxylase;glycine cleavage complex;gcv system
+HOMOCYSMETB12-RXN	methionine synthase;cob(I)alamin-dependent methionine synthase
+GLYOHMETRANS-RXN	serine hydroxymethyltransferase;5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+GCVT-RXN	aminomethyltransferase
+AICARTRANSFORM-RXN	phosphoribosylaminoimidazolecarboxamide formyltransferase;aminoimidazole carboxamide ribonucleotide formyltransferase;AICAR transformylase
+FORMYLTHFDEFORMYL-RXN	10-formyltetrahydrofolate hydrolase;formyltetrahydrofolate deformylase
+RXN0-949	lipoyl synthase
+RXN0-5293_NAD	succinate-semialdehyde dehydrogenase;NAD(P)+-dependent succinate semialdehyde dehydrogenase
+RXN0-5293_NADP	succinate-semialdehyde dehydrogenase;NAD(P)+-dependent succinate semialdehyde dehydrogenase
+RXN-2962_NAD	hydroxymethylglutathione dehydrogenase;S-hydroxymethyl-glutathione dehydrogenase;NAD- and glutathione-dependent formaldehyde dehydrogenase;S-(hydroxymethyl)glutathione dehydrogenase
+RXN-2962_NADP	hydroxymethylglutathione dehydrogenase;S-hydroxymethyl-glutathione dehydrogenase;NAD- and glutathione-dependent formaldehyde dehydrogenase;S-(hydroxymethyl)glutathione dehydrogenase
+R501-RXN_NAD	L-proline betaine N-demethylase
+R501-RXN_NADP	L-proline betaine N-demethylase
+GLYC3PDEHYDROGBIOSYN-RXN_NAD	glycerol-3-phosphate dehydrogenase
+GLYC3PDEHYDROGBIOSYN-RXN_NADP	glycerol-3-phosphate dehydrogenase
+RXN-14756_NAD	UDP-N-acetylgalactosamine 6-dehydrogenase
+RXN-14756_NADP	UDP-N-acetylgalactosamine 6-dehydrogenase
+PYRROLINECARBREDUCT-RXN_NAD	pyrroline-5-carboxylate reductase;PCA reductase
+PYRROLINECARBREDUCT-RXN_NADP	pyrroline-5-carboxylate reductase;PCA reductase
+RXN-8166_NAD	Delta1-piperideine-2-carboxylate reductase;ketimine reductase
+RXN-8166_NADP	Delta1-piperideine-2-carboxylate reductase;ketimine reductase
+RXN-11965_NAD	4-nitrocatechol 4-monooxygenase
+RXN-11965_NADP	4-nitrocatechol 4-monooxygenase
+GLUTAMATE-DEHYDROGENASE-NADP+-RXN_NAD	glutamate dehydrogenase
+GLUTAMATE-DEHYDROGENASE-NADP+-RXN_NADP	glutamate dehydrogenase
+HYDROXYPYRUVATE-REDUCTASE-RXN_NAD	hydroxypyruvate reductase;hydroxypyruvate oxidoreductase;hydroxypyruvate reductase Me
+HYDROXYPYRUVATE-REDUCTASE-RXN_NADP	hydroxypyruvate reductase;hydroxypyruvate oxidoreductase;hydroxypyruvate reductase Me
+RXN-14014_NAD	4-hydroxy-tetrahydrodipicolinate reductase
+RXN-14014_NADP	4-hydroxy-tetrahydrodipicolinate reductase
+RXN-8739_NAD	4-nitrophenol 4-monooxygenase
+RXN-8739_NADP	4-nitrophenol 4-monooxygenase
+RXN-9958_NAD	malonate-semialdehyde dehydrogenase
+RXN-9958_NADP	malonate-semialdehyde dehydrogenase
+1.5.1.25-RXN_NAD	ketimine reductase
+1.5.1.25-RXN_NADP	ketimine reductase
+R621-RXN_NAD	nitric oxide dioxygenase
+R621-RXN_NADP	nitric oxide dioxygenase
+1.5.1.34-RXN_NAD	dihydropteridine reductase;6,7-dihydropteridine reductase
+1.5.1.34-RXN_NADP	dihydropteridine reductase;6,7-dihydropteridine reductase
+NQOR-RXN_NAD	quinone reductase;quinone oxidoreductase;NAD(P)H dehydrogenase (quinone);NAD(P)H:quinone oxidoreductase
+NQOR-RXN_NADP	quinone reductase;quinone oxidoreductase;NAD(P)H dehydrogenase (quinone);NAD(P)H:quinone oxidoreductase
+Protein_synthesis	
+DNA_synthesis	
+RNA_synthesis	
+ions_pool	
+ASNSYNA-RXN	Asparagine synthetase
+HOMOSERKIN-RXN	Homoserine kinase
+SULFITE-REDUCT-RXN	Sulfite reductase (NADPH2)
+SPONTPRO-RXN	L-glutamate 5-semialdehyde dehydratase (spontaneous)
+PREPHENATEDEHYDROG-RXN	Prephenate dehydrogenase
+ADENYLYLSULFKIN-RXN	Adenylyl-sulfate kinase
+R01775	Homoserine dehydrogenase (NADPH)
+TETHYDPICSUCC-RXN	Tetrahydrodipicolinate succinylase
+ATPASE-RXN_copy1	ATP maintenance requirement
+DM_CARBON-DIOXIDE_c	CO2 CO2 demand_smiley
+PSSA161	Phosphatidylserine syntase (n-C16:1)
+PSSA160	Phosphatidylserine syntase (n-C16:0)
+DIHYDRONEOPTERIN-MONO-P-DEPHOS-RXN	Dihydroneopterin monophosphate dephosphorylase
+H2NEOPTERINP3PYROPHOSPHOHYDRO-RXN	Dihydroneopterin triphosphate pyrophosphatase
+GLYCOLALD-DEHYDROG-RXN	Glycolaldehyde dehydrogenase
+DM_CARBOXYL-GROUP_c	Formate demand_smiley
+DM_DIHYDROXYPENTANEDIONE_c	4,5-dihydroxy-2,3-pentanedione demand_smiley
+DM_CPD0-2167_c	5'-deoxyribose demand_smiley
+DM_ALCOHOL-GROUP_c	Methanol demand_smiley
+DM_ALLYSINE_c	(S)-2-amino-6-oxohexanoate demand_smiley
+PANTOTHENATE-KIN-RXN	Pantothenate kinase
+NAD-SYNTH-NH3-RXN	NAD synthase (nh3)
+THZPSN3	Thiazole phosphate synthesis
+DM_OROTATE_c	Orotate C5H3N2O4 demand_smiley
+PHA_synthetase	Poly(3-hydroxyalkanoate) synthetase
+PHA_secretion	PHA secretion
+NGAM	Non-Growth Associated ATP maintenance (NGAM)
