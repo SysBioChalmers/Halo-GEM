@@ -5,9 +5,9 @@
 (4) maximize the flux in (3), the objective value is the maximal amount of aa or dNTP produced from 1 mmol/gDW/h glucose  
 (5) the cost is defined as the amount of glucose required to produce 1 mmol/gDW/h aa or dNTP. The reverse of the value from (4)   
 
-Two files were obtained: `aa_cost.csv` and `dNTP_cost.csv`.  
+Two files were obtained: `aa_cost.csv` for amino acids; `dNTP_cost.csv` for dNTP, `NTP.csv`  for NTP 
 
 ### Protein cost
 Protein and DNA cost: weighted summation of values obtained in the above, based on the amino acid composition or dNTP composition.
   
-Result file: `protein_cost.csv`
+Result file: `protein_cost.csv`. There are three columns: costs for DNA, RNA and protein.
