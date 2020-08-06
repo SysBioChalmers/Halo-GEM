@@ -29,6 +29,22 @@ def parse_gr_rule(gr):
     
     return complexes
 
+def constrainAbandance(model,abandance):
+    '''
+    model       : eModel from convertToEnzymeModel()
+    abandance    : a dictionary with measured enzyme abandance, in the unit of mmol/gdw
+    
+    # define the upper bound of protein exchange reactions with protein abandance.
+    # e.g. the reaction id is in the format of "prot_TD01GL001367_exchange"
+    
+    Usage: model = constrainAbandance(model,MWs, non_measured,UB)
+    '''
+
+    for prot_id, ab in abandance.items():
+        rxn_id = 'prot_{0}_exhcange'.format(prot_id)
+        model.reactions.get_by_id(rxn_id).upper_bound = ab
+   
+    return model
 
 def constrainPool(model,MWs, non_measured,UB):
     '''
