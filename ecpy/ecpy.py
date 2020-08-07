@@ -29,10 +29,10 @@ def parse_gr_rule(gr):
     
     return complexes
 
-def constrainAbandance(model,abandance):
+def constrainAbandance(model,measured):
     '''
     model       : eModel from convertToEnzymeModel()
-    abandance    : a dictionary with measured enzyme abandance, in the unit of mmol/gdw
+    measured    : a dictionary with measured enzyme abandance, in the unit of mmol/gdw
     
     # define the upper bound of protein exchange reactions with protein abandance.
     # e.g. the reaction id is in the format of "prot_TD01GL001367_exchange"
@@ -40,19 +40,21 @@ def constrainAbandance(model,abandance):
     Usage: model = constrainAbandance(model,MWs, non_measured,UB)
     '''
 
-    for prot_id, ab in abandance.items():
-        rxn_id = 'prot_{0}_exhcange'.format(prot_id)
+    for prot_id, ab in measured.items():
+        rxn_id = 'prot_{0}_exchange'.format(prot_id)
         model.reactions.get_by_id(rxn_id).upper_bound = ab
    
     return model
 
-def constrainPool(model,MWs, non_measured,UB):
+def constrainPool(model,MWs, measured, non_measured,UB,copy=True):
     '''
-    Adapted from gekecomat, consstrainPool.m
+
     model       : eModel from convertToEnzymeModel()
     MWs         : a dictionary with molecular weight of enzymes, in the unit of kDa
     non_measured: a list of enzymes without proteomics data
+    measured    : a dictionary with measured enzyme abandance, in the unit of mmol/gdw
     UB          : upper bound for the combined pool of those non_measured enzymes
+    copy        : if creat a copy of the original model
     
     Define new rxns: For each enzyme, add a new rxn that draws enzyme from the
     enzyme pool (a new metabolite), and remove previous exchange rxn. The new
@@ -63,7 +65,7 @@ def constrainPool(model,MWs, non_measured,UB):
     
     Gang Li, last updated 2020-03-04
     '''
-    model = model.copy()
+    if copy: model = model.copy()
     # create prot_pool metabolite 
     prot_pool = Metabolite('prot_pool')
     prot_pool.name = prot_pool.id
@@ -95,6 +97,9 @@ def constrainPool(model,MWs, non_measured,UB):
     rxn_prot_pool_exg.upper_bound = UB
     
     model.add_reaction(rxn_prot_pool_exg)
+    
+    # constrain the proteins with measure abandance
+    constrainAbandance(model,measured)
     
     return model
         
@@ -150,7 +155,9 @@ def convertToEnzymeModel(model,kcats):
     eModel = Model()
     eModel.add_reactions(converted_reaction_list)
     eModel.add_reactions(protein_exchange_rxns.values())
-        
+    eModel.enzymes = set([exgrxn.split('_')[1] for exgrxn in protein_exchange_rxns.keys()])
+    print('Number of enzymes:', len(eModel.enzymes))
+    
     return eModel
 
 
@@ -507,5 +514,57 @@ def prepare_kcats_dict(irrModel, df_enz_kcat,col='log10_kcat_mean'):
             
     
     
+def prepare_omics_for_one_condition(dfomics,dftot,dfmws,condition_id,enzymes):
+    ''' 
+    dfomics: a pandas.DataFrame that uses protein id as index and condition ids as coloumns, mmol/gdDW
+    dftot  : a pandas.DataFrame that contains total protein abandance, gprotein/gDW
+    dfmws  : a pandas.DataFrame that contains protein molecular weights, kDa
+    enzymes: a list of enzyme ids in the model
     
+    
+    Return 
+    * non_measured, a list which contains a list of enzyme ids
+    * measured, a dictionary with enzyme id as key and abandance as value
+    * prot_pool, a value to define the total sum abandance of enzymes without proteomics
+    * prot_pool was calculated as follows
+        fracton_enzyme = tot_measured_enzyme/tot_measured_proteins
+        tot_non_measured = Ptot-tot_measured_proteins
+        prot_pool = tot_non_measured*fracton_enzyme
+    
+    Usage: measured, non_measured, prot_pool = prepare_omics_for_one_condition(dfomics,
+    dftot,dfmws,condition_id,model)
+    
+    Gang Li
+    20200806
+    
+    '''
+    
+    non_measured = []
+    measured = {}
+    
+    assert condition_id in dfomics.columns
+    for enz in enzymes:
+        try: ab = dfomics.loc[enz,condition_id]
+        except: ab = np.nan
+        
+        if np.isnan(ab): non_measured.append(enz)
+        else: measured[enz] = ab
+    
+    tot_measured_proteins = np.sum([0 if np.isnan(dfomics.loc[ind,condition_id]) 
+                                    else dfomics.loc[ind,condition_id]*dfmws.loc[ind,'MW'] 
+                                    for ind in dfomics.index])
+    
+    tot_measured_enzymes  = np.sum([measured[ind]*dfmws.loc[ind,'MW'] for ind in measured.keys()])
+    tot_non_measured      = dftot.loc[condition_id,'Ptot'] - tot_measured_proteins
+    enzyme_fraction       = tot_measured_enzymes/tot_measured_proteins
+    prot_pool = tot_non_measured*enzyme_fraction
+    
+    print('tot_proteins         :',dftot.loc[condition_id,'Ptot'])
+    print('tot_measured_proteins:',tot_measured_proteins)
+    print('tot_measured_enzymes :',tot_measured_enzymes)
+    print('tot_non_measured     :',tot_non_measured)
+    print('enzyme_fraction      :',enzyme_fraction)
+    print('prot_pool            :',prot_pool)
+    
+    return measured, non_measured, prot_pool,enzyme_fraction
 

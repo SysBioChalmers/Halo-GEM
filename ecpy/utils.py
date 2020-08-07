@@ -82,19 +82,22 @@ def report_match_kcats(case_count):
         lst = key.split('_')
         print('With {0} wildcards, kcats were found for {1} reactions by {2}'.format(lst[0],case_count[key],operations[lst[1]]))
 
-def test_biomass_production(model):
+def test_biomass_production(model,show=False):
     with model:
         set_yeast_extraction(model,lb=0,ub=0)
         model.objective = 'Biomass_v1'
         model.objective_direction = 'max'
         s1 = model.optimize()
+        if show:print('Without YE:',s1)
 
     with model:
         set_yeast_extraction(model,lb=0,ub=1000)
         model.objective = 'Biomass_v1'
         model.objective_direction = 'max'
         s2 = model.optimize()
-    return s1,s2
+        if show:print('With unlimited YE:',s2)
+    
+    if not show:return s1,s2
 
 def test_atp_production(model):
     atp_sink = cobra.Reaction('atp_sink')
@@ -132,6 +135,7 @@ def test_ngam_flux(model):
         s2 = model.optimize()
     return s1,s2
     
+
 
 def set_yeast_extraction(model,ub=1000,lb=-1000):
     # given the evidence that TD01 strain can growth wihout supplyment of amino acids, 
@@ -196,7 +200,7 @@ def test_glucose(model):
     glcs = np.arange(0,20)
     for glc in glcs:
         set_bound(model,'Exchange_Glucopyranose',ub=glc)
-        s1,s2 = test_biomass_production(model)
+        s1,s2 = test_biomass_production(model,show=False)
         rgs.append([s1.objective_value,s2.objective_value])
     
     plt.figure(figsize=(7,3))
@@ -281,6 +285,43 @@ def test_Glc_to_ATP(model):
     plt.tight_layout()
     plt.show()
     
+    
+def change_rxn_coeff(rxn,met,new_coeff):
+    '''
+    # This is based on the rxn.add_metabolites function. If there the metabolite is already in the reaction,
+    # new and old coefficients will be added. For example, if the old coeff of metA is 1, use
+    # rxn.add_metabolites({metA:2}), After adding, the coeff of metA is 1+2 = 3
+    #
+    '''
+
+    diff_coeff = new_coeff-rxn.metabolites[met]
+    rxn.add_metabolites({met:diff_coeff})
+    
+def test_GAM_on_Growth(model):
+    rgs = []
+    
+    gams = np.arange(40,80)
+    atp_c = model.metabolites.ATP_c
+    biomass = model.reactions.Biomass_v1
+    for gam in gams:
+        change_rxn_coeff(biomass,atp_c,-gam)
+        s1,s2 = test_atp_production(model)
+        rgs.append([s1.objective_value,s2.objective_value])
+        
+    plt.figure(figsize=(7,3))
+    rgs = np.array(rgs)
+    titles = ['Without YE','With YE']
+    for i in range(2):
+        plt.subplot(1,2,i+1)
+        #plt.scatter(glcs,rgs[:,0],label='Without YE')
+        plt.scatter(gams,rgs[:,i])
+        plt.title(titles[i])
+        plt.ylabel('Specific growth rate (h$^{-1}$)')
+        plt.xlabel('GAM (mmol/gDW)')
+    
+    plt.tight_layout()
+    plt.show()
+
 def test_Glc_to_ATP_ecoli(eco_model):
     glcs = np.arange(0,20)
     rgs = []
