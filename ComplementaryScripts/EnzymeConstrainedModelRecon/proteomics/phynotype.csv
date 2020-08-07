@@ -1,0 +1,8 @@
+# Specific growth rate in the unit of 1/h
+# P3HB flux, in the unit of mmol/gcdw/h
+Condition,SpecificGrowthRate,P3HB
+Fermentation-9h,0.27,0.09
+Fermentation-19h,0.07,1.14
+Fermentation-30h,0.03,0.80
+NACL60,0.16,0.57
+HN,0.16,0
