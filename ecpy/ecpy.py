@@ -7,6 +7,17 @@ Section 1: Operate the model
 
 '''
 
+def updateKcats(ecmodel,kcats):
+    # kcats: dict() {(rxn_id, prot_met_id): kcat in h-1}
+    for (rxn_id, prot_met_id),kcat in kcats.items():
+        rxn = ecmodel.reactions.get_by_id(rxn_id)
+        prot_met = ecmodel.metabolites.get_by_id(prot_met_id)
+        
+        new_coeff = -1./kcat
+        
+        change_rxn_coeff(rxn,prot_met,new_coeff)
+        
+
 def parse_gr_rule(gr):
     '''
     Parse gr rule into a list of components. 
@@ -103,7 +114,67 @@ def constrainPool(model,MWs, measured, non_measured,UB,copy=True):
     
     return model
         
+def constrainPools(model,MWs, dfgo, Ptot, condition_id, sigma=0.5,copy=True):
+    '''
+    Add multiple sub-pools. Each pool for a unique set of genes.
     
+    model       : eModel from convertToEnzymeModel()
+    MWs         : a dictionary with molecular weight of enzymes, in the unit of kDa
+    dfgo        : a pd.DataFrame() with GoSlim ids as index and with at least two columns: 'Genes' and 'MassFrac'
+    condition_id: condition id
+    Ptot        : total protein abandance, in the unit of g/gDW
+    copy        : if creat a copy of the original model
+    
+    Define new rxns: For each enzyme, add a new rxn that draws enzyme from the
+    enzyme pool (a new metabolite), and remove previous exchange rxn. The new
+    rxns have the following stoichiometry (T is the enzyme pool):
+     MW[i]*P[T] -> P[i]
+     
+    Usage: model = constrainPool(model,MWs, non_measured,UB)
+    
+    Gang Li, last updated 2020-09-07
+    '''
+    if copy: model = model.copy()
+    
+    rxns_to_add  = list()
+    rxns_to_drop = list()
+    exg_rxns_to_add = list()
+    for go in dfgo.index:
+        # create prot_pool metabolite 
+        goid = go.replace(':','')
+        prot_pool = Metabolite('prot_pool_{0}'.format(goid))
+        prot_pool.name = prot_pool.id
+    
+        for i,prot in enumerate(dfgo.loc[go,'Genes'].split(';')):
+            prot_exchange_rxn = model.reactions.get_by_id('prot_{0}_exchange'.format(prot))
+
+            draw_rxn = Reaction('draw_prot_{0}_{1}'.format(prot,goid))
+            draw_rxn.name = draw_rxn.id
+            draw_rxn.add_metabolites({prot_pool:-MWs[prot],list(prot_exchange_rxn.metabolites)[0]:1})
+
+            rxns_to_add.append(draw_rxn)
+            rxns_to_drop.append(prot_exchange_rxn)
+        
+        # add prot_pool_exchange rxn
+        rxn_prot_pool_exg = Reaction('prot_pool_exchange_{0}'.format(goid))
+        rxn_prot_pool_exg.name = rxn_prot_pool_exg.id
+        rxn_prot_pool_exg.add_metabolites({prot_pool:1})
+        rxn_prot_pool_exg.lower_bound = 0
+        rxn_prot_pool_exg.upper_bound = dfgo.loc[go,'MassFrac_{0}'.format(condition_id)]*Ptot*sigma
+        exg_rxns_to_add.append(rxn_prot_pool_exg)
+        
+    # add reactions into model
+    model.add_reactions(list(set(rxns_to_add)))
+    model.remove_reactions(list(set(rxns_to_drop)))
+    
+    # change the upper bound for all reactions as np.inf
+    for rxn in model.reactions: rxn.upper_bound = np.inf
+    
+    model.add_reactions(exg_rxns_to_add)
+    
+    return model 
+
+
 def convertToEnzymeModel(model,kcats):
     '''
     model .   : irrevModel
@@ -568,3 +639,19 @@ def prepare_omics_for_one_condition(dfomics,dftot,dfmws,condition_id,enzymes):
     
     return measured, non_measured, prot_pool,enzyme_fraction
 
+
+'''
+
+Section 3: Model operations
+
+'''
+def change_rxn_coeff(rxn,met,new_coeff):
+    '''
+    # This is based on the rxn.add_metabolites function. If there the metabolite is already in the reaction,
+    # new and old coefficients will be added. For example, if the old coeff of metA is 1, use
+    # rxn.add_metabolites({metA:2}), After adding, the coeff of metA is 1+2 = 3
+    #
+    '''
+
+    diff_coeff = new_coeff-rxn.metabolites[met]
+    rxn.add_metabolites({met:diff_coeff})
