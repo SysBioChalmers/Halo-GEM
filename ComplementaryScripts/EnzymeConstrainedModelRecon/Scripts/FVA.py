@@ -4,7 +4,9 @@
 # In[1]:
 
 
+import multiprocessing
 import sys
+import time
 
 import numpy as np
 import pandas as pd
@@ -45,108 +47,83 @@ for cond_id in dftot.index:
         dfpheno.loc[cond_id, 'P3HB'] = 0
 print()
 
-# %%
-dffrac = dffrac_pro
-result_df_pro = pd.DataFrame()
-for kcat in results02.population:
-    # eModel = pickle.load(open(eModel_file,'rb'))
-    model = model_go_pools.copy()
-
-    updateKcats(model, kcat)
-
-    with model:
-
-        for condition_id in test_conds:
-
-            print('Condition:', condition_id)
-            Ptot = dftot.loc[condition_id, 'Ptot']
-            one_pool, go_pools = buildPoolDict(dffrac, condition_id, Ptot)
-            pools = go_pools
-            updateProteinConstraints(model, pools)
-
-            PHA = dfpheno.loc[condition_id, 'P3HB']
-            if ~np.isnan(PHA):
-                model.reactions.PHA_secretion.lower_bound = PHA
-
-            try:
-                s = model.optimize()
-                r1 = s.objective_value if s.status == 'optimal' else -1
-
-                model.reactions.PHA_secretion.lower_bound = 0
-                model.reactions.NGAM.lower_bound = 0
-
-                s = model.optimize()
-                r2 = s.objective_value if s.status == 'optimal' else -1
-
-            except:
-                r1, r2 = -1, -1
-            print(r1, r2)
-
-            for rea_i in model.reactions:
-                if rea_i.upper_bound > 9999:
-                    rea_i.upper_bound = 9999
-            # fva_realist = [i for i in model.reactions if 'prot_' not in i.id]
-            try:
-                result_df_i_pro = flux_variability_analysis(model, model.reactions[:3512], fraction_of_optimum=0.95)
-                df = pd.DataFrame(data={'minimum': [r1], 'maximum': [r2]}, index=['growth'])
-                result_df_i_pro = result_df_i_pro.append(df)
-
-                result_df_i_pro.columns = condition_id + '_' + result_df_i_pro.columns
-                result_df_pro = result_df_pro.merge(result_df_i_pro, how='outer', left_index=True, right_index=True, )
-                print(result_df_pro)
-            except:
-                continue
-    result_df_pro.to_csv('../Results/FVA_result_df_pro.tsv', sep='\t')
 
 # %%
-dffrac = dffrac_mRNA
-result_df_mRNA = pd.DataFrame()
-for kcat in results02.population:
-    # eModel = pickle.load(open(eModel_file,'rb'))
-    model = model_go_pools.copy()
 
-    updateKcats(model, kcat)
+def fva_special(model_go_pools, results02, test_conds, dftot, dffrac, output_file):
+    result_df = pd.DataFrame()
+    kcat_number = -1
+    for kcat in results02.population:
+        # eModel = pickle.load(open(eModel_file,'rb'))
+        model = model_go_pools.copy()
+        kcat_number += 1
 
-    with model:
+        updateKcats(model, kcat)
 
-        for condition_id in test_conds:
+        with model:
 
-            print('Condition:', condition_id)
-            Ptot = dftot.loc[condition_id, 'Ptot']
-            one_pool, go_pools = buildPoolDict(dffrac, condition_id, Ptot)
-            pools = go_pools
-            updateProteinConstraints(model, pools)
+            for condition_id in test_conds:
 
-            PHA = dfpheno.loc[condition_id, 'P3HB']
-            if ~np.isnan(PHA):
-                model.reactions.PHA_secretion.lower_bound = PHA
+                print('\nkcat index:', kcat_number, '\nCondition:', condition_id, )
+                Ptot = dftot.loc[condition_id, 'Ptot']
+                one_pool, go_pools = buildPoolDict(dffrac, condition_id, Ptot)
+                pools = go_pools
+                updateProteinConstraints(model, pools)
 
-            try:
-                s = model.optimize()
-                r1 = s.objective_value if s.status == 'optimal' else -1
+                PHA = dfpheno.loc[condition_id, 'P3HB']
+                if ~np.isnan(PHA):
+                    model.reactions.PHA_secretion.lower_bound = PHA
 
-                model.reactions.PHA_secretion.lower_bound = 0
-                model.reactions.NGAM.lower_bound = 0
+                try:
+                    s = model.optimize()
+                    r1 = s.objective_value if s.status == 'optimal' else -1
 
-                s = model.optimize()
-                r2 = s.objective_value if s.status == 'optimal' else -1
+                    model.reactions.PHA_secretion.lower_bound = 0
+                    model.reactions.NGAM.lower_bound = 0
 
-            except:
-                r1, r2 = -1, -1
-            print(r1, r2)
+                    s = model.optimize()
+                    r2 = s.objective_value if s.status == 'optimal' else -1
 
-            for rea_i in model.reactions:
-                if rea_i.upper_bound > 9999:
-                    rea_i.upper_bound = 9999
-            # fva_realist = [i for i in model.reactions if 'prot_' not in i.id]
-            try:
-                result_df_i_pro = flux_variability_analysis(model, model.reactions[:3512], fraction_of_optimum=0.95)
-                result_df_i_pro.columns = condition_id + '_' + result_df_i_pro.columns
+                except:
+                    r1, r2 = -1, -1
+                print('with pha ngam: %f \nwithout pha ngam: %f\n' % (r1, r2))
 
-                df = pd.DataFrame(data={'minimum':[r1], 'maximum':[r2]},index=['growth'])
-                result_df_pro = result_df_pro.append(df)
-                result_df_mRNA = result_df_mRNA.merge(result_df_i_pro, how='outer', left_index=True, right_index=True, )
-                print(result_df_mRNA)
-            except:
-                raise
-    result_df_mRNA.to_csv('../Results/FVA_result_df_mRNA.tsv', sep='\t')
+                for rea_i in model.reactions:
+                    if rea_i.upper_bound > 9999:
+                        rea_i.upper_bound = 9999
+                # fva_realist = [i for i in model.reactions if 'prot_' not in i.id]
+                try:
+                    result_df_i_pro = flux_variability_analysis(model, model.reactions, fraction_of_optimum=0.95)
+                    df = pd.DataFrame(data={'minimum': [r1], 'maximum': [r2]}, index=['growth'])
+                    result_df_i_pro = result_df_i_pro.append(df)
+
+                    result_df_i_pro.columns = str(kcat_number) + '_' + condition_id + '_' + result_df_i_pro.columns
+                    result_df = result_df.merge(result_df_i_pro, how='outer', left_index=True, right_index=True, )
+                    # print(result_df)
+                except:
+                    continue
+        result_df.to_csv(output_file, sep='\t')
+
+
+# %%
+start = time.time()
+
+p1 = multiprocessing.Process(target=fva_special, args=(
+    model_go_pools, results02, test_conds, dftot, dffrac_pro, '../Results/FVA_result_df_pro_.tsv'))
+
+p2 = multiprocessing.Process(target=fva_special, args=(
+    model_go_pools, results02, test_conds, dftot, dffrac_mRNA, '../Results/FVA_result_df_mRNA_.tsv'))
+
+# fva_special(model_go_pools, results02, test_conds, dftot, dffrac=dffrac_pro,
+#             output_file='../Results/FVA_result_df_pro_.tsv')
+#
+#
+# fva_special(model_go_pools, results02, test_conds, dftot, dffrac=dffrac_mRNA,
+#             output_file='../Results/FVA_result_df_mRNA_.tsv')
+
+p1.start()
+p2.start()
+
+p1.join()
+p2.join()
+end = time.time()
