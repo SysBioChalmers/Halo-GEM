@@ -69,7 +69,7 @@ def fva_special(model_go_pools, results02, test_conds, dftot, dffrac, output_fil
     test_o2 = np.concatenate((np.arange(0, 10, 0.5), np.arange(10, 210, 10)))
     for o2_bound in test_o2:
         kcat_number = -1
-        for kcat in results02.population[:2]:
+        for kcat in results02.population:
             # eModel = pickle.load(open(eModel_file,'rb'))
             model = model_go_pools.copy()
             kcat_number += 1
@@ -78,7 +78,7 @@ def fva_special(model_go_pools, results02, test_conds, dftot, dffrac, output_fil
 
             with model:
 
-                for condition_id in test_conds[:1]:
+                for condition_id in test_conds:
 
                     print('\nkcat index:', kcat_number, '\nCondition:', condition_id, )
                     Ptot = dftot.loc[condition_id, 'Ptot']
